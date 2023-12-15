@@ -56,6 +56,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DIST_PATH: ${{ github.workspace }}/dist
         run: |
+          export DIST_PATH
           npm install
           npm run build
           cp package.json $DIST_PATH
