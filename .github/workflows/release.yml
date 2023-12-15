@@ -64,6 +64,11 @@ jobs:
           cd $DIST_PATH    
           zip -r package.zip . 
           # This command will zip all the files/folder in current directory
+          # Display the contents of the distribution path
+          ls -l
+
+          # Display the presence of the ZIP file
+          echo "Is package.zip present? $(ls package.zip)"
 
       - name: "Release Package"
         # Alternative github action for releasing package
@@ -73,5 +78,5 @@ jobs:
         with:
           files: ${{ env.DIST_PATH }}/package.zip
           token: ${{ secrets.GITHUB_TOKEN }}
-          tag_name: ${{ env.CURRENT_VERSION }}
+          tag_name: ${{ env.COMMIT_TAG }}
           generateReleaseNotes: true
