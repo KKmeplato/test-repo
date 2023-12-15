@@ -16,13 +16,12 @@ on:
           - patch
           - minor
         default: semver
-  
+
 jobs:
   release_semver:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'    
+    if: github.ref == 'refs/heads/main'
     steps:
-
       - name: "Configure GitHub Access"
         env:
           ACCESS_TOKEN: "${{ secrets.GIT_PERSONAL_ACCESS_TOKEN }}"
@@ -30,19 +29,19 @@ jobs:
           git config --global url."https://${ACCESS_TOKEN}@github.com".insteadOf "https://github.com"
           git config --global user.email "meplato-robot@users.noreply.github.com"
           git config --global user.name "meplato-robot"
-          
-    # The actions/checkout action with fetch-depth: 0 fetch all tags along with the commit history.
+
+      # The actions/checkout action with fetch-depth: 0 fetch all tags along with the commit history.
       - name: "Checkout"
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-             
+
       - name: "Install Node"
         uses: actions/setup-node@v4
         with:
           node-version: 18.x
           registry-url: "https://npm.pkg.github.com"
-    
+
       - name: "Check & Update Semantic Version"
         shell: bash
         env:
@@ -55,7 +54,7 @@ jobs:
       - name: "Publish Package"
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DIST_PATH: ${{ github.workspace }}/dist 
+          DIST_PATH: ${{ github.workspace }}/dist
         run: |
           npm install
           npm run build
@@ -63,15 +62,15 @@ jobs:
           cp LICENSE $DIST_PATH
           cp README.md $DIST_PATH
           cd $DIST_PATH
-          HUSKY=0 npm publish $DIST_PATH
+          # HUSKY=0 npm publish $DIST_PATH
           # TO create a ZIP archive named package.zip from the contents of the current directory 
           zip -r package.zip ./* 
           # This command will zip all the files/folder in current directory
-   
+
       - name: "Release Package"
-      # Alternative github action for releasing package 
-      # For straightforward release process and want a simple setup, softprops/action-gh-release is sufficient.
-      # If need advanced release features, such as version bumping, changelog generation, and comprehensive release notes handling, ncipollo/release-action is good.
+        # Alternative github action for releasing package
+        # For straightforward release process and want a simple setup, softprops/action-gh-release is sufficient.
+        # If need advanced release features, such as version bumping, changelog generation, and comprehensive release notes handling, ncipollo/release-action is good.
         uses: softprops/action-gh-release@v1
         with:
           files: ${{ env.DIST_PATH }}/package.zip
