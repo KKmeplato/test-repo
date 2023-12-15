@@ -70,6 +70,10 @@ jobs:
           # Display the presence of the ZIP file
           echo "Is package.zip present? $(ls package.zip)"
 
+      - name: "List Contents of DIST_PATH"
+        run: |
+         ls -l ${{ env.DIST_PATH }}
+
       - name: "Release Package"
         # Alternative github action for releasing package
         # For straightforward release process and want a simple setup, softprops/action-gh-release is sufficient.
