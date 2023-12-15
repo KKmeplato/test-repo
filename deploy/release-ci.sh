@@ -94,6 +94,7 @@ if [[ "${BUMP_LEVEL}" == "minor" || "${BUMP_LEVEL}" == "patch" ]] && [ -z "$INPU
     fi
 
     COMMIT_TAG="$(node -p "require('./package.json').version")"
+    echo "COMMIT_TAG=${COMMIT_TAG}" >>$GITHUB_ENV
     
     git add package.json package-lock.json
     git commit -m "Bump version to ${COMMIT_TAG}"
