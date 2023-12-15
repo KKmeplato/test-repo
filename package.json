@@ -58,7 +58,7 @@
     "react-dom": "^18.2.0",
     "react-use": "^17.4.0",
     "semver": "^7.5.4",
-    "tailwind-merge": "^2.0.0",
+    "tailwind-merge": "^2.1.0",
     "tailwindcss-radix": "^2.8.0",
     "vite-plugin-dts": "^3.6.3",
     "vite-plugin-svgr": "^4.2.0"
