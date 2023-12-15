@@ -1,6 +1,6 @@
 {
   "name": "@meplato/ui-kit",
-  "version": "2.0.15",
+  "version": "2.0.16",
   "type": "module",
   "types": "./index.d.ts",
   "description": "Reusable UI components for Meplato apps",
