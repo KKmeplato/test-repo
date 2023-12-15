@@ -45,11 +45,12 @@ jobs:
     
       - name: "Check & Update Semantic Version"
         shell: bash
-        run: npm install semver
         env:
           BUMP_LEVEL: "${{ github.event.inputs.patchLevel }}"
           INPUT_VERSION: "${{ github.event.inputs.semver }}"
-        run: deploy/release-ci.sh
+        run: |
+          npm install semver
+          deploy/release-ci.sh
 
       - name: "Publish Package"
         env:
