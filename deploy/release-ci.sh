@@ -75,7 +75,7 @@ if [ "$BUMP_LEVEL" == "semver" ]; then
     npm --no-git-tag-version version $INPUT_VERSION
     # Commit the changes
     git add package.json package-lock.json
-    git commit -m "Bump version to new semantic version"
+    git commit -m "Bump version to new SMVR (INPUT_VERSION)"
     git tag -a ${INPUT_VERSION} -m "Release Version"
     git push origin main --follow-tags
 fi
