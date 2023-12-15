@@ -61,10 +61,8 @@ jobs:
           cp package.json $DIST_PATH
           cp LICENSE $DIST_PATH
           cp README.md $DIST_PATH
-          cd $DIST_PATH
-          # HUSKY=0 npm publish $DIST_PATH
-          # TO create a ZIP archive named package.zip from the contents of the current directory 
-          zip -r package.zip ./* 
+          cd $DIST_PATH    
+          zip -r package.zip . 
           # This command will zip all the files/folder in current directory
 
       - name: "Release Package"
