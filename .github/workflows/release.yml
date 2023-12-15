@@ -81,7 +81,7 @@ jobs:
         # If need advanced release features, such as version bumping, changelog generation, and comprehensive release notes handling, ncipollo/release-action is good.
         uses: softprops/action-gh-release@v1
         with:
-          files: ${{ env.DIST_PATH }}/package.zip
+          files: ${{ github.workspace }}/dist/package.zip
           token: ${{ secrets.GITHUB_TOKEN }}
           tag_name: ${{ env.COMMIT_TAG }}
           generateReleaseNotes: true
