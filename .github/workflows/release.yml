@@ -45,6 +45,7 @@ jobs:
     
       - name: "Check & Update Semantic Version"
         shell: bash
+        run: npm install semver
         env:
           BUMP_LEVEL: "${{ github.event.inputs.patchLevel }}"
           INPUT_VERSION: "${{ github.event.inputs.semver }}"
