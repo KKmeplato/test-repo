@@ -62,7 +62,7 @@ if [ -n "$BUMP_LEVEL" ] && [ -n "$INPUT_VERSION" ]; then
             # Check if bumplevel is minor/patch and Input version matches with expected output,Create a tag and push to branch.
             echo "Creating tag for specified version ($INPUT_VERSION)..."
             git tag -a "$INPUT_VERSION" -m "Release Version"
-            git push origin v2 --follow-tags
+            git push origin main --follow-tags
         else
             echo "Error: Specified bump-level ($BUMP_LEVEL) does not match expected version ($EXPECTED_VERSION). CI fails because instructions are unclear"
             exit 1  # Exit with an error code
@@ -77,7 +77,7 @@ if [ "$BUMP_LEVEL" == "semver" ]; then
     git add package.json package-lock.json
     git commit -m "Bump version to new semantic version"
     git tag -a ${INPUT_VERSION} -m "Release Version"
-    git push origin v2 --follow-tags
+    git push origin main --follow-tags
 fi
                
 # Check if bumpLevel is minor/patch AND semver is empty, then use it for bumping
@@ -98,5 +98,5 @@ if [[ "${BUMP_LEVEL}" == "minor" || "${BUMP_LEVEL}" == "patch" ]] && [ -z "$INPU
     git add package.json package-lock.json
     git commit -m "Bump version to ${COMMIT_TAG}"
     git tag -a "${COMMIT_TAG}" -m "Release Version"
-    git push origin v2 --follow-tags
+    git push origin main --follow-tags
 fi

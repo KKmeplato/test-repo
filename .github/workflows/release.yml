@@ -20,7 +20,7 @@ on:
 jobs:
   release_semver:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/v2'    
+    if: github.ref == 'refs/heads/main'    
     steps:
 
       - name: "Configure GitHub Access"
