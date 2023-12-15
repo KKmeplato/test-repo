@@ -1,0 +1,1399 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<RadioGroup /> > onChange invoked 1`] = `
+<DocumentFragment>
+  <div
+    aria-orientation="vertical"
+    aria-required="false"
+    class="flex flex-col"
+    data-orientation="vertical"
+    data-testid="test-contact"
+    dir="ltr"
+    role="radiogroup"
+    style="outline: none;"
+    tabindex="0"
+  >
+    <div
+      class="inline-flex flex-col items-start"
+    >
+      <button
+        aria-checked="true"
+        class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+        data-orientation="vertical"
+        data-radix-collection-item=""
+        data-state="checked"
+        id=":ru:"
+        role="radio"
+        tabindex="0"
+        type="button"
+        value="email"
+      >
+        <span
+          class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+          data-state="checked"
+        />
+        <label
+          class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+          for=":ru:"
+        >
+          Email
+        </label>
+      </button>
+      <p
+        class="flex items-start ps-7 text-sm text-subdued peer-disabled:text-disabled"
+      >
+        Please provide your 
+        <b>
+          Email
+        </b>
+      </p>
+    </div>
+    <div
+      class="inline-flex flex-col items-start"
+    >
+      <button
+        aria-checked="false"
+        class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+        data-orientation="vertical"
+        data-radix-collection-item=""
+        data-state="unchecked"
+        id=":r10:"
+        role="radio"
+        tabindex="-1"
+        type="button"
+        value="phone"
+      >
+        <span
+          class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+          data-state="unchecked"
+        />
+        <label
+          class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+          for=":r10:"
+        >
+          Phone
+        </label>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<RadioGroup /> > renders with 3 items, orientation:'horizontal', disabled:undefined, value:undefined, required:undefined 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        aria-orientation="horizontal"
+        aria-required="false"
+        class="flex flex-row gap-6"
+        data-orientation="horizontal"
+        dir="ltr"
+        role="radiogroup"
+        style="outline: none;"
+        tabindex="0"
+      >
+        <div
+          class="inline-flex flex-col items-start"
+        >
+          <button
+            aria-checked="false"
+            class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+            data-orientation="horizontal"
+            data-radix-collection-item=""
+            data-state="unchecked"
+            id=":r6:"
+            role="radio"
+            tabindex="-1"
+            type="button"
+            value="email"
+          >
+            <span
+              class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+              data-state="unchecked"
+            />
+            <label
+              class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+              for=":r6:"
+            >
+              <b>
+                Email
+              </b>
+            </label>
+          </button>
+        </div>
+        <div
+          class="inline-flex flex-col items-start"
+        >
+          <button
+            aria-checked="false"
+            class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+            data-orientation="horizontal"
+            data-radix-collection-item=""
+            data-state="unchecked"
+            id=":r8:"
+            role="radio"
+            tabindex="-1"
+            type="button"
+            value="phone"
+          >
+            <span
+              class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+              data-state="unchecked"
+            />
+            <label
+              class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+              for=":r8:"
+            >
+              Phone
+            </label>
+          </button>
+        </div>
+        <div
+          class="inline-flex flex-col items-start"
+        >
+          <button
+            aria-checked="false"
+            aria-disabled="true"
+            class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+            data-disabled=""
+            data-orientation="horizontal"
+            data-radix-collection-item=""
+            data-state="unchecked"
+            disabled=""
+            id="content-fax"
+            role="radio"
+            tabindex="-1"
+            type="button"
+            value="fax"
+          >
+            <span
+              class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+              data-disabled=""
+              data-state="unchecked"
+            />
+            <label
+              aria-disabled="true"
+              class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+              for="content-fax"
+            >
+              Fax
+            </label>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-orientation="horizontal"
+      aria-required="false"
+      class="flex flex-row gap-6"
+      data-orientation="horizontal"
+      dir="ltr"
+      role="radiogroup"
+      style="outline: none;"
+      tabindex="0"
+    >
+      <div
+        class="inline-flex flex-col items-start"
+      >
+        <button
+          aria-checked="false"
+          class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+          data-orientation="horizontal"
+          data-radix-collection-item=""
+          data-state="unchecked"
+          id=":r6:"
+          role="radio"
+          tabindex="-1"
+          type="button"
+          value="email"
+        >
+          <span
+            class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+            data-state="unchecked"
+          />
+          <label
+            class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+            for=":r6:"
+          >
+            <b>
+              Email
+            </b>
+          </label>
+        </button>
+      </div>
+      <div
+        class="inline-flex flex-col items-start"
+      >
+        <button
+          aria-checked="false"
+          class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+          data-orientation="horizontal"
+          data-radix-collection-item=""
+          data-state="unchecked"
+          id=":r8:"
+          role="radio"
+          tabindex="-1"
+          type="button"
+          value="phone"
+        >
+          <span
+            class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+            data-state="unchecked"
+          />
+          <label
+            class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+            for=":r8:"
+          >
+            Phone
+          </label>
+        </button>
+      </div>
+      <div
+        class="inline-flex flex-col items-start"
+      >
+        <button
+          aria-checked="false"
+          aria-disabled="true"
+          class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+          data-disabled=""
+          data-orientation="horizontal"
+          data-radix-collection-item=""
+          data-state="unchecked"
+          disabled=""
+          id="content-fax"
+          role="radio"
+          tabindex="-1"
+          type="button"
+          value="fax"
+        >
+          <span
+            class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+            data-disabled=""
+            data-state="unchecked"
+          />
+          <label
+            aria-disabled="true"
+            class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+            for="content-fax"
+          >
+            Fax
+          </label>
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<RadioGroup /> > renders with 3 items, orientation:undefined, disabled:true, value:undefined, required:undefined 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        aria-orientation="vertical"
+        aria-required="false"
+        class="flex flex-col"
+        data-disabled=""
+        data-orientation="vertical"
+        dir="ltr"
+        role="radiogroup"
+        style="outline: none;"
+        tabindex="-1"
+      >
+        <div
+          class="inline-flex flex-col items-start"
+        >
+          <button
+            aria-checked="false"
+            class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+            data-disabled=""
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="unchecked"
+            disabled=""
+            id=":rc:"
+            role="radio"
+            tabindex="-1"
+            type="button"
+            value="email"
+          >
+            <span
+              class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+              data-disabled=""
+              data-state="unchecked"
+            />
+            <label
+              class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+              for=":rc:"
+            >
+              <b>
+                Email
+              </b>
+            </label>
+          </button>
+        </div>
+        <div
+          class="inline-flex flex-col items-start"
+        >
+          <button
+            aria-checked="false"
+            class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+            data-disabled=""
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="unchecked"
+            disabled=""
+            id=":re:"
+            role="radio"
+            tabindex="-1"
+            type="button"
+            value="phone"
+          >
+            <span
+              class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+              data-disabled=""
+              data-state="unchecked"
+            />
+            <label
+              class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+              for=":re:"
+            >
+              Phone
+            </label>
+          </button>
+        </div>
+        <div
+          class="inline-flex flex-col items-start"
+        >
+          <button
+            aria-checked="false"
+            aria-disabled="true"
+            class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+            data-disabled=""
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="unchecked"
+            disabled=""
+            id="content-fax"
+            role="radio"
+            tabindex="-1"
+            type="button"
+            value="fax"
+          >
+            <span
+              class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+              data-disabled=""
+              data-state="unchecked"
+            />
+            <label
+              aria-disabled="true"
+              class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+              for="content-fax"
+            >
+              Fax
+            </label>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-orientation="vertical"
+      aria-required="false"
+      class="flex flex-col"
+      data-disabled=""
+      data-orientation="vertical"
+      dir="ltr"
+      role="radiogroup"
+      style="outline: none;"
+      tabindex="-1"
+    >
+      <div
+        class="inline-flex flex-col items-start"
+      >
+        <button
+          aria-checked="false"
+          class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+          data-disabled=""
+          data-orientation="vertical"
+          data-radix-collection-item=""
+          data-state="unchecked"
+          disabled=""
+          id=":rc:"
+          role="radio"
+          tabindex="-1"
+          type="button"
+          value="email"
+        >
+          <span
+            class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+            data-disabled=""
+            data-state="unchecked"
+          />
+          <label
+            class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+            for=":rc:"
+          >
+            <b>
+              Email
+            </b>
+          </label>
+        </button>
+      </div>
+      <div
+        class="inline-flex flex-col items-start"
+      >
+        <button
+          aria-checked="false"
+          class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+          data-disabled=""
+          data-orientation="vertical"
+          data-radix-collection-item=""
+          data-state="unchecked"
+          disabled=""
+          id=":re:"
+          role="radio"
+          tabindex="-1"
+          type="button"
+          value="phone"
+        >
+          <span
+            class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+            data-disabled=""
+            data-state="unchecked"
+          />
+          <label
+            class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+            for=":re:"
+          >
+            Phone
+          </label>
+        </button>
+      </div>
+      <div
+        class="inline-flex flex-col items-start"
+      >
+        <button
+          aria-checked="false"
+          aria-disabled="true"
+          class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+          data-disabled=""
+          data-orientation="vertical"
+          data-radix-collection-item=""
+          data-state="unchecked"
+          disabled=""
+          id="content-fax"
+          role="radio"
+          tabindex="-1"
+          type="button"
+          value="fax"
+        >
+          <span
+            class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+            data-disabled=""
+            data-state="unchecked"
+          />
+          <label
+            aria-disabled="true"
+            class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+            for="content-fax"
+          >
+            Fax
+          </label>
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<RadioGroup /> > renders with 3 items, orientation:undefined, disabled:undefined, value:'phone', required:undefined 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        aria-orientation="vertical"
+        aria-required="false"
+        class="flex flex-col"
+        data-orientation="vertical"
+        dir="ltr"
+        role="radiogroup"
+        style="outline: none;"
+        tabindex="0"
+      >
+        <div
+          class="inline-flex flex-col items-start"
+        >
+          <button
+            aria-checked="false"
+            class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="unchecked"
+            id=":ri:"
+            role="radio"
+            tabindex="-1"
+            type="button"
+            value="email"
+          >
+            <span
+              class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+              data-state="unchecked"
+            />
+            <label
+              class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+              for=":ri:"
+            >
+              <b>
+                Email
+              </b>
+            </label>
+          </button>
+        </div>
+        <div
+          class="inline-flex flex-col items-start"
+        >
+          <button
+            aria-checked="true"
+            class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="checked"
+            id=":rk:"
+            role="radio"
+            tabindex="-1"
+            type="button"
+            value="phone"
+          >
+            <span
+              class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+              data-state="checked"
+            />
+            <label
+              class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+              for=":rk:"
+            >
+              Phone
+            </label>
+          </button>
+        </div>
+        <div
+          class="inline-flex flex-col items-start"
+        >
+          <button
+            aria-checked="false"
+            aria-disabled="true"
+            class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+            data-disabled=""
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="unchecked"
+            disabled=""
+            id="content-fax"
+            role="radio"
+            tabindex="-1"
+            type="button"
+            value="fax"
+          >
+            <span
+              class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+              data-disabled=""
+              data-state="unchecked"
+            />
+            <label
+              aria-disabled="true"
+              class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+              for="content-fax"
+            >
+              Fax
+            </label>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-orientation="vertical"
+      aria-required="false"
+      class="flex flex-col"
+      data-orientation="vertical"
+      dir="ltr"
+      role="radiogroup"
+      style="outline: none;"
+      tabindex="0"
+    >
+      <div
+        class="inline-flex flex-col items-start"
+      >
+        <button
+          aria-checked="false"
+          class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+          data-orientation="vertical"
+          data-radix-collection-item=""
+          data-state="unchecked"
+          id=":ri:"
+          role="radio"
+          tabindex="-1"
+          type="button"
+          value="email"
+        >
+          <span
+            class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+            data-state="unchecked"
+          />
+          <label
+            class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+            for=":ri:"
+          >
+            <b>
+              Email
+            </b>
+          </label>
+        </button>
+      </div>
+      <div
+        class="inline-flex flex-col items-start"
+      >
+        <button
+          aria-checked="true"
+          class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+          data-orientation="vertical"
+          data-radix-collection-item=""
+          data-state="checked"
+          id=":rk:"
+          role="radio"
+          tabindex="-1"
+          type="button"
+          value="phone"
+        >
+          <span
+            class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+            data-state="checked"
+          />
+          <label
+            class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+            for=":rk:"
+          >
+            Phone
+          </label>
+        </button>
+      </div>
+      <div
+        class="inline-flex flex-col items-start"
+      >
+        <button
+          aria-checked="false"
+          aria-disabled="true"
+          class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+          data-disabled=""
+          data-orientation="vertical"
+          data-radix-collection-item=""
+          data-state="unchecked"
+          disabled=""
+          id="content-fax"
+          role="radio"
+          tabindex="-1"
+          type="button"
+          value="fax"
+        >
+          <span
+            class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+            data-disabled=""
+            data-state="unchecked"
+          />
+          <label
+            aria-disabled="true"
+            class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+            for="content-fax"
+          >
+            Fax
+          </label>
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<RadioGroup /> > renders with 3 items, orientation:undefined, disabled:undefined, value:undefined, required:true 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        aria-orientation="vertical"
+        aria-required="true"
+        class="flex flex-col"
+        data-orientation="vertical"
+        dir="ltr"
+        role="radiogroup"
+        style="outline: none;"
+        tabindex="0"
+      >
+        <div
+          class="inline-flex flex-col items-start"
+        >
+          <button
+            aria-checked="false"
+            class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="unchecked"
+            id=":ro:"
+            role="radio"
+            tabindex="-1"
+            type="button"
+            value="email"
+          >
+            <span
+              class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+              data-state="unchecked"
+            />
+            <label
+              class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+              for=":ro:"
+            >
+              <b>
+                Email
+              </b>
+            </label>
+          </button>
+        </div>
+        <div
+          class="inline-flex flex-col items-start"
+        >
+          <button
+            aria-checked="false"
+            class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="unchecked"
+            id=":rq:"
+            role="radio"
+            tabindex="-1"
+            type="button"
+            value="phone"
+          >
+            <span
+              class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+              data-state="unchecked"
+            />
+            <label
+              class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+              for=":rq:"
+            >
+              Phone
+            </label>
+          </button>
+        </div>
+        <div
+          class="inline-flex flex-col items-start"
+        >
+          <button
+            aria-checked="false"
+            aria-disabled="true"
+            class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+            data-disabled=""
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="unchecked"
+            disabled=""
+            id="content-fax"
+            role="radio"
+            tabindex="-1"
+            type="button"
+            value="fax"
+          >
+            <span
+              class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+              data-disabled=""
+              data-state="unchecked"
+            />
+            <label
+              aria-disabled="true"
+              class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+              for="content-fax"
+            >
+              Fax
+            </label>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-orientation="vertical"
+      aria-required="true"
+      class="flex flex-col"
+      data-orientation="vertical"
+      dir="ltr"
+      role="radiogroup"
+      style="outline: none;"
+      tabindex="0"
+    >
+      <div
+        class="inline-flex flex-col items-start"
+      >
+        <button
+          aria-checked="false"
+          class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+          data-orientation="vertical"
+          data-radix-collection-item=""
+          data-state="unchecked"
+          id=":ro:"
+          role="radio"
+          tabindex="-1"
+          type="button"
+          value="email"
+        >
+          <span
+            class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+            data-state="unchecked"
+          />
+          <label
+            class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+            for=":ro:"
+          >
+            <b>
+              Email
+            </b>
+          </label>
+        </button>
+      </div>
+      <div
+        class="inline-flex flex-col items-start"
+      >
+        <button
+          aria-checked="false"
+          class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+          data-orientation="vertical"
+          data-radix-collection-item=""
+          data-state="unchecked"
+          id=":rq:"
+          role="radio"
+          tabindex="-1"
+          type="button"
+          value="phone"
+        >
+          <span
+            class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+            data-state="unchecked"
+          />
+          <label
+            class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+            for=":rq:"
+          >
+            Phone
+          </label>
+        </button>
+      </div>
+      <div
+        class="inline-flex flex-col items-start"
+      >
+        <button
+          aria-checked="false"
+          aria-disabled="true"
+          class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+          data-disabled=""
+          data-orientation="vertical"
+          data-radix-collection-item=""
+          data-state="unchecked"
+          disabled=""
+          id="content-fax"
+          role="radio"
+          tabindex="-1"
+          type="button"
+          value="fax"
+        >
+          <span
+            class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+            data-disabled=""
+            data-state="unchecked"
+          />
+          <label
+            aria-disabled="true"
+            class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+            for="content-fax"
+          >
+            Fax
+          </label>
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<RadioGroup /> > renders with 3 items, orientation:undefined, disabled:undefined, value:undefined, required:undefined 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        aria-orientation="vertical"
+        aria-required="false"
+        class="flex flex-col"
+        data-orientation="vertical"
+        dir="ltr"
+        role="radiogroup"
+        style="outline: none;"
+        tabindex="0"
+      >
+        <div
+          class="inline-flex flex-col items-start"
+        >
+          <button
+            aria-checked="false"
+            class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="unchecked"
+            id=":r0:"
+            role="radio"
+            tabindex="-1"
+            type="button"
+            value="email"
+          >
+            <span
+              class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+              data-state="unchecked"
+            />
+            <label
+              class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+              for=":r0:"
+            >
+              <b>
+                Email
+              </b>
+            </label>
+          </button>
+        </div>
+        <div
+          class="inline-flex flex-col items-start"
+        >
+          <button
+            aria-checked="false"
+            class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="unchecked"
+            id=":r2:"
+            role="radio"
+            tabindex="-1"
+            type="button"
+            value="phone"
+          >
+            <span
+              class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+              data-state="unchecked"
+            />
+            <label
+              class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+              for=":r2:"
+            >
+              Phone
+            </label>
+          </button>
+        </div>
+        <div
+          class="inline-flex flex-col items-start"
+        >
+          <button
+            aria-checked="false"
+            aria-disabled="true"
+            class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+            data-disabled=""
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="unchecked"
+            disabled=""
+            id="content-fax"
+            role="radio"
+            tabindex="-1"
+            type="button"
+            value="fax"
+          >
+            <span
+              class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+              data-disabled=""
+              data-state="unchecked"
+            />
+            <label
+              aria-disabled="true"
+              class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+              for="content-fax"
+            >
+              Fax
+            </label>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-orientation="vertical"
+      aria-required="false"
+      class="flex flex-col"
+      data-orientation="vertical"
+      dir="ltr"
+      role="radiogroup"
+      style="outline: none;"
+      tabindex="0"
+    >
+      <div
+        class="inline-flex flex-col items-start"
+      >
+        <button
+          aria-checked="false"
+          class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+          data-orientation="vertical"
+          data-radix-collection-item=""
+          data-state="unchecked"
+          id=":r0:"
+          role="radio"
+          tabindex="-1"
+          type="button"
+          value="email"
+        >
+          <span
+            class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+            data-state="unchecked"
+          />
+          <label
+            class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+            for=":r0:"
+          >
+            <b>
+              Email
+            </b>
+          </label>
+        </button>
+      </div>
+      <div
+        class="inline-flex flex-col items-start"
+      >
+        <button
+          aria-checked="false"
+          class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+          data-orientation="vertical"
+          data-radix-collection-item=""
+          data-state="unchecked"
+          id=":r2:"
+          role="radio"
+          tabindex="-1"
+          type="button"
+          value="phone"
+        >
+          <span
+            class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+            data-state="unchecked"
+          />
+          <label
+            class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+            for=":r2:"
+          >
+            Phone
+          </label>
+        </button>
+      </div>
+      <div
+        class="inline-flex flex-col items-start"
+      >
+        <button
+          aria-checked="false"
+          aria-disabled="true"
+          class="group peer inline-flex items-center gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+          data-disabled=""
+          data-orientation="vertical"
+          data-radix-collection-item=""
+          data-state="unchecked"
+          disabled=""
+          id="content-fax"
+          role="radio"
+          tabindex="-1"
+          type="button"
+          value="fax"
+        >
+          <span
+            class="flex h-5 w-5 items-center justify-center rounded-full border-2 border-default bg-interactive-plain after:block after:h-[10px] after:w-[10px] after:rounded-full after:content-[''] group-hover:border-hovered group-hover:bg-interactive-plain-hovered group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-disabled:border-disabled group-disabled:bg-surface-disabled data-[state=checked]:border-interactive-primary data-[state=checked]:after:bg-interactive-primary group-hover:data-[state=checked]:after:bg-interactive-primary-hovered group-enabled:group-hover:data-[state=checked]:border-interactive-primary-hovered group-disabled:data-[state=checked]:border-[5px] group-disabled:data-[state=checked]:after:hidden md:m-[1px] md:h-[18px] md:w-[18px] md:after:h-[8px] md:after:w-[8px]"
+            data-disabled=""
+            data-state="unchecked"
+          />
+          <label
+            aria-disabled="true"
+            class="text-sm text group-enabled:cursor-pointer group-disabled:text-disabled"
+            for="content-fax"
+          >
+            Fax
+          </label>
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

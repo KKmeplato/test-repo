@@ -1,0 +1,8 @@
+dist
+node_modules
+.prettierrc
+.lintstagedrc
+.husky
+package-lock.json
+CODEOWNERS
+

@@ -1,0 +1,1261 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<ProgressBar /> > renders with 'critical' / 'large' 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        aria-label="ProgressBar"
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="80"
+        aria-valuetext="80%"
+        class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs h-8"
+        data-max="100"
+        data-state="loading"
+        data-value="80"
+        role="progressbar"
+        style="transform: translateZ(0);"
+      >
+        <div
+          class="h-full w-full ease-[cubic-bezier(0.65,0,0.35,1)] transition-transform duration-[660ms] motion-reduce:transition-none bg-interactive-critical"
+          data-max="100"
+          data-state="loading"
+          data-value="80"
+          style="transform: translateX(-20%);"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-label="ProgressBar"
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="80"
+      aria-valuetext="80%"
+      class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs h-8"
+      data-max="100"
+      data-state="loading"
+      data-value="80"
+      role="progressbar"
+      style="transform: translateZ(0);"
+    >
+      <div
+        class="h-full w-full ease-[cubic-bezier(0.65,0,0.35,1)] transition-transform duration-[660ms] motion-reduce:transition-none bg-interactive-critical"
+        data-max="100"
+        data-state="loading"
+        data-value="80"
+        style="transform: translateX(-20%);"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<ProgressBar /> > renders with 'critical' / 'medium' 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        aria-label="ProgressBar"
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="80"
+        aria-valuetext="80%"
+        class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs h-4"
+        data-max="100"
+        data-state="loading"
+        data-value="80"
+        role="progressbar"
+        style="transform: translateZ(0);"
+      >
+        <div
+          class="h-full w-full ease-[cubic-bezier(0.65,0,0.35,1)] transition-transform duration-[660ms] motion-reduce:transition-none bg-interactive-critical"
+          data-max="100"
+          data-state="loading"
+          data-value="80"
+          style="transform: translateX(-20%);"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-label="ProgressBar"
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="80"
+      aria-valuetext="80%"
+      class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs h-4"
+      data-max="100"
+      data-state="loading"
+      data-value="80"
+      role="progressbar"
+      style="transform: translateZ(0);"
+    >
+      <div
+        class="h-full w-full ease-[cubic-bezier(0.65,0,0.35,1)] transition-transform duration-[660ms] motion-reduce:transition-none bg-interactive-critical"
+        data-max="100"
+        data-state="loading"
+        data-value="80"
+        style="transform: translateX(-20%);"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<ProgressBar /> > renders with 'critical' / 'small' 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        aria-label="ProgressBar"
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="80"
+        aria-valuetext="80%"
+        class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs h-2"
+        data-max="100"
+        data-state="loading"
+        data-value="80"
+        role="progressbar"
+        style="transform: translateZ(0);"
+      >
+        <div
+          class="h-full w-full ease-[cubic-bezier(0.65,0,0.35,1)] transition-transform duration-[660ms] motion-reduce:transition-none bg-interactive-critical"
+          data-max="100"
+          data-state="loading"
+          data-value="80"
+          style="transform: translateX(-20%);"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-label="ProgressBar"
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="80"
+      aria-valuetext="80%"
+      class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs h-2"
+      data-max="100"
+      data-state="loading"
+      data-value="80"
+      role="progressbar"
+      style="transform: translateZ(0);"
+    >
+      <div
+        class="h-full w-full ease-[cubic-bezier(0.65,0,0.35,1)] transition-transform duration-[660ms] motion-reduce:transition-none bg-interactive-critical"
+        data-max="100"
+        data-state="loading"
+        data-value="80"
+        style="transform: translateX(-20%);"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<ProgressBar /> > renders with 'highlight' / 'large' 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        aria-label="ProgressBar"
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="80"
+        aria-valuetext="80%"
+        class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs h-8"
+        data-max="100"
+        data-state="loading"
+        data-value="80"
+        role="progressbar"
+        style="transform: translateZ(0);"
+      >
+        <div
+          class="h-full w-full ease-[cubic-bezier(0.65,0,0.35,1)] transition-transform duration-[660ms] motion-reduce:transition-none bg-interactive-highlight"
+          data-max="100"
+          data-state="loading"
+          data-value="80"
+          style="transform: translateX(-20%);"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-label="ProgressBar"
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="80"
+      aria-valuetext="80%"
+      class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs h-8"
+      data-max="100"
+      data-state="loading"
+      data-value="80"
+      role="progressbar"
+      style="transform: translateZ(0);"
+    >
+      <div
+        class="h-full w-full ease-[cubic-bezier(0.65,0,0.35,1)] transition-transform duration-[660ms] motion-reduce:transition-none bg-interactive-highlight"
+        data-max="100"
+        data-state="loading"
+        data-value="80"
+        style="transform: translateX(-20%);"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<ProgressBar /> > renders with 'highlight' / 'medium' 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        aria-label="ProgressBar"
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="80"
+        aria-valuetext="80%"
+        class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs h-4"
+        data-max="100"
+        data-state="loading"
+        data-value="80"
+        role="progressbar"
+        style="transform: translateZ(0);"
+      >
+        <div
+          class="h-full w-full ease-[cubic-bezier(0.65,0,0.35,1)] transition-transform duration-[660ms] motion-reduce:transition-none bg-interactive-highlight"
+          data-max="100"
+          data-state="loading"
+          data-value="80"
+          style="transform: translateX(-20%);"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-label="ProgressBar"
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="80"
+      aria-valuetext="80%"
+      class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs h-4"
+      data-max="100"
+      data-state="loading"
+      data-value="80"
+      role="progressbar"
+      style="transform: translateZ(0);"
+    >
+      <div
+        class="h-full w-full ease-[cubic-bezier(0.65,0,0.35,1)] transition-transform duration-[660ms] motion-reduce:transition-none bg-interactive-highlight"
+        data-max="100"
+        data-state="loading"
+        data-value="80"
+        style="transform: translateX(-20%);"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<ProgressBar /> > renders with 'highlight' / 'small' 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        aria-label="ProgressBar"
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="80"
+        aria-valuetext="80%"
+        class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs h-2"
+        data-max="100"
+        data-state="loading"
+        data-value="80"
+        role="progressbar"
+        style="transform: translateZ(0);"
+      >
+        <div
+          class="h-full w-full ease-[cubic-bezier(0.65,0,0.35,1)] transition-transform duration-[660ms] motion-reduce:transition-none bg-interactive-highlight"
+          data-max="100"
+          data-state="loading"
+          data-value="80"
+          style="transform: translateX(-20%);"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-label="ProgressBar"
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="80"
+      aria-valuetext="80%"
+      class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs h-2"
+      data-max="100"
+      data-state="loading"
+      data-value="80"
+      role="progressbar"
+      style="transform: translateZ(0);"
+    >
+      <div
+        class="h-full w-full ease-[cubic-bezier(0.65,0,0.35,1)] transition-transform duration-[660ms] motion-reduce:transition-none bg-interactive-highlight"
+        data-max="100"
+        data-state="loading"
+        data-value="80"
+        style="transform: translateX(-20%);"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<ProgressBar /> > renders with 'primary' / 'large' 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        aria-label="ProgressBar"
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="80"
+        aria-valuetext="80%"
+        class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs h-8"
+        data-max="100"
+        data-state="loading"
+        data-value="80"
+        role="progressbar"
+        style="transform: translateZ(0);"
+      >
+        <div
+          class="h-full w-full ease-[cubic-bezier(0.65,0,0.35,1)] transition-transform duration-[660ms] motion-reduce:transition-none bg-interactive-primary"
+          data-max="100"
+          data-state="loading"
+          data-value="80"
+          style="transform: translateX(-20%);"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-label="ProgressBar"
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="80"
+      aria-valuetext="80%"
+      class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs h-8"
+      data-max="100"
+      data-state="loading"
+      data-value="80"
+      role="progressbar"
+      style="transform: translateZ(0);"
+    >
+      <div
+        class="h-full w-full ease-[cubic-bezier(0.65,0,0.35,1)] transition-transform duration-[660ms] motion-reduce:transition-none bg-interactive-primary"
+        data-max="100"
+        data-state="loading"
+        data-value="80"
+        style="transform: translateX(-20%);"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<ProgressBar /> > renders with 'primary' / 'medium' 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        aria-label="ProgressBar"
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="80"
+        aria-valuetext="80%"
+        class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs h-4"
+        data-max="100"
+        data-state="loading"
+        data-value="80"
+        role="progressbar"
+        style="transform: translateZ(0);"
+      >
+        <div
+          class="h-full w-full ease-[cubic-bezier(0.65,0,0.35,1)] transition-transform duration-[660ms] motion-reduce:transition-none bg-interactive-primary"
+          data-max="100"
+          data-state="loading"
+          data-value="80"
+          style="transform: translateX(-20%);"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-label="ProgressBar"
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="80"
+      aria-valuetext="80%"
+      class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs h-4"
+      data-max="100"
+      data-state="loading"
+      data-value="80"
+      role="progressbar"
+      style="transform: translateZ(0);"
+    >
+      <div
+        class="h-full w-full ease-[cubic-bezier(0.65,0,0.35,1)] transition-transform duration-[660ms] motion-reduce:transition-none bg-interactive-primary"
+        data-max="100"
+        data-state="loading"
+        data-value="80"
+        style="transform: translateX(-20%);"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<ProgressBar /> > renders with 'primary' / 'small' 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        aria-label="ProgressBar"
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="80"
+        aria-valuetext="80%"
+        class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs h-2"
+        data-max="100"
+        data-state="loading"
+        data-value="80"
+        role="progressbar"
+        style="transform: translateZ(0);"
+      >
+        <div
+          class="h-full w-full ease-[cubic-bezier(0.65,0,0.35,1)] transition-transform duration-[660ms] motion-reduce:transition-none bg-interactive-primary"
+          data-max="100"
+          data-state="loading"
+          data-value="80"
+          style="transform: translateX(-20%);"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-label="ProgressBar"
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="80"
+      aria-valuetext="80%"
+      class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs h-2"
+      data-max="100"
+      data-state="loading"
+      data-value="80"
+      role="progressbar"
+      style="transform: translateZ(0);"
+    >
+      <div
+        class="h-full w-full ease-[cubic-bezier(0.65,0,0.35,1)] transition-transform duration-[660ms] motion-reduce:transition-none bg-interactive-primary"
+        data-max="100"
+        data-state="loading"
+        data-value="80"
+        style="transform: translateX(-20%);"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<ProgressBar /> > renders with 'success' / 'large' 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        aria-label="ProgressBar"
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="80"
+        aria-valuetext="80%"
+        class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs h-8"
+        data-max="100"
+        data-state="loading"
+        data-value="80"
+        role="progressbar"
+        style="transform: translateZ(0);"
+      >
+        <div
+          class="h-full w-full ease-[cubic-bezier(0.65,0,0.35,1)] transition-transform duration-[660ms] motion-reduce:transition-none bg-interactive-success"
+          data-max="100"
+          data-state="loading"
+          data-value="80"
+          style="transform: translateX(-20%);"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-label="ProgressBar"
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="80"
+      aria-valuetext="80%"
+      class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs h-8"
+      data-max="100"
+      data-state="loading"
+      data-value="80"
+      role="progressbar"
+      style="transform: translateZ(0);"
+    >
+      <div
+        class="h-full w-full ease-[cubic-bezier(0.65,0,0.35,1)] transition-transform duration-[660ms] motion-reduce:transition-none bg-interactive-success"
+        data-max="100"
+        data-state="loading"
+        data-value="80"
+        style="transform: translateX(-20%);"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<ProgressBar /> > renders with 'success' / 'medium' 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        aria-label="ProgressBar"
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="80"
+        aria-valuetext="80%"
+        class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs h-4"
+        data-max="100"
+        data-state="loading"
+        data-value="80"
+        role="progressbar"
+        style="transform: translateZ(0);"
+      >
+        <div
+          class="h-full w-full ease-[cubic-bezier(0.65,0,0.35,1)] transition-transform duration-[660ms] motion-reduce:transition-none bg-interactive-success"
+          data-max="100"
+          data-state="loading"
+          data-value="80"
+          style="transform: translateX(-20%);"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-label="ProgressBar"
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="80"
+      aria-valuetext="80%"
+      class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs h-4"
+      data-max="100"
+      data-state="loading"
+      data-value="80"
+      role="progressbar"
+      style="transform: translateZ(0);"
+    >
+      <div
+        class="h-full w-full ease-[cubic-bezier(0.65,0,0.35,1)] transition-transform duration-[660ms] motion-reduce:transition-none bg-interactive-success"
+        data-max="100"
+        data-state="loading"
+        data-value="80"
+        style="transform: translateX(-20%);"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<ProgressBar /> > renders with 'success' / 'small' 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        aria-label="ProgressBar"
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="80"
+        aria-valuetext="80%"
+        class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs h-2"
+        data-max="100"
+        data-state="loading"
+        data-value="80"
+        role="progressbar"
+        style="transform: translateZ(0);"
+      >
+        <div
+          class="h-full w-full ease-[cubic-bezier(0.65,0,0.35,1)] transition-transform duration-[660ms] motion-reduce:transition-none bg-interactive-success"
+          data-max="100"
+          data-state="loading"
+          data-value="80"
+          style="transform: translateX(-20%);"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-label="ProgressBar"
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="80"
+      aria-valuetext="80%"
+      class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs h-2"
+      data-max="100"
+      data-state="loading"
+      data-value="80"
+      role="progressbar"
+      style="transform: translateZ(0);"
+    >
+      <div
+        class="h-full w-full ease-[cubic-bezier(0.65,0,0.35,1)] transition-transform duration-[660ms] motion-reduce:transition-none bg-interactive-success"
+        data-max="100"
+        data-state="loading"
+        data-value="80"
+        style="transform: translateX(-20%);"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

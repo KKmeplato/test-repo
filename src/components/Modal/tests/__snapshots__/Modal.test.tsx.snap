@@ -1,0 +1,2225 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Modal /> > primary button is loading 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <div
+    id="uikit-theme"
+  >
+    <div
+      aria-hidden="true"
+      class="fixed inset-0 z-modalOverlay bg-overlay-modal opacity-20 radix-state-closed:animate-[modalOutOverlay_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalInOverlay_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-aria-hidden="true"
+      data-state="open"
+      style="pointer-events: auto;"
+    />
+    <div
+      aria-describedby="radix-:ro:"
+      aria-labelledby="radix-:rn:"
+      class="fixed inset-0 z-modal flex items-center justify-center radix-state-closed:animate-[modalOut_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalIn_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-state="open"
+      id="radix-:rm:"
+      role="dialog"
+      style="pointer-events: auto;"
+      tabindex="-1"
+    >
+      <div
+        class="relative flex w-[20rem] max-w-[20rem] flex-col items-start rounded-level-1 border-t border-default bg-surface shadow-2xl sm:w-[38.75rem] sm:min-w-[23.75rem] sm:max-w-[61.25rem]"
+      >
+        <div
+          class="flex items-center self-stretch border-b border-default p-4 pr-9"
+          id="radix-:rn:"
+        >
+          <h2
+            class="flex-1 text-base font-semibold text sm:text-xl sm:leading-6"
+          >
+            Primary button is loading
+          </h2>
+        </div>
+        <div
+          class="flex w-full items-start self-stretch px-4 py-2"
+        >
+          Do you really want to delete the user?
+        </div>
+        <div
+          class="flex items-center justify-end gap-4 self-stretch border-t border-default p-4 sm:justify-normal"
+        >
+          <div
+            class="flex items-start gap-2 sm:flex-1 sm:items-center sm:justify-end"
+          >
+            <button
+              aria-busy="true"
+              aria-disabled="true"
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:bg-interactive-disabled h-9 px-4 py-2 disabled:text-transparent"
+              data-outline="false"
+              data-plain="false"
+              data-size="medium"
+              data-variant="primary"
+              disabled=""
+            >
+              <svg
+                class="absolute inline-flex h-5 w-5 animate-spin flex-col items-center justify-center rounded-sm text-interactive-highlight"
+                fill="none"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17.6835 12.228C17.2976 13.5587 16.5728 14.7664 15.5799 15.7328C14.587 16.6992 13.3602 17.3911 12.0195 17.7409C10.6789 18.0907 9.27035 18.0862 7.93192 17.7281C6.59348 17.3699 5.37102 16.6702 4.38423 15.6976C3.39745 14.725 2.68018 13.5128 2.30267 12.1797C1.92517 10.8466 1.90036 9.4383 2.23068 8.09272C2.56101 6.74714 3.23514 5.51042 4.18705 4.50367C5.13897 3.49692 6.33604 2.75465 7.66103 2.34956"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="bevel"
+                  stroke-width="2.5"
+                />
+              </svg>
+              Delete user
+            </button>
+          </div>
+        </div>
+        <button
+          class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed absolute right-4 top-4"
+          type="button"
+        >
+          <svg
+            class="h-5 w-5 text-icon"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+              fill="currentColor"
+            />
+          </svg>
+          <span
+            class="sr-only"
+          >
+            close modal
+          </span>
+        </button>
+      </div>
+    </div>
+    <button
+      aria-controls="radix-:rm:"
+      aria-expanded="true"
+      aria-haspopup="dialog"
+      aria-hidden="true"
+      class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 px-4 py-2"
+      data-aria-hidden="true"
+      data-outline="false"
+      data-plain="false"
+      data-size="medium"
+      data-state="open"
+      data-variant="primary"
+      type="button"
+    >
+      Activator
+    </button>
+  </div>,
+  "container": <div
+    id="uikit-theme"
+  >
+    <div
+      aria-hidden="true"
+      class="fixed inset-0 z-modalOverlay bg-overlay-modal opacity-20 radix-state-closed:animate-[modalOutOverlay_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalInOverlay_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-aria-hidden="true"
+      data-state="open"
+      style="pointer-events: auto;"
+    />
+    <div
+      aria-describedby="radix-:ro:"
+      aria-labelledby="radix-:rn:"
+      class="fixed inset-0 z-modal flex items-center justify-center radix-state-closed:animate-[modalOut_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalIn_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-state="open"
+      id="radix-:rm:"
+      role="dialog"
+      style="pointer-events: auto;"
+      tabindex="-1"
+    >
+      <div
+        class="relative flex w-[20rem] max-w-[20rem] flex-col items-start rounded-level-1 border-t border-default bg-surface shadow-2xl sm:w-[38.75rem] sm:min-w-[23.75rem] sm:max-w-[61.25rem]"
+      >
+        <div
+          class="flex items-center self-stretch border-b border-default p-4 pr-9"
+          id="radix-:rn:"
+        >
+          <h2
+            class="flex-1 text-base font-semibold text sm:text-xl sm:leading-6"
+          >
+            Primary button is loading
+          </h2>
+        </div>
+        <div
+          class="flex w-full items-start self-stretch px-4 py-2"
+        >
+          Do you really want to delete the user?
+        </div>
+        <div
+          class="flex items-center justify-end gap-4 self-stretch border-t border-default p-4 sm:justify-normal"
+        >
+          <div
+            class="flex items-start gap-2 sm:flex-1 sm:items-center sm:justify-end"
+          >
+            <button
+              aria-busy="true"
+              aria-disabled="true"
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:bg-interactive-disabled h-9 px-4 py-2 disabled:text-transparent"
+              data-outline="false"
+              data-plain="false"
+              data-size="medium"
+              data-variant="primary"
+              disabled=""
+            >
+              <svg
+                class="absolute inline-flex h-5 w-5 animate-spin flex-col items-center justify-center rounded-sm text-interactive-highlight"
+                fill="none"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17.6835 12.228C17.2976 13.5587 16.5728 14.7664 15.5799 15.7328C14.587 16.6992 13.3602 17.3911 12.0195 17.7409C10.6789 18.0907 9.27035 18.0862 7.93192 17.7281C6.59348 17.3699 5.37102 16.6702 4.38423 15.6976C3.39745 14.725 2.68018 13.5128 2.30267 12.1797C1.92517 10.8466 1.90036 9.4383 2.23068 8.09272C2.56101 6.74714 3.23514 5.51042 4.18705 4.50367C5.13897 3.49692 6.33604 2.75465 7.66103 2.34956"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="bevel"
+                  stroke-width="2.5"
+                />
+              </svg>
+              Delete user
+            </button>
+          </div>
+        </div>
+        <button
+          class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed absolute right-4 top-4"
+          type="button"
+        >
+          <svg
+            class="h-5 w-5 text-icon"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+              fill="currentColor"
+            />
+          </svg>
+          <span
+            class="sr-only"
+          >
+            close modal
+          </span>
+        </button>
+      </div>
+    </div>
+    <button
+      aria-controls="radix-:rm:"
+      aria-expanded="true"
+      aria-haspopup="dialog"
+      aria-hidden="true"
+      class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 px-4 py-2"
+      data-aria-hidden="true"
+      data-outline="false"
+      data-plain="false"
+      data-size="medium"
+      data-state="open"
+      data-variant="primary"
+      type="button"
+    >
+      Activator
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Modal /> > renders with complex children 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <div
+    id="uikit-theme"
+  >
+    <div
+      aria-hidden="true"
+      class="fixed inset-0 z-modalOverlay bg-overlay-modal opacity-20 radix-state-closed:animate-[modalOutOverlay_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalInOverlay_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-aria-hidden="true"
+      data-state="open"
+      style="pointer-events: auto;"
+    />
+    <div
+      aria-describedby="radix-:r2:"
+      aria-labelledby="radix-:r1:"
+      class="fixed inset-0 z-modal flex items-center justify-center radix-state-closed:animate-[modalOut_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalIn_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-state="open"
+      id="radix-:r0:"
+      role="dialog"
+      style="pointer-events: auto;"
+      tabindex="-1"
+    >
+      <div
+        class="relative flex w-[20rem] max-w-[20rem] flex-col items-start rounded-level-1 border-t border-default bg-surface shadow-2xl sm:w-[38.75rem] sm:min-w-[23.75rem] sm:max-w-[61.25rem]"
+      >
+        <div
+          class="flex items-center self-stretch border-b border-default p-4 pr-9"
+          id="radix-:r1:"
+        >
+          <h2
+            class="flex-1 text-base font-semibold text sm:text-xl sm:leading-6"
+          >
+            Primary and secondary action
+          </h2>
+        </div>
+        <div
+          class="flex w-full items-start self-stretch px-4 py-2"
+        >
+          <div
+            id="first-child"
+          >
+            First child
+          </div>
+          <div>
+            <div
+              class="inline-flex flex-col items-start"
+            >
+              <button
+                aria-checked="false"
+                class="group flex items-start gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+                data-state="unchecked"
+                id="second-child"
+                role="checkbox"
+                type="button"
+                value="confirmed"
+              >
+                <span
+                  class="relative m-[1px] h-[18px] min-w-[18px] rounded-level-3 border-2 border-default bg-interactive-plain group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-hover:shadow-sm group-hover:shadow-[rgb(0,0,0,0.08)]"
+                  data-state="unchecked"
+                  style="pointer-events: none;"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="absolute left-[4px] top-[5px] hidden text-icon-on-interactive group-hover:left-[2px] group-hover:top-[3px] group-hover:block group-hover:text-interactive-plain-hovered"
+                    fill="none"
+                    height="8"
+                    viewBox="0 0 10 8"
+                    width="10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M9.72318 0.237414C10.0707 0.574491 10.0942 1.14584 9.77561 1.51356L4.40976 7.70711C4.25243 7.88871 4.03181 7.99443 3.79903 7.99979C3.56625 8.00514 3.3415 7.90965 3.17686 7.73545L0.250031 4.63868C-0.0833435 4.28595 -0.0833435 3.71406 0.250031 3.36133C0.583405 3.00859 1.12391 3.00859 1.45729 3.36133L3.75367 5.79105L8.51706 0.292899C8.83564 -0.0748211 9.37564 -0.0996624 9.72318 0.237414Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </span>
+                <label
+                  class="text-left text-sm text group-hover:cursor-pointer"
+                  for="second-child"
+                >
+                  I agree to TOS
+                </label>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex items-center justify-end gap-4 self-stretch border-t border-default p-4 sm:justify-normal"
+        >
+          <button
+            class="rounded-interactive-elements-default justify-center items-center gap-1 font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm hidden sm:block"
+            data-outline="false"
+            data-plain="true"
+            data-size="medium"
+            data-variant="primary"
+            type="button"
+          >
+            Foo
+          </button>
+          <div
+            class="flex items-start gap-2 sm:flex-1 sm:items-center sm:justify-end"
+          >
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 border border-default hover:border-hovered active:border-pressed text disabled:text-disabled bg-interactive-plain hover:bg-interactive-plain-hovered active:bg-interactive-plain-pressed disabled:bg-interactive-disabled disabled:border-disabled h-9 px-4 py-2"
+              data-outline="false"
+              data-plain="false"
+              data-size="medium"
+              data-variant="basic"
+            >
+              Cancel
+            </button>
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 px-4 py-2"
+              data-outline="false"
+              data-plain="false"
+              data-size="medium"
+              data-variant="primary"
+            >
+              Delete user
+            </button>
+          </div>
+        </div>
+        <button
+          class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed absolute right-4 top-4"
+          type="button"
+        >
+          <svg
+            class="h-5 w-5 text-icon"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+              fill="currentColor"
+            />
+          </svg>
+          <span
+            class="sr-only"
+          >
+            close modal
+          </span>
+        </button>
+      </div>
+    </div>
+    <button
+      aria-controls="radix-:r0:"
+      aria-expanded="true"
+      aria-haspopup="dialog"
+      aria-hidden="true"
+      class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 px-4 py-2"
+      data-aria-hidden="true"
+      data-outline="false"
+      data-plain="false"
+      data-size="medium"
+      data-state="open"
+      data-variant="primary"
+      type="button"
+    >
+      Activator
+    </button>
+  </div>,
+  "container": <div
+    id="uikit-theme"
+  >
+    <div
+      aria-hidden="true"
+      class="fixed inset-0 z-modalOverlay bg-overlay-modal opacity-20 radix-state-closed:animate-[modalOutOverlay_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalInOverlay_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-aria-hidden="true"
+      data-state="open"
+      style="pointer-events: auto;"
+    />
+    <div
+      aria-describedby="radix-:r2:"
+      aria-labelledby="radix-:r1:"
+      class="fixed inset-0 z-modal flex items-center justify-center radix-state-closed:animate-[modalOut_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalIn_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-state="open"
+      id="radix-:r0:"
+      role="dialog"
+      style="pointer-events: auto;"
+      tabindex="-1"
+    >
+      <div
+        class="relative flex w-[20rem] max-w-[20rem] flex-col items-start rounded-level-1 border-t border-default bg-surface shadow-2xl sm:w-[38.75rem] sm:min-w-[23.75rem] sm:max-w-[61.25rem]"
+      >
+        <div
+          class="flex items-center self-stretch border-b border-default p-4 pr-9"
+          id="radix-:r1:"
+        >
+          <h2
+            class="flex-1 text-base font-semibold text sm:text-xl sm:leading-6"
+          >
+            Primary and secondary action
+          </h2>
+        </div>
+        <div
+          class="flex w-full items-start self-stretch px-4 py-2"
+        >
+          <div
+            id="first-child"
+          >
+            First child
+          </div>
+          <div>
+            <div
+              class="inline-flex flex-col items-start"
+            >
+              <button
+                aria-checked="false"
+                class="group flex items-start gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+                data-state="unchecked"
+                id="second-child"
+                role="checkbox"
+                type="button"
+                value="confirmed"
+              >
+                <span
+                  class="relative m-[1px] h-[18px] min-w-[18px] rounded-level-3 border-2 border-default bg-interactive-plain group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-hover:shadow-sm group-hover:shadow-[rgb(0,0,0,0.08)]"
+                  data-state="unchecked"
+                  style="pointer-events: none;"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="absolute left-[4px] top-[5px] hidden text-icon-on-interactive group-hover:left-[2px] group-hover:top-[3px] group-hover:block group-hover:text-interactive-plain-hovered"
+                    fill="none"
+                    height="8"
+                    viewBox="0 0 10 8"
+                    width="10"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M9.72318 0.237414C10.0707 0.574491 10.0942 1.14584 9.77561 1.51356L4.40976 7.70711C4.25243 7.88871 4.03181 7.99443 3.79903 7.99979C3.56625 8.00514 3.3415 7.90965 3.17686 7.73545L0.250031 4.63868C-0.0833435 4.28595 -0.0833435 3.71406 0.250031 3.36133C0.583405 3.00859 1.12391 3.00859 1.45729 3.36133L3.75367 5.79105L8.51706 0.292899C8.83564 -0.0748211 9.37564 -0.0996624 9.72318 0.237414Z"
+                      fill="currentColor"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </span>
+                <label
+                  class="text-left text-sm text group-hover:cursor-pointer"
+                  for="second-child"
+                >
+                  I agree to TOS
+                </label>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex items-center justify-end gap-4 self-stretch border-t border-default p-4 sm:justify-normal"
+        >
+          <button
+            class="rounded-interactive-elements-default justify-center items-center gap-1 font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm hidden sm:block"
+            data-outline="false"
+            data-plain="true"
+            data-size="medium"
+            data-variant="primary"
+            type="button"
+          >
+            Foo
+          </button>
+          <div
+            class="flex items-start gap-2 sm:flex-1 sm:items-center sm:justify-end"
+          >
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 border border-default hover:border-hovered active:border-pressed text disabled:text-disabled bg-interactive-plain hover:bg-interactive-plain-hovered active:bg-interactive-plain-pressed disabled:bg-interactive-disabled disabled:border-disabled h-9 px-4 py-2"
+              data-outline="false"
+              data-plain="false"
+              data-size="medium"
+              data-variant="basic"
+            >
+              Cancel
+            </button>
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 px-4 py-2"
+              data-outline="false"
+              data-plain="false"
+              data-size="medium"
+              data-variant="primary"
+            >
+              Delete user
+            </button>
+          </div>
+        </div>
+        <button
+          class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed absolute right-4 top-4"
+          type="button"
+        >
+          <svg
+            class="h-5 w-5 text-icon"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+              fill="currentColor"
+            />
+          </svg>
+          <span
+            class="sr-only"
+          >
+            close modal
+          </span>
+        </button>
+      </div>
+    </div>
+    <button
+      aria-controls="radix-:r0:"
+      aria-expanded="true"
+      aria-haspopup="dialog"
+      aria-hidden="true"
+      class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 px-4 py-2"
+      data-aria-hidden="true"
+      data-outline="false"
+      data-plain="false"
+      data-size="medium"
+      data-state="open"
+      data-variant="primary"
+      type="button"
+    >
+      Activator
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Modal /> > renders with medium size buttons 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <div
+    id="uikit-theme"
+  >
+    <div
+      aria-hidden="true"
+      class="fixed inset-0 z-modalOverlay bg-overlay-modal opacity-20 radix-state-closed:animate-[modalOutOverlay_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalInOverlay_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-aria-hidden="true"
+      data-state="open"
+      style="pointer-events: auto;"
+    />
+    <div
+      aria-describedby="radix-:r6:"
+      aria-labelledby="radix-:r5:"
+      class="fixed inset-0 z-modal flex items-center justify-center radix-state-closed:animate-[modalOut_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalIn_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-state="open"
+      id="radix-:r4:"
+      role="dialog"
+      style="pointer-events: auto;"
+      tabindex="-1"
+    >
+      <div
+        class="relative flex w-[20rem] max-w-[20rem] flex-col items-start rounded-level-1 border-t border-default bg-surface shadow-2xl sm:w-[38.75rem] sm:min-w-[23.75rem] sm:max-w-[61.25rem]"
+      >
+        <div
+          class="flex items-center self-stretch border-b border-default p-4 pr-9"
+          id="radix-:r5:"
+        >
+          <h2
+            class="flex-1 text-base font-semibold text sm:text-xl sm:leading-6"
+          >
+            Medium size buttons
+          </h2>
+        </div>
+        <div
+          class="flex w-full items-start self-stretch px-4 py-2"
+        >
+          Do you really want to delete the user?
+        </div>
+        <div
+          class="flex items-center justify-end gap-4 self-stretch border-t border-default p-4 sm:justify-normal"
+        >
+          <button
+            class="rounded-interactive-elements-default justify-center items-center gap-1 font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm hidden sm:block"
+            data-outline="false"
+            data-plain="true"
+            data-size="medium"
+            data-variant="primary"
+            type="button"
+          >
+            Foo
+          </button>
+          <div
+            class="flex items-start gap-2 sm:flex-1 sm:items-center sm:justify-end"
+          >
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 border border-default hover:border-hovered active:border-pressed text disabled:text-disabled bg-interactive-plain hover:bg-interactive-plain-hovered active:bg-interactive-plain-pressed disabled:bg-interactive-disabled disabled:border-disabled h-9 px-4 py-2"
+              data-outline="false"
+              data-plain="false"
+              data-size="medium"
+              data-variant="basic"
+            >
+              Cancel
+            </button>
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 px-4 py-2"
+              data-outline="false"
+              data-plain="false"
+              data-size="medium"
+              data-variant="primary"
+            >
+              Delete user
+            </button>
+          </div>
+        </div>
+        <button
+          class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed absolute right-4 top-4"
+          type="button"
+        >
+          <svg
+            class="h-5 w-5 text-icon"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+              fill="currentColor"
+            />
+          </svg>
+          <span
+            class="sr-only"
+          >
+            close modal
+          </span>
+        </button>
+      </div>
+    </div>
+    <button
+      aria-controls="radix-:r4:"
+      aria-expanded="true"
+      aria-haspopup="dialog"
+      aria-hidden="true"
+      class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 px-4 py-2"
+      data-aria-hidden="true"
+      data-outline="false"
+      data-plain="false"
+      data-size="medium"
+      data-state="open"
+      data-variant="primary"
+      type="button"
+    >
+      Activator
+    </button>
+  </div>,
+  "container": <div
+    id="uikit-theme"
+  >
+    <div
+      aria-hidden="true"
+      class="fixed inset-0 z-modalOverlay bg-overlay-modal opacity-20 radix-state-closed:animate-[modalOutOverlay_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalInOverlay_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-aria-hidden="true"
+      data-state="open"
+      style="pointer-events: auto;"
+    />
+    <div
+      aria-describedby="radix-:r6:"
+      aria-labelledby="radix-:r5:"
+      class="fixed inset-0 z-modal flex items-center justify-center radix-state-closed:animate-[modalOut_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalIn_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-state="open"
+      id="radix-:r4:"
+      role="dialog"
+      style="pointer-events: auto;"
+      tabindex="-1"
+    >
+      <div
+        class="relative flex w-[20rem] max-w-[20rem] flex-col items-start rounded-level-1 border-t border-default bg-surface shadow-2xl sm:w-[38.75rem] sm:min-w-[23.75rem] sm:max-w-[61.25rem]"
+      >
+        <div
+          class="flex items-center self-stretch border-b border-default p-4 pr-9"
+          id="radix-:r5:"
+        >
+          <h2
+            class="flex-1 text-base font-semibold text sm:text-xl sm:leading-6"
+          >
+            Medium size buttons
+          </h2>
+        </div>
+        <div
+          class="flex w-full items-start self-stretch px-4 py-2"
+        >
+          Do you really want to delete the user?
+        </div>
+        <div
+          class="flex items-center justify-end gap-4 self-stretch border-t border-default p-4 sm:justify-normal"
+        >
+          <button
+            class="rounded-interactive-elements-default justify-center items-center gap-1 font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm hidden sm:block"
+            data-outline="false"
+            data-plain="true"
+            data-size="medium"
+            data-variant="primary"
+            type="button"
+          >
+            Foo
+          </button>
+          <div
+            class="flex items-start gap-2 sm:flex-1 sm:items-center sm:justify-end"
+          >
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 border border-default hover:border-hovered active:border-pressed text disabled:text-disabled bg-interactive-plain hover:bg-interactive-plain-hovered active:bg-interactive-plain-pressed disabled:bg-interactive-disabled disabled:border-disabled h-9 px-4 py-2"
+              data-outline="false"
+              data-plain="false"
+              data-size="medium"
+              data-variant="basic"
+            >
+              Cancel
+            </button>
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 px-4 py-2"
+              data-outline="false"
+              data-plain="false"
+              data-size="medium"
+              data-variant="primary"
+            >
+              Delete user
+            </button>
+          </div>
+        </div>
+        <button
+          class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed absolute right-4 top-4"
+          type="button"
+        >
+          <svg
+            class="h-5 w-5 text-icon"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+              fill="currentColor"
+            />
+          </svg>
+          <span
+            class="sr-only"
+          >
+            close modal
+          </span>
+        </button>
+      </div>
+    </div>
+    <button
+      aria-controls="radix-:r4:"
+      aria-expanded="true"
+      aria-haspopup="dialog"
+      aria-hidden="true"
+      class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 px-4 py-2"
+      data-aria-hidden="true"
+      data-outline="false"
+      data-plain="false"
+      data-size="medium"
+      data-state="open"
+      data-variant="primary"
+      type="button"
+    >
+      Activator
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Modal /> > renders with small size buttons 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <div
+    id="uikit-theme"
+  >
+    <div
+      aria-hidden="true"
+      class="fixed inset-0 z-modalOverlay bg-overlay-modal opacity-20 radix-state-closed:animate-[modalOutOverlay_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalInOverlay_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-aria-hidden="true"
+      data-state="open"
+      style="pointer-events: auto;"
+    />
+    <div
+      aria-describedby="radix-:r9:"
+      aria-labelledby="radix-:r8:"
+      class="fixed inset-0 z-modal flex items-center justify-center radix-state-closed:animate-[modalOut_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalIn_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-state="open"
+      id="radix-:r7:"
+      role="dialog"
+      style="pointer-events: auto;"
+      tabindex="-1"
+    >
+      <div
+        class="relative flex w-[20rem] max-w-[20rem] flex-col items-start rounded-level-1 border-t border-default bg-surface shadow-2xl sm:w-[38.75rem] sm:min-w-[23.75rem] sm:max-w-[61.25rem]"
+      >
+        <div
+          class="flex items-center self-stretch border-b border-default p-4 pr-9"
+          id="radix-:r8:"
+        >
+          <h2
+            class="flex-1 text-base font-semibold text sm:text-xl sm:leading-6"
+          >
+            Small size buttons
+          </h2>
+        </div>
+        <div
+          class="flex w-full items-start self-stretch px-4 py-2"
+        >
+          Do you really want to delete the user?
+        </div>
+        <div
+          class="flex items-center justify-end gap-4 self-stretch border-t border-default p-4 sm:justify-normal"
+        >
+          <div
+            class="flex items-start gap-2 sm:flex-1 sm:items-center sm:justify-end"
+          >
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 border border-default hover:border-hovered active:border-pressed text disabled:text-disabled bg-interactive-plain hover:bg-interactive-plain-hovered active:bg-interactive-plain-pressed disabled:bg-interactive-disabled disabled:border-disabled h-7 px-3 py-1"
+              data-outline="false"
+              data-plain="false"
+              data-size="small"
+              data-variant="basic"
+            >
+              Cancel
+            </button>
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-7 px-3 py-1"
+              data-outline="false"
+              data-plain="false"
+              data-size="small"
+              data-variant="primary"
+            >
+              Delete user
+            </button>
+          </div>
+        </div>
+        <button
+          class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed absolute right-4 top-4"
+          type="button"
+        >
+          <svg
+            class="h-5 w-5 text-icon"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+              fill="currentColor"
+            />
+          </svg>
+          <span
+            class="sr-only"
+          >
+            close modal
+          </span>
+        </button>
+      </div>
+    </div>
+    <button
+      aria-controls="radix-:r7:"
+      aria-expanded="true"
+      aria-haspopup="dialog"
+      aria-hidden="true"
+      class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 px-4 py-2"
+      data-aria-hidden="true"
+      data-outline="false"
+      data-plain="false"
+      data-size="medium"
+      data-state="open"
+      data-variant="primary"
+      type="button"
+    >
+      Activator
+    </button>
+  </div>,
+  "container": <div
+    id="uikit-theme"
+  >
+    <div
+      aria-hidden="true"
+      class="fixed inset-0 z-modalOverlay bg-overlay-modal opacity-20 radix-state-closed:animate-[modalOutOverlay_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalInOverlay_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-aria-hidden="true"
+      data-state="open"
+      style="pointer-events: auto;"
+    />
+    <div
+      aria-describedby="radix-:r9:"
+      aria-labelledby="radix-:r8:"
+      class="fixed inset-0 z-modal flex items-center justify-center radix-state-closed:animate-[modalOut_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalIn_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-state="open"
+      id="radix-:r7:"
+      role="dialog"
+      style="pointer-events: auto;"
+      tabindex="-1"
+    >
+      <div
+        class="relative flex w-[20rem] max-w-[20rem] flex-col items-start rounded-level-1 border-t border-default bg-surface shadow-2xl sm:w-[38.75rem] sm:min-w-[23.75rem] sm:max-w-[61.25rem]"
+      >
+        <div
+          class="flex items-center self-stretch border-b border-default p-4 pr-9"
+          id="radix-:r8:"
+        >
+          <h2
+            class="flex-1 text-base font-semibold text sm:text-xl sm:leading-6"
+          >
+            Small size buttons
+          </h2>
+        </div>
+        <div
+          class="flex w-full items-start self-stretch px-4 py-2"
+        >
+          Do you really want to delete the user?
+        </div>
+        <div
+          class="flex items-center justify-end gap-4 self-stretch border-t border-default p-4 sm:justify-normal"
+        >
+          <div
+            class="flex items-start gap-2 sm:flex-1 sm:items-center sm:justify-end"
+          >
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 border border-default hover:border-hovered active:border-pressed text disabled:text-disabled bg-interactive-plain hover:bg-interactive-plain-hovered active:bg-interactive-plain-pressed disabled:bg-interactive-disabled disabled:border-disabled h-7 px-3 py-1"
+              data-outline="false"
+              data-plain="false"
+              data-size="small"
+              data-variant="basic"
+            >
+              Cancel
+            </button>
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-7 px-3 py-1"
+              data-outline="false"
+              data-plain="false"
+              data-size="small"
+              data-variant="primary"
+            >
+              Delete user
+            </button>
+          </div>
+        </div>
+        <button
+          class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed absolute right-4 top-4"
+          type="button"
+        >
+          <svg
+            class="h-5 w-5 text-icon"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+              fill="currentColor"
+            />
+          </svg>
+          <span
+            class="sr-only"
+          >
+            close modal
+          </span>
+        </button>
+      </div>
+    </div>
+    <button
+      aria-controls="radix-:r7:"
+      aria-expanded="true"
+      aria-haspopup="dialog"
+      aria-hidden="true"
+      class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 px-4 py-2"
+      data-aria-hidden="true"
+      data-outline="false"
+      data-plain="false"
+      data-size="medium"
+      data-state="open"
+      data-variant="primary"
+      type="button"
+    >
+      Activator
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Modal /> > renders without footer 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <div
+    id="uikit-theme"
+  >
+    <div
+      aria-hidden="true"
+      class="fixed inset-0 z-modalOverlay bg-overlay-modal opacity-20 radix-state-closed:animate-[modalOutOverlay_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalInOverlay_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-aria-hidden="true"
+      data-state="open"
+      style="pointer-events: auto;"
+    />
+    <div
+      aria-describedby="radix-:rl:"
+      aria-labelledby="radix-:rk:"
+      class="fixed inset-0 z-modal flex items-center justify-center radix-state-closed:animate-[modalOut_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalIn_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-state="open"
+      id="radix-:rj:"
+      role="dialog"
+      style="pointer-events: auto;"
+      tabindex="-1"
+    >
+      <div
+        class="relative flex w-[20rem] max-w-[20rem] flex-col items-start rounded-level-1 border-t border-default bg-surface shadow-2xl sm:w-[38.75rem] sm:min-w-[23.75rem] sm:max-w-[61.25rem]"
+      >
+        <div
+          class="flex items-center self-stretch border-b border-default p-4 pr-9"
+          id="radix-:rk:"
+        >
+          <h2
+            class="flex-1 text-base font-semibold text sm:text-xl sm:leading-6"
+          >
+            Without footer
+          </h2>
+        </div>
+        <div
+          class="flex w-full items-start self-stretch px-4 py-2"
+        >
+          Do you really want to delete the user?
+        </div>
+        <button
+          class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed absolute right-4 top-4"
+          type="button"
+        >
+          <svg
+            class="h-5 w-5 text-icon"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+              fill="currentColor"
+            />
+          </svg>
+          <span
+            class="sr-only"
+          >
+            close modal
+          </span>
+        </button>
+      </div>
+    </div>
+    <button
+      aria-controls="radix-:rj:"
+      aria-expanded="true"
+      aria-haspopup="dialog"
+      aria-hidden="true"
+      class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 px-4 py-2"
+      data-aria-hidden="true"
+      data-outline="false"
+      data-plain="false"
+      data-size="medium"
+      data-state="open"
+      data-variant="primary"
+      type="button"
+    >
+      Activator
+    </button>
+  </div>,
+  "container": <div
+    id="uikit-theme"
+  >
+    <div
+      aria-hidden="true"
+      class="fixed inset-0 z-modalOverlay bg-overlay-modal opacity-20 radix-state-closed:animate-[modalOutOverlay_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalInOverlay_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-aria-hidden="true"
+      data-state="open"
+      style="pointer-events: auto;"
+    />
+    <div
+      aria-describedby="radix-:rl:"
+      aria-labelledby="radix-:rk:"
+      class="fixed inset-0 z-modal flex items-center justify-center radix-state-closed:animate-[modalOut_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalIn_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-state="open"
+      id="radix-:rj:"
+      role="dialog"
+      style="pointer-events: auto;"
+      tabindex="-1"
+    >
+      <div
+        class="relative flex w-[20rem] max-w-[20rem] flex-col items-start rounded-level-1 border-t border-default bg-surface shadow-2xl sm:w-[38.75rem] sm:min-w-[23.75rem] sm:max-w-[61.25rem]"
+      >
+        <div
+          class="flex items-center self-stretch border-b border-default p-4 pr-9"
+          id="radix-:rk:"
+        >
+          <h2
+            class="flex-1 text-base font-semibold text sm:text-xl sm:leading-6"
+          >
+            Without footer
+          </h2>
+        </div>
+        <div
+          class="flex w-full items-start self-stretch px-4 py-2"
+        >
+          Do you really want to delete the user?
+        </div>
+        <button
+          class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed absolute right-4 top-4"
+          type="button"
+        >
+          <svg
+            class="h-5 w-5 text-icon"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+              fill="currentColor"
+            />
+          </svg>
+          <span
+            class="sr-only"
+          >
+            close modal
+          </span>
+        </button>
+      </div>
+    </div>
+    <button
+      aria-controls="radix-:rj:"
+      aria-expanded="true"
+      aria-haspopup="dialog"
+      aria-hidden="true"
+      class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 px-4 py-2"
+      data-aria-hidden="true"
+      data-outline="false"
+      data-plain="false"
+      data-size="medium"
+      data-state="open"
+      data-variant="primary"
+      type="button"
+    >
+      Activator
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Modal /> > renders without primary 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <div
+    id="uikit-theme"
+  >
+    <div
+      aria-hidden="true"
+      class="fixed inset-0 z-modalOverlay bg-overlay-modal opacity-20 radix-state-closed:animate-[modalOutOverlay_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalInOverlay_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-aria-hidden="true"
+      data-state="open"
+      style="pointer-events: auto;"
+    />
+    <div
+      aria-describedby="radix-:rc:"
+      aria-labelledby="radix-:rb:"
+      class="fixed inset-0 z-modal flex items-center justify-center radix-state-closed:animate-[modalOut_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalIn_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-state="open"
+      id="radix-:ra:"
+      role="dialog"
+      style="pointer-events: auto;"
+      tabindex="-1"
+    >
+      <div
+        class="relative flex w-[20rem] max-w-[20rem] flex-col items-start rounded-level-1 border-t border-default bg-surface shadow-2xl sm:w-[38.75rem] sm:min-w-[23.75rem] sm:max-w-[61.25rem]"
+      >
+        <div
+          class="flex items-center self-stretch border-b border-default p-4 pr-9"
+          id="radix-:rb:"
+        >
+          <h2
+            class="flex-1 text-base font-semibold text sm:text-xl sm:leading-6"
+          >
+            Without primary action
+          </h2>
+        </div>
+        <div
+          class="flex w-full items-start self-stretch px-4 py-2"
+        >
+          Do you really want to delete the user?
+        </div>
+        <div
+          class="flex items-center justify-end gap-4 self-stretch border-t border-default p-4 sm:justify-normal"
+        >
+          <button
+            class="rounded-interactive-elements-default justify-center items-center gap-1 font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm hidden sm:block"
+            data-outline="false"
+            data-plain="true"
+            data-size="medium"
+            data-variant="primary"
+            type="button"
+          >
+            Foo
+          </button>
+          <div
+            class="flex items-start gap-2 sm:flex-1 sm:items-center sm:justify-end"
+          >
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 border border-default hover:border-hovered active:border-pressed text disabled:text-disabled bg-interactive-plain hover:bg-interactive-plain-hovered active:bg-interactive-plain-pressed disabled:bg-interactive-disabled disabled:border-disabled h-9 px-4 py-2"
+              data-outline="false"
+              data-plain="false"
+              data-size="medium"
+              data-variant="basic"
+            >
+              Cancel
+            </button>
+          </div>
+        </div>
+        <button
+          class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed absolute right-4 top-4"
+          type="button"
+        >
+          <svg
+            class="h-5 w-5 text-icon"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+              fill="currentColor"
+            />
+          </svg>
+          <span
+            class="sr-only"
+          >
+            close modal
+          </span>
+        </button>
+      </div>
+    </div>
+    <button
+      aria-controls="radix-:ra:"
+      aria-expanded="true"
+      aria-haspopup="dialog"
+      aria-hidden="true"
+      class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 px-4 py-2"
+      data-aria-hidden="true"
+      data-outline="false"
+      data-plain="false"
+      data-size="medium"
+      data-state="open"
+      data-variant="primary"
+      type="button"
+    >
+      Activator
+    </button>
+  </div>,
+  "container": <div
+    id="uikit-theme"
+  >
+    <div
+      aria-hidden="true"
+      class="fixed inset-0 z-modalOverlay bg-overlay-modal opacity-20 radix-state-closed:animate-[modalOutOverlay_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalInOverlay_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-aria-hidden="true"
+      data-state="open"
+      style="pointer-events: auto;"
+    />
+    <div
+      aria-describedby="radix-:rc:"
+      aria-labelledby="radix-:rb:"
+      class="fixed inset-0 z-modal flex items-center justify-center radix-state-closed:animate-[modalOut_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalIn_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-state="open"
+      id="radix-:ra:"
+      role="dialog"
+      style="pointer-events: auto;"
+      tabindex="-1"
+    >
+      <div
+        class="relative flex w-[20rem] max-w-[20rem] flex-col items-start rounded-level-1 border-t border-default bg-surface shadow-2xl sm:w-[38.75rem] sm:min-w-[23.75rem] sm:max-w-[61.25rem]"
+      >
+        <div
+          class="flex items-center self-stretch border-b border-default p-4 pr-9"
+          id="radix-:rb:"
+        >
+          <h2
+            class="flex-1 text-base font-semibold text sm:text-xl sm:leading-6"
+          >
+            Without primary action
+          </h2>
+        </div>
+        <div
+          class="flex w-full items-start self-stretch px-4 py-2"
+        >
+          Do you really want to delete the user?
+        </div>
+        <div
+          class="flex items-center justify-end gap-4 self-stretch border-t border-default p-4 sm:justify-normal"
+        >
+          <button
+            class="rounded-interactive-elements-default justify-center items-center gap-1 font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm hidden sm:block"
+            data-outline="false"
+            data-plain="true"
+            data-size="medium"
+            data-variant="primary"
+            type="button"
+          >
+            Foo
+          </button>
+          <div
+            class="flex items-start gap-2 sm:flex-1 sm:items-center sm:justify-end"
+          >
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 border border-default hover:border-hovered active:border-pressed text disabled:text-disabled bg-interactive-plain hover:bg-interactive-plain-hovered active:bg-interactive-plain-pressed disabled:bg-interactive-disabled disabled:border-disabled h-9 px-4 py-2"
+              data-outline="false"
+              data-plain="false"
+              data-size="medium"
+              data-variant="basic"
+            >
+              Cancel
+            </button>
+          </div>
+        </div>
+        <button
+          class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed absolute right-4 top-4"
+          type="button"
+        >
+          <svg
+            class="h-5 w-5 text-icon"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+              fill="currentColor"
+            />
+          </svg>
+          <span
+            class="sr-only"
+          >
+            close modal
+          </span>
+        </button>
+      </div>
+    </div>
+    <button
+      aria-controls="radix-:ra:"
+      aria-expanded="true"
+      aria-haspopup="dialog"
+      aria-hidden="true"
+      class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 px-4 py-2"
+      data-aria-hidden="true"
+      data-outline="false"
+      data-plain="false"
+      data-size="medium"
+      data-state="open"
+      data-variant="primary"
+      type="button"
+    >
+      Activator
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Modal /> > renders without secondary 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <div
+    id="uikit-theme"
+  >
+    <div
+      aria-hidden="true"
+      class="fixed inset-0 z-modalOverlay bg-overlay-modal opacity-20 radix-state-closed:animate-[modalOutOverlay_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalInOverlay_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-aria-hidden="true"
+      data-state="open"
+      style="pointer-events: auto;"
+    />
+    <div
+      aria-describedby="radix-:rf:"
+      aria-labelledby="radix-:re:"
+      class="fixed inset-0 z-modal flex items-center justify-center radix-state-closed:animate-[modalOut_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalIn_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-state="open"
+      id="radix-:rd:"
+      role="dialog"
+      style="pointer-events: auto;"
+      tabindex="-1"
+    >
+      <div
+        class="relative flex w-[20rem] max-w-[20rem] flex-col items-start rounded-level-1 border-t border-default bg-surface shadow-2xl sm:w-[38.75rem] sm:min-w-[23.75rem] sm:max-w-[61.25rem]"
+      >
+        <div
+          class="flex items-center self-stretch border-b border-default p-4 pr-9"
+          id="radix-:re:"
+        >
+          <h2
+            class="flex-1 text-base font-semibold text sm:text-xl sm:leading-6"
+          >
+            Without secondary action
+          </h2>
+        </div>
+        <div
+          class="flex w-full items-start self-stretch px-4 py-2"
+        >
+          Do you really want to delete the user?
+        </div>
+        <div
+          class="flex items-center justify-end gap-4 self-stretch border-t border-default p-4 sm:justify-normal"
+        >
+          <button
+            class="rounded-interactive-elements-default justify-center items-center gap-1 font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm hidden sm:block"
+            data-outline="false"
+            data-plain="true"
+            data-size="medium"
+            data-variant="primary"
+            type="button"
+          >
+            Foo
+          </button>
+          <div
+            class="flex items-start gap-2 sm:flex-1 sm:items-center sm:justify-end"
+          >
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 px-4 py-2"
+              data-outline="false"
+              data-plain="false"
+              data-size="medium"
+              data-variant="primary"
+            >
+              Delete user
+            </button>
+          </div>
+        </div>
+        <button
+          class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed absolute right-4 top-4"
+          type="button"
+        >
+          <svg
+            class="h-5 w-5 text-icon"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+              fill="currentColor"
+            />
+          </svg>
+          <span
+            class="sr-only"
+          >
+            close modal
+          </span>
+        </button>
+      </div>
+    </div>
+    <button
+      aria-controls="radix-:rd:"
+      aria-expanded="true"
+      aria-haspopup="dialog"
+      aria-hidden="true"
+      class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 px-4 py-2"
+      data-aria-hidden="true"
+      data-outline="false"
+      data-plain="false"
+      data-size="medium"
+      data-state="open"
+      data-variant="primary"
+      type="button"
+    >
+      Activator
+    </button>
+  </div>,
+  "container": <div
+    id="uikit-theme"
+  >
+    <div
+      aria-hidden="true"
+      class="fixed inset-0 z-modalOverlay bg-overlay-modal opacity-20 radix-state-closed:animate-[modalOutOverlay_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalInOverlay_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-aria-hidden="true"
+      data-state="open"
+      style="pointer-events: auto;"
+    />
+    <div
+      aria-describedby="radix-:rf:"
+      aria-labelledby="radix-:re:"
+      class="fixed inset-0 z-modal flex items-center justify-center radix-state-closed:animate-[modalOut_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalIn_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-state="open"
+      id="radix-:rd:"
+      role="dialog"
+      style="pointer-events: auto;"
+      tabindex="-1"
+    >
+      <div
+        class="relative flex w-[20rem] max-w-[20rem] flex-col items-start rounded-level-1 border-t border-default bg-surface shadow-2xl sm:w-[38.75rem] sm:min-w-[23.75rem] sm:max-w-[61.25rem]"
+      >
+        <div
+          class="flex items-center self-stretch border-b border-default p-4 pr-9"
+          id="radix-:re:"
+        >
+          <h2
+            class="flex-1 text-base font-semibold text sm:text-xl sm:leading-6"
+          >
+            Without secondary action
+          </h2>
+        </div>
+        <div
+          class="flex w-full items-start self-stretch px-4 py-2"
+        >
+          Do you really want to delete the user?
+        </div>
+        <div
+          class="flex items-center justify-end gap-4 self-stretch border-t border-default p-4 sm:justify-normal"
+        >
+          <button
+            class="rounded-interactive-elements-default justify-center items-center gap-1 font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm hidden sm:block"
+            data-outline="false"
+            data-plain="true"
+            data-size="medium"
+            data-variant="primary"
+            type="button"
+          >
+            Foo
+          </button>
+          <div
+            class="flex items-start gap-2 sm:flex-1 sm:items-center sm:justify-end"
+          >
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 px-4 py-2"
+              data-outline="false"
+              data-plain="false"
+              data-size="medium"
+              data-variant="primary"
+            >
+              Delete user
+            </button>
+          </div>
+        </div>
+        <button
+          class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed absolute right-4 top-4"
+          type="button"
+        >
+          <svg
+            class="h-5 w-5 text-icon"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+              fill="currentColor"
+            />
+          </svg>
+          <span
+            class="sr-only"
+          >
+            close modal
+          </span>
+        </button>
+      </div>
+    </div>
+    <button
+      aria-controls="radix-:rd:"
+      aria-expanded="true"
+      aria-haspopup="dialog"
+      aria-hidden="true"
+      class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 px-4 py-2"
+      data-aria-hidden="true"
+      data-outline="false"
+      data-plain="false"
+      data-size="medium"
+      data-state="open"
+      data-variant="primary"
+      type="button"
+    >
+      Activator
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Modal /> > renders without tertiary 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <div
+    id="uikit-theme"
+  >
+    <div
+      aria-hidden="true"
+      class="fixed inset-0 z-modalOverlay bg-overlay-modal opacity-20 radix-state-closed:animate-[modalOutOverlay_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalInOverlay_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-aria-hidden="true"
+      data-state="open"
+      style="pointer-events: auto;"
+    />
+    <div
+      aria-describedby="radix-:ri:"
+      aria-labelledby="radix-:rh:"
+      class="fixed inset-0 z-modal flex items-center justify-center radix-state-closed:animate-[modalOut_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalIn_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-state="open"
+      id="radix-:rg:"
+      role="dialog"
+      style="pointer-events: auto;"
+      tabindex="-1"
+    >
+      <div
+        class="relative flex w-[20rem] max-w-[20rem] flex-col items-start rounded-level-1 border-t border-default bg-surface shadow-2xl sm:w-[38.75rem] sm:min-w-[23.75rem] sm:max-w-[61.25rem]"
+      >
+        <div
+          class="flex items-center self-stretch border-b border-default p-4 pr-9"
+          id="radix-:rh:"
+        >
+          <h2
+            class="flex-1 text-base font-semibold text sm:text-xl sm:leading-6"
+          >
+            Without tertiary action
+          </h2>
+        </div>
+        <div
+          class="flex w-full items-start self-stretch px-4 py-2"
+        >
+          Do you really want to delete the user?
+        </div>
+        <div
+          class="flex items-center justify-end gap-4 self-stretch border-t border-default p-4 sm:justify-normal"
+        >
+          <div
+            class="flex items-start gap-2 sm:flex-1 sm:items-center sm:justify-end"
+          >
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 border border-default hover:border-hovered active:border-pressed text disabled:text-disabled bg-interactive-plain hover:bg-interactive-plain-hovered active:bg-interactive-plain-pressed disabled:bg-interactive-disabled disabled:border-disabled h-9 px-4 py-2"
+              data-outline="false"
+              data-plain="false"
+              data-size="medium"
+              data-variant="basic"
+            >
+              Cancel
+            </button>
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 px-4 py-2"
+              data-outline="false"
+              data-plain="false"
+              data-size="medium"
+              data-variant="primary"
+            >
+              Delete user
+            </button>
+          </div>
+        </div>
+        <button
+          class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed absolute right-4 top-4"
+          type="button"
+        >
+          <svg
+            class="h-5 w-5 text-icon"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+              fill="currentColor"
+            />
+          </svg>
+          <span
+            class="sr-only"
+          >
+            close modal
+          </span>
+        </button>
+      </div>
+    </div>
+    <button
+      aria-controls="radix-:rg:"
+      aria-expanded="true"
+      aria-haspopup="dialog"
+      aria-hidden="true"
+      class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 px-4 py-2"
+      data-aria-hidden="true"
+      data-outline="false"
+      data-plain="false"
+      data-size="medium"
+      data-state="open"
+      data-variant="primary"
+      type="button"
+    >
+      Activator
+    </button>
+  </div>,
+  "container": <div
+    id="uikit-theme"
+  >
+    <div
+      aria-hidden="true"
+      class="fixed inset-0 z-modalOverlay bg-overlay-modal opacity-20 radix-state-closed:animate-[modalOutOverlay_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalInOverlay_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-aria-hidden="true"
+      data-state="open"
+      style="pointer-events: auto;"
+    />
+    <div
+      aria-describedby="radix-:ri:"
+      aria-labelledby="radix-:rh:"
+      class="fixed inset-0 z-modal flex items-center justify-center radix-state-closed:animate-[modalOut_0.3s_cubic-bezier(0.26,0.25,0.41,0.67)] radix-state-open:animate-[modalIn_0.3s_cubic-bezier(0.26,0.25,0.25,0.63)]"
+      data-state="open"
+      id="radix-:rg:"
+      role="dialog"
+      style="pointer-events: auto;"
+      tabindex="-1"
+    >
+      <div
+        class="relative flex w-[20rem] max-w-[20rem] flex-col items-start rounded-level-1 border-t border-default bg-surface shadow-2xl sm:w-[38.75rem] sm:min-w-[23.75rem] sm:max-w-[61.25rem]"
+      >
+        <div
+          class="flex items-center self-stretch border-b border-default p-4 pr-9"
+          id="radix-:rh:"
+        >
+          <h2
+            class="flex-1 text-base font-semibold text sm:text-xl sm:leading-6"
+          >
+            Without tertiary action
+          </h2>
+        </div>
+        <div
+          class="flex w-full items-start self-stretch px-4 py-2"
+        >
+          Do you really want to delete the user?
+        </div>
+        <div
+          class="flex items-center justify-end gap-4 self-stretch border-t border-default p-4 sm:justify-normal"
+        >
+          <div
+            class="flex items-start gap-2 sm:flex-1 sm:items-center sm:justify-end"
+          >
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 border border-default hover:border-hovered active:border-pressed text disabled:text-disabled bg-interactive-plain hover:bg-interactive-plain-hovered active:bg-interactive-plain-pressed disabled:bg-interactive-disabled disabled:border-disabled h-9 px-4 py-2"
+              data-outline="false"
+              data-plain="false"
+              data-size="medium"
+              data-variant="basic"
+            >
+              Cancel
+            </button>
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 px-4 py-2"
+              data-outline="false"
+              data-plain="false"
+              data-size="medium"
+              data-variant="primary"
+            >
+              Delete user
+            </button>
+          </div>
+        </div>
+        <button
+          class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed absolute right-4 top-4"
+          type="button"
+        >
+          <svg
+            class="h-5 w-5 text-icon"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+              fill="currentColor"
+            />
+          </svg>
+          <span
+            class="sr-only"
+          >
+            close modal
+          </span>
+        </button>
+      </div>
+    </div>
+    <button
+      aria-controls="radix-:rg:"
+      aria-expanded="true"
+      aria-haspopup="dialog"
+      aria-hidden="true"
+      class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 px-4 py-2"
+      data-aria-hidden="true"
+      data-outline="false"
+      data-plain="false"
+      data-size="medium"
+      data-state="open"
+      data-variant="primary"
+      type="button"
+    >
+      Activator
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

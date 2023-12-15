@@ -1,0 +1,385 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<InputField /> > NumberInputField > renders 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="inline-flex w-full flex-col items-start justify-start gap-1"
+      >
+        <label
+          class="w-full text-sm font-medium leading-tight text"
+          for="test-number-input-field"
+        >
+          Input text field
+        </label>
+        <div
+          class="group inline-flex h-9 w-full items-center justify-start gap-1 rounded-level-2 border border-solid border-default bg-interactive-plain py-2 pl-3 pr-2 focus-within:border-focus focus-within:ring-1 focus-within:ring-focus hover:border-hovered hover:bg-interactive-plain-hovered hover:focus-within:border-focus hover:focus-within:bg-interactive-plain"
+        >
+          <input
+            class="w-full rounded font-normal appearance-none text uikit-hide-number-spin-controls focus:outline-none text-base bg-transparent"
+            data-testid="test-text-input"
+            id="test-number-input-field"
+            max="10"
+            min="0"
+            type="number"
+            value="6"
+          />
+          <div
+            class="relative left-[6px] flex flex-col gap-0.5"
+          >
+            <div
+              aria-disabled="false"
+              class="h-[14px] w-[18px] cursor-pointer rounded-level-3 bg-surface-neutral text-icon select-none group-hover:bg-surface-neutral-hovered group-hover:text-icon-hovered"
+              data-testid="increment"
+              role="button"
+              tabindex="-1"
+            >
+              <svg
+                class="rounded-level-3 active:bg-surface-neutral-pressed"
+                fill="none"
+                viewBox="0 0 18 14"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5.90169 9H12.0983C12.8493 9 13.27 8.24649 12.806 7.7324L9.70769 4.29945C9.34735 3.90018 8.65265 3.90018 8.29231 4.29945L5.19399 7.7324C4.73001 8.24649 5.15069 9 5.90169 9Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+            <div
+              aria-disabled="false"
+              class="h-[14px] w-[18px] cursor-pointer rounded-level-3 bg-surface-neutral text-icon select-none group-hover:bg-surface-neutral-hovered group-hover:text-icon-hovered"
+              data-testid="decrement"
+              role="button"
+              tabindex="-1"
+            >
+              <svg
+                class="rounded-level-3 active:bg-surface-neutral-pressed"
+                fill="none"
+                viewBox="0 0 18 14"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.0983 5L5.90169 5C5.15069 5 4.73001 5.75351 5.19399 6.2676L8.29231 9.70055C8.65265 10.0998 9.34735 10.0998 9.70769 9.70055L12.806 6.2676C13.27 5.75351 12.8493 5 12.0983 5Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          class="inline-flex gap-1"
+        >
+          <p
+            class="shrink grow basis-0 text-sm font-normal leading-5 text-subdued"
+          >
+            Lorem ipsum dolor sit amet, consetetur
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="inline-flex w-full flex-col items-start justify-start gap-1"
+    >
+      <label
+        class="w-full text-sm font-medium leading-tight text"
+        for="test-number-input-field"
+      >
+        Input text field
+      </label>
+      <div
+        class="group inline-flex h-9 w-full items-center justify-start gap-1 rounded-level-2 border border-solid border-default bg-interactive-plain py-2 pl-3 pr-2 focus-within:border-focus focus-within:ring-1 focus-within:ring-focus hover:border-hovered hover:bg-interactive-plain-hovered hover:focus-within:border-focus hover:focus-within:bg-interactive-plain"
+      >
+        <input
+          class="w-full rounded font-normal appearance-none text uikit-hide-number-spin-controls focus:outline-none text-base bg-transparent"
+          data-testid="test-text-input"
+          id="test-number-input-field"
+          max="10"
+          min="0"
+          type="number"
+          value="6"
+        />
+        <div
+          class="relative left-[6px] flex flex-col gap-0.5"
+        >
+          <div
+            aria-disabled="false"
+            class="h-[14px] w-[18px] cursor-pointer rounded-level-3 bg-surface-neutral text-icon select-none group-hover:bg-surface-neutral-hovered group-hover:text-icon-hovered"
+            data-testid="increment"
+            role="button"
+            tabindex="-1"
+          >
+            <svg
+              class="rounded-level-3 active:bg-surface-neutral-pressed"
+              fill="none"
+              viewBox="0 0 18 14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5.90169 9H12.0983C12.8493 9 13.27 8.24649 12.806 7.7324L9.70769 4.29945C9.34735 3.90018 8.65265 3.90018 8.29231 4.29945L5.19399 7.7324C4.73001 8.24649 5.15069 9 5.90169 9Z"
+                fill="currentColor"
+              />
+            </svg>
+          </div>
+          <div
+            aria-disabled="false"
+            class="h-[14px] w-[18px] cursor-pointer rounded-level-3 bg-surface-neutral text-icon select-none group-hover:bg-surface-neutral-hovered group-hover:text-icon-hovered"
+            data-testid="decrement"
+            role="button"
+            tabindex="-1"
+          >
+            <svg
+              class="rounded-level-3 active:bg-surface-neutral-pressed"
+              fill="none"
+              viewBox="0 0 18 14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.0983 5L5.90169 5C5.15069 5 4.73001 5.75351 5.19399 6.2676L8.29231 9.70055C8.65265 10.0998 9.34735 10.0998 9.70769 9.70055L12.806 6.2676C13.27 5.75351 12.8493 5 12.0983 5Z"
+                fill="currentColor"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div
+        class="inline-flex gap-1"
+      >
+        <p
+          class="shrink grow basis-0 text-sm font-normal leading-5 text-subdued"
+        >
+          Lorem ipsum dolor sit amet, consetetur
+        </p>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<InputField /> > renders a \`text\` InputField 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="inline-flex w-full flex-col items-start justify-start gap-1"
+      >
+        <label
+          class="w-full text-sm font-medium leading-tight text"
+          for="test-text-input-field"
+        >
+          Input text field
+        </label>
+        <div
+          class="group inline-flex h-9 w-full items-center justify-start gap-1 rounded-level-2 border border-solid bg-interactive-plain py-2 pl-3 pr-2 hover:bg-interactive-plain-hovered hover:focus-within:bg-interactive-plain border-critical focus-within:border-critical focus-within:ring-1 focus-within:ring-critical hover:border-interactive-critical-hovered hover:focus-within:border-critical"
+        >
+          <div
+            class="flex h-5 w-5 flex-shrink-0 items-center justify-center text-critical"
+          >
+            SVGPrefixIcon
+          </div>
+          <input
+            class="w-full rounded font-normal appearance-none text uikit-hide-number-spin-controls focus:outline-none text-base bg-transparent text-critical"
+            data-testid="test-text-input"
+            id="test-text-input-field"
+            maxlength="255"
+            type="text"
+            value="Test input text field"
+          />
+          <div
+            class="flex h-5 w-5 flex-shrink-0 items-center justify-center text-critical"
+          >
+            SVGSuffixIcon
+          </div>
+        </div>
+        <div
+          class="inline-flex gap-2 text-critical"
+        >
+          <div
+            class="inline-flex h-5 w-5 justify-center"
+          >
+            <svg
+              fill="none"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10 18C12.1217 18 14.1566 17.1571 15.6569 15.6569C17.1571 14.1566 18 12.1217 18 10C18 7.87827 17.1571 5.84344 15.6569 4.34315C14.1566 2.84285 12.1217 2 10 2C7.87827 2 5.84344 2.84285 4.34315 4.34315C2.84285 5.84344 2 7.87827 2 10C2 12.1217 2.84285 14.1566 4.34315 15.6569C5.84344 17.1571 7.87827 18 10 18ZM10 6C10.4156 6 10.75 6.33437 10.75 6.75V10.25C10.75 10.6656 10.4156 11 10 11C9.58437 11 9.25 10.6656 9.25 10.25V6.75C9.25 6.33437 9.58437 6 10 6ZM9 13C9 12.7348 9.10536 12.4804 9.29289 12.2929C9.48043 12.1054 9.73478 12 10 12C10.2652 12 10.5196 12.1054 10.7071 12.2929C10.8946 12.4804 11 12.7348 11 13C11 13.2652 10.8946 13.5196 10.7071 13.7071C10.5196 13.8946 10.2652 14 10 14C9.73478 14 9.48043 13.8946 9.29289 13.7071C9.10536 13.5196 9 13.2652 9 13Z"
+                fill="currentColor"
+              />
+            </svg>
+          </div>
+          <div
+            class="text-sm font-normal text-critical"
+          >
+            Error message
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="inline-flex w-full flex-col items-start justify-start gap-1"
+    >
+      <label
+        class="w-full text-sm font-medium leading-tight text"
+        for="test-text-input-field"
+      >
+        Input text field
+      </label>
+      <div
+        class="group inline-flex h-9 w-full items-center justify-start gap-1 rounded-level-2 border border-solid bg-interactive-plain py-2 pl-3 pr-2 hover:bg-interactive-plain-hovered hover:focus-within:bg-interactive-plain border-critical focus-within:border-critical focus-within:ring-1 focus-within:ring-critical hover:border-interactive-critical-hovered hover:focus-within:border-critical"
+      >
+        <div
+          class="flex h-5 w-5 flex-shrink-0 items-center justify-center text-critical"
+        >
+          SVGPrefixIcon
+        </div>
+        <input
+          class="w-full rounded font-normal appearance-none text uikit-hide-number-spin-controls focus:outline-none text-base bg-transparent text-critical"
+          data-testid="test-text-input"
+          id="test-text-input-field"
+          maxlength="255"
+          type="text"
+          value="Test input text field"
+        />
+        <div
+          class="flex h-5 w-5 flex-shrink-0 items-center justify-center text-critical"
+        >
+          SVGSuffixIcon
+        </div>
+      </div>
+      <div
+        class="inline-flex gap-2 text-critical"
+      >
+        <div
+          class="inline-flex h-5 w-5 justify-center"
+        >
+          <svg
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10 18C12.1217 18 14.1566 17.1571 15.6569 15.6569C17.1571 14.1566 18 12.1217 18 10C18 7.87827 17.1571 5.84344 15.6569 4.34315C14.1566 2.84285 12.1217 2 10 2C7.87827 2 5.84344 2.84285 4.34315 4.34315C2.84285 5.84344 2 7.87827 2 10C2 12.1217 2.84285 14.1566 4.34315 15.6569C5.84344 17.1571 7.87827 18 10 18ZM10 6C10.4156 6 10.75 6.33437 10.75 6.75V10.25C10.75 10.6656 10.4156 11 10 11C9.58437 11 9.25 10.6656 9.25 10.25V6.75C9.25 6.33437 9.58437 6 10 6ZM9 13C9 12.7348 9.10536 12.4804 9.29289 12.2929C9.48043 12.1054 9.73478 12 10 12C10.2652 12 10.5196 12.1054 10.7071 12.2929C10.8946 12.4804 11 12.7348 11 13C11 13.2652 10.8946 13.5196 10.7071 13.7071C10.5196 13.8946 10.2652 14 10 14C9.73478 14 9.48043 13.8946 9.29289 13.7071C9.10536 13.5196 9 13.2652 9 13Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+        <div
+          class="text-sm font-normal text-critical"
+        >
+          Error message
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

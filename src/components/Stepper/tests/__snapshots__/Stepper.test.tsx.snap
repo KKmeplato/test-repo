@@ -1,0 +1,1223 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Stepper /> > custom max value reached 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="inline-flex justify-center rounded-interactive-elements-default bg-surface-neutral items-center gap-1"
+      >
+        <button
+          class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 min-w-0 p-2"
+          data-outline="false"
+          data-plain="false"
+          data-size="medium"
+          data-variant="primary"
+          id="stepper-subtract"
+        >
+          <span
+            class="inline-flex h-5 w-5 flex-col items-center justify-center rounded-sm"
+          >
+            <svg
+              fill="none"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18 10C18 10.6808 17.45 11.2308 16.7692 11.2308H3.23077C2.55 11.2308 2 10.6808 2 10C2 9.31923 2.55 8.76923 3.23077 8.76923H16.7692C17.45 8.76923 18 9.31923 18 10Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <span
+            class="sr-only"
+          >
+            Decrement value
+          </span>
+        </button>
+        <input
+          class="uikit-hide-number-spin-controls rounded-interactive-elements-default inline-flex justify-center items-center border border-solid border-default bg-interactive-plain text-xs font-semibold font-display text text-center hover:border-hovered hover:bg-interactive-plain-hovered active:border-pressed active:bg-interactive-plain-pressed disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled enabled:focus-visible:outline-focus focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 py-1 px-[7px] h-5 w-12"
+          id="stepper-input"
+          max="500"
+          min="0"
+          type="number"
+          value="500"
+        />
+        <button
+          aria-disabled="true"
+          class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 min-w-0 p-2"
+          data-outline="false"
+          data-plain="false"
+          data-size="medium"
+          data-variant="primary"
+          disabled=""
+          id="stepper-add"
+        >
+          <span
+            class="inline-flex h-5 w-5 flex-col items-center justify-center rounded-sm text-icon-disabled"
+          >
+            <svg
+              fill="none"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.198 3.21496C11.198 2.55235 10.66 2.01432 9.99735 2.01432C9.33475 2.01432 8.79671 2.55235 8.79671 3.21496L8.79936 8.79937L3.21496 8.80202C2.55235 8.80202 2.01432 9.34005 2.01432 10.0027C2.01432 10.6653 2.55235 11.2033 3.21496 11.2033L8.79936 11.2006L8.80201 16.785C8.80201 17.4476 9.34005 17.9857 10.0027 17.9857C10.6653 17.9857 11.2033 17.4476 11.2033 16.785L11.2006 11.2006L16.785 11.198C17.4476 11.198 17.9857 10.66 17.9857 9.99735C17.9857 9.33475 17.4476 8.79671 16.785 8.79671L11.2006 8.79937L11.198 3.21496Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <span
+            class="sr-only"
+          >
+            Increment value
+          </span>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="inline-flex justify-center rounded-interactive-elements-default bg-surface-neutral items-center gap-1"
+    >
+      <button
+        class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 min-w-0 p-2"
+        data-outline="false"
+        data-plain="false"
+        data-size="medium"
+        data-variant="primary"
+        id="stepper-subtract"
+      >
+        <span
+          class="inline-flex h-5 w-5 flex-col items-center justify-center rounded-sm"
+        >
+          <svg
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18 10C18 10.6808 17.45 11.2308 16.7692 11.2308H3.23077C2.55 11.2308 2 10.6808 2 10C2 9.31923 2.55 8.76923 3.23077 8.76923H16.7692C17.45 8.76923 18 9.31923 18 10Z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <span
+          class="sr-only"
+        >
+          Decrement value
+        </span>
+      </button>
+      <input
+        class="uikit-hide-number-spin-controls rounded-interactive-elements-default inline-flex justify-center items-center border border-solid border-default bg-interactive-plain text-xs font-semibold font-display text text-center hover:border-hovered hover:bg-interactive-plain-hovered active:border-pressed active:bg-interactive-plain-pressed disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled enabled:focus-visible:outline-focus focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 py-1 px-[7px] h-5 w-12"
+        id="stepper-input"
+        max="500"
+        min="0"
+        type="number"
+        value="500"
+      />
+      <button
+        aria-disabled="true"
+        class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 min-w-0 p-2"
+        data-outline="false"
+        data-plain="false"
+        data-size="medium"
+        data-variant="primary"
+        disabled=""
+        id="stepper-add"
+      >
+        <span
+          class="inline-flex h-5 w-5 flex-col items-center justify-center rounded-sm text-icon-disabled"
+        >
+          <svg
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.198 3.21496C11.198 2.55235 10.66 2.01432 9.99735 2.01432C9.33475 2.01432 8.79671 2.55235 8.79671 3.21496L8.79936 8.79937L3.21496 8.80202C2.55235 8.80202 2.01432 9.34005 2.01432 10.0027C2.01432 10.6653 2.55235 11.2033 3.21496 11.2033L8.79936 11.2006L8.80201 16.785C8.80201 17.4476 9.34005 17.9857 10.0027 17.9857C10.6653 17.9857 11.2033 17.4476 11.2033 16.785L11.2006 11.2006L16.785 11.198C17.4476 11.198 17.9857 10.66 17.9857 9.99735C17.9857 9.33475 17.4476 8.79671 16.785 8.79671L11.2006 8.79937L11.198 3.21496Z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <span
+          class="sr-only"
+        >
+          Increment value
+        </span>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Stepper /> > custom min value reached 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="inline-flex justify-center rounded-interactive-elements-default bg-surface-neutral items-center gap-1"
+      >
+        <button
+          aria-disabled="true"
+          class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 min-w-0 p-2"
+          data-outline="false"
+          data-plain="false"
+          data-size="medium"
+          data-variant="primary"
+          disabled=""
+          id="stepper-subtract"
+        >
+          <span
+            class="inline-flex h-5 w-5 flex-col items-center justify-center rounded-sm text-icon-disabled"
+          >
+            <svg
+              fill="none"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18 10C18 10.6808 17.45 11.2308 16.7692 11.2308H3.23077C2.55 11.2308 2 10.6808 2 10C2 9.31923 2.55 8.76923 3.23077 8.76923H16.7692C17.45 8.76923 18 9.31923 18 10Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <span
+            class="sr-only"
+          >
+            Decrement value
+          </span>
+        </button>
+        <input
+          class="uikit-hide-number-spin-controls rounded-interactive-elements-default inline-flex justify-center items-center border border-solid border-default bg-interactive-plain text-xs font-semibold font-display text text-center hover:border-hovered hover:bg-interactive-plain-hovered active:border-pressed active:bg-interactive-plain-pressed disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled enabled:focus-visible:outline-focus focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 py-1 px-[7px] h-5 w-12"
+          id="stepper-input"
+          max="9999"
+          min="500"
+          type="number"
+          value="500"
+        />
+        <button
+          class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 min-w-0 p-2"
+          data-outline="false"
+          data-plain="false"
+          data-size="medium"
+          data-variant="primary"
+          id="stepper-add"
+        >
+          <span
+            class="inline-flex h-5 w-5 flex-col items-center justify-center rounded-sm"
+          >
+            <svg
+              fill="none"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.198 3.21496C11.198 2.55235 10.66 2.01432 9.99735 2.01432C9.33475 2.01432 8.79671 2.55235 8.79671 3.21496L8.79936 8.79937L3.21496 8.80202C2.55235 8.80202 2.01432 9.34005 2.01432 10.0027C2.01432 10.6653 2.55235 11.2033 3.21496 11.2033L8.79936 11.2006L8.80201 16.785C8.80201 17.4476 9.34005 17.9857 10.0027 17.9857C10.6653 17.9857 11.2033 17.4476 11.2033 16.785L11.2006 11.2006L16.785 11.198C17.4476 11.198 17.9857 10.66 17.9857 9.99735C17.9857 9.33475 17.4476 8.79671 16.785 8.79671L11.2006 8.79937L11.198 3.21496Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <span
+            class="sr-only"
+          >
+            Increment value
+          </span>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="inline-flex justify-center rounded-interactive-elements-default bg-surface-neutral items-center gap-1"
+    >
+      <button
+        aria-disabled="true"
+        class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 min-w-0 p-2"
+        data-outline="false"
+        data-plain="false"
+        data-size="medium"
+        data-variant="primary"
+        disabled=""
+        id="stepper-subtract"
+      >
+        <span
+          class="inline-flex h-5 w-5 flex-col items-center justify-center rounded-sm text-icon-disabled"
+        >
+          <svg
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18 10C18 10.6808 17.45 11.2308 16.7692 11.2308H3.23077C2.55 11.2308 2 10.6808 2 10C2 9.31923 2.55 8.76923 3.23077 8.76923H16.7692C17.45 8.76923 18 9.31923 18 10Z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <span
+          class="sr-only"
+        >
+          Decrement value
+        </span>
+      </button>
+      <input
+        class="uikit-hide-number-spin-controls rounded-interactive-elements-default inline-flex justify-center items-center border border-solid border-default bg-interactive-plain text-xs font-semibold font-display text text-center hover:border-hovered hover:bg-interactive-plain-hovered active:border-pressed active:bg-interactive-plain-pressed disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled enabled:focus-visible:outline-focus focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 py-1 px-[7px] h-5 w-12"
+        id="stepper-input"
+        max="9999"
+        min="500"
+        type="number"
+        value="500"
+      />
+      <button
+        class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 min-w-0 p-2"
+        data-outline="false"
+        data-plain="false"
+        data-size="medium"
+        data-variant="primary"
+        id="stepper-add"
+      >
+        <span
+          class="inline-flex h-5 w-5 flex-col items-center justify-center rounded-sm"
+        >
+          <svg
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.198 3.21496C11.198 2.55235 10.66 2.01432 9.99735 2.01432C9.33475 2.01432 8.79671 2.55235 8.79671 3.21496L8.79936 8.79937L3.21496 8.80202C2.55235 8.80202 2.01432 9.34005 2.01432 10.0027C2.01432 10.6653 2.55235 11.2033 3.21496 11.2033L8.79936 11.2006L8.80201 16.785C8.80201 17.4476 9.34005 17.9857 10.0027 17.9857C10.6653 17.9857 11.2033 17.4476 11.2033 16.785L11.2006 11.2006L16.785 11.198C17.4476 11.198 17.9857 10.66 17.9857 9.99735C17.9857 9.33475 17.4476 8.79671 16.785 8.79671L11.2006 8.79937L11.198 3.21496Z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <span
+          class="sr-only"
+        >
+          Increment value
+        </span>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Stepper /> > default max value reached 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="inline-flex justify-center rounded-interactive-elements-default bg-surface-neutral items-center gap-1"
+      >
+        <button
+          class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 min-w-0 p-2"
+          data-outline="false"
+          data-plain="false"
+          data-size="medium"
+          data-variant="primary"
+          id="stepper-subtract"
+        >
+          <span
+            class="inline-flex h-5 w-5 flex-col items-center justify-center rounded-sm"
+          >
+            <svg
+              fill="none"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18 10C18 10.6808 17.45 11.2308 16.7692 11.2308H3.23077C2.55 11.2308 2 10.6808 2 10C2 9.31923 2.55 8.76923 3.23077 8.76923H16.7692C17.45 8.76923 18 9.31923 18 10Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <span
+            class="sr-only"
+          >
+            Decrement value
+          </span>
+        </button>
+        <input
+          class="uikit-hide-number-spin-controls rounded-interactive-elements-default inline-flex justify-center items-center border border-solid border-default bg-interactive-plain text-xs font-semibold font-display text text-center hover:border-hovered hover:bg-interactive-plain-hovered active:border-pressed active:bg-interactive-plain-pressed disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled enabled:focus-visible:outline-focus focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 py-1 px-[7px] h-5 w-12"
+          id="stepper-input"
+          max="9999"
+          min="0"
+          type="number"
+          value="9999"
+        />
+        <button
+          aria-disabled="true"
+          class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 min-w-0 p-2"
+          data-outline="false"
+          data-plain="false"
+          data-size="medium"
+          data-variant="primary"
+          disabled=""
+          id="stepper-add"
+        >
+          <span
+            class="inline-flex h-5 w-5 flex-col items-center justify-center rounded-sm text-icon-disabled"
+          >
+            <svg
+              fill="none"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.198 3.21496C11.198 2.55235 10.66 2.01432 9.99735 2.01432C9.33475 2.01432 8.79671 2.55235 8.79671 3.21496L8.79936 8.79937L3.21496 8.80202C2.55235 8.80202 2.01432 9.34005 2.01432 10.0027C2.01432 10.6653 2.55235 11.2033 3.21496 11.2033L8.79936 11.2006L8.80201 16.785C8.80201 17.4476 9.34005 17.9857 10.0027 17.9857C10.6653 17.9857 11.2033 17.4476 11.2033 16.785L11.2006 11.2006L16.785 11.198C17.4476 11.198 17.9857 10.66 17.9857 9.99735C17.9857 9.33475 17.4476 8.79671 16.785 8.79671L11.2006 8.79937L11.198 3.21496Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <span
+            class="sr-only"
+          >
+            Increment value
+          </span>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="inline-flex justify-center rounded-interactive-elements-default bg-surface-neutral items-center gap-1"
+    >
+      <button
+        class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 min-w-0 p-2"
+        data-outline="false"
+        data-plain="false"
+        data-size="medium"
+        data-variant="primary"
+        id="stepper-subtract"
+      >
+        <span
+          class="inline-flex h-5 w-5 flex-col items-center justify-center rounded-sm"
+        >
+          <svg
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18 10C18 10.6808 17.45 11.2308 16.7692 11.2308H3.23077C2.55 11.2308 2 10.6808 2 10C2 9.31923 2.55 8.76923 3.23077 8.76923H16.7692C17.45 8.76923 18 9.31923 18 10Z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <span
+          class="sr-only"
+        >
+          Decrement value
+        </span>
+      </button>
+      <input
+        class="uikit-hide-number-spin-controls rounded-interactive-elements-default inline-flex justify-center items-center border border-solid border-default bg-interactive-plain text-xs font-semibold font-display text text-center hover:border-hovered hover:bg-interactive-plain-hovered active:border-pressed active:bg-interactive-plain-pressed disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled enabled:focus-visible:outline-focus focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 py-1 px-[7px] h-5 w-12"
+        id="stepper-input"
+        max="9999"
+        min="0"
+        type="number"
+        value="9999"
+      />
+      <button
+        aria-disabled="true"
+        class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 min-w-0 p-2"
+        data-outline="false"
+        data-plain="false"
+        data-size="medium"
+        data-variant="primary"
+        disabled=""
+        id="stepper-add"
+      >
+        <span
+          class="inline-flex h-5 w-5 flex-col items-center justify-center rounded-sm text-icon-disabled"
+        >
+          <svg
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.198 3.21496C11.198 2.55235 10.66 2.01432 9.99735 2.01432C9.33475 2.01432 8.79671 2.55235 8.79671 3.21496L8.79936 8.79937L3.21496 8.80202C2.55235 8.80202 2.01432 9.34005 2.01432 10.0027C2.01432 10.6653 2.55235 11.2033 3.21496 11.2033L8.79936 11.2006L8.80201 16.785C8.80201 17.4476 9.34005 17.9857 10.0027 17.9857C10.6653 17.9857 11.2033 17.4476 11.2033 16.785L11.2006 11.2006L16.785 11.198C17.4476 11.198 17.9857 10.66 17.9857 9.99735C17.9857 9.33475 17.4476 8.79671 16.785 8.79671L11.2006 8.79937L11.198 3.21496Z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <span
+          class="sr-only"
+        >
+          Increment value
+        </span>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Stepper /> > default min value reached 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="inline-flex justify-center rounded-interactive-elements-default bg-surface-neutral items-center gap-1"
+      >
+        <button
+          aria-disabled="true"
+          class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 min-w-0 p-2"
+          data-outline="false"
+          data-plain="false"
+          data-size="medium"
+          data-variant="primary"
+          disabled=""
+          id="stepper-subtract"
+        >
+          <span
+            class="inline-flex h-5 w-5 flex-col items-center justify-center rounded-sm text-icon-disabled"
+          >
+            <svg
+              fill="none"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18 10C18 10.6808 17.45 11.2308 16.7692 11.2308H3.23077C2.55 11.2308 2 10.6808 2 10C2 9.31923 2.55 8.76923 3.23077 8.76923H16.7692C17.45 8.76923 18 9.31923 18 10Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <span
+            class="sr-only"
+          >
+            Decrement value
+          </span>
+        </button>
+        <input
+          class="uikit-hide-number-spin-controls rounded-interactive-elements-default inline-flex justify-center items-center border border-solid border-default bg-interactive-plain text-xs font-semibold font-display text text-center hover:border-hovered hover:bg-interactive-plain-hovered active:border-pressed active:bg-interactive-plain-pressed disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled enabled:focus-visible:outline-focus focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 py-1 px-[7px] h-5 w-12"
+          id="stepper-input"
+          max="9999"
+          min="0"
+          type="number"
+          value="0"
+        />
+        <button
+          class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 min-w-0 p-2"
+          data-outline="false"
+          data-plain="false"
+          data-size="medium"
+          data-variant="primary"
+          id="stepper-add"
+        >
+          <span
+            class="inline-flex h-5 w-5 flex-col items-center justify-center rounded-sm"
+          >
+            <svg
+              fill="none"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.198 3.21496C11.198 2.55235 10.66 2.01432 9.99735 2.01432C9.33475 2.01432 8.79671 2.55235 8.79671 3.21496L8.79936 8.79937L3.21496 8.80202C2.55235 8.80202 2.01432 9.34005 2.01432 10.0027C2.01432 10.6653 2.55235 11.2033 3.21496 11.2033L8.79936 11.2006L8.80201 16.785C8.80201 17.4476 9.34005 17.9857 10.0027 17.9857C10.6653 17.9857 11.2033 17.4476 11.2033 16.785L11.2006 11.2006L16.785 11.198C17.4476 11.198 17.9857 10.66 17.9857 9.99735C17.9857 9.33475 17.4476 8.79671 16.785 8.79671L11.2006 8.79937L11.198 3.21496Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <span
+            class="sr-only"
+          >
+            Increment value
+          </span>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="inline-flex justify-center rounded-interactive-elements-default bg-surface-neutral items-center gap-1"
+    >
+      <button
+        aria-disabled="true"
+        class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 min-w-0 p-2"
+        data-outline="false"
+        data-plain="false"
+        data-size="medium"
+        data-variant="primary"
+        disabled=""
+        id="stepper-subtract"
+      >
+        <span
+          class="inline-flex h-5 w-5 flex-col items-center justify-center rounded-sm text-icon-disabled"
+        >
+          <svg
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18 10C18 10.6808 17.45 11.2308 16.7692 11.2308H3.23077C2.55 11.2308 2 10.6808 2 10C2 9.31923 2.55 8.76923 3.23077 8.76923H16.7692C17.45 8.76923 18 9.31923 18 10Z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <span
+          class="sr-only"
+        >
+          Decrement value
+        </span>
+      </button>
+      <input
+        class="uikit-hide-number-spin-controls rounded-interactive-elements-default inline-flex justify-center items-center border border-solid border-default bg-interactive-plain text-xs font-semibold font-display text text-center hover:border-hovered hover:bg-interactive-plain-hovered active:border-pressed active:bg-interactive-plain-pressed disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled enabled:focus-visible:outline-focus focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 py-1 px-[7px] h-5 w-12"
+        id="stepper-input"
+        max="9999"
+        min="0"
+        type="number"
+        value="0"
+      />
+      <button
+        class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 min-w-0 p-2"
+        data-outline="false"
+        data-plain="false"
+        data-size="medium"
+        data-variant="primary"
+        id="stepper-add"
+      >
+        <span
+          class="inline-flex h-5 w-5 flex-col items-center justify-center rounded-sm"
+        >
+          <svg
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.198 3.21496C11.198 2.55235 10.66 2.01432 9.99735 2.01432C9.33475 2.01432 8.79671 2.55235 8.79671 3.21496L8.79936 8.79937L3.21496 8.80202C2.55235 8.80202 2.01432 9.34005 2.01432 10.0027C2.01432 10.6653 2.55235 11.2033 3.21496 11.2033L8.79936 11.2006L8.80201 16.785C8.80201 17.4476 9.34005 17.9857 10.0027 17.9857C10.6653 17.9857 11.2033 17.4476 11.2033 16.785L11.2006 11.2006L16.785 11.198C17.4476 11.198 17.9857 10.66 17.9857 9.99735C17.9857 9.33475 17.4476 8.79671 16.785 8.79671L11.2006 8.79937L11.198 3.21496Z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <span
+          class="sr-only"
+        >
+          Increment value
+        </span>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Stepper /> > disabled 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="inline-flex justify-center rounded-interactive-elements-default bg-surface-neutral items-center gap-1"
+      >
+        <button
+          aria-disabled="true"
+          class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 min-w-0 p-2"
+          data-outline="false"
+          data-plain="false"
+          data-size="medium"
+          data-variant="primary"
+          disabled=""
+          id="stepper-subtract"
+        >
+          <span
+            class="inline-flex h-5 w-5 flex-col items-center justify-center rounded-sm text-icon-disabled"
+          >
+            <svg
+              fill="none"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18 10C18 10.6808 17.45 11.2308 16.7692 11.2308H3.23077C2.55 11.2308 2 10.6808 2 10C2 9.31923 2.55 8.76923 3.23077 8.76923H16.7692C17.45 8.76923 18 9.31923 18 10Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <span
+            class="sr-only"
+          >
+            Decrement value
+          </span>
+        </button>
+        <input
+          aria-disabled="true"
+          class="uikit-hide-number-spin-controls rounded-interactive-elements-default inline-flex justify-center items-center border border-solid border-default bg-interactive-plain text-xs font-semibold font-display text text-center hover:border-hovered hover:bg-interactive-plain-hovered active:border-pressed active:bg-interactive-plain-pressed disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled enabled:focus-visible:outline-focus focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 py-1 px-[7px] h-5 w-12"
+          disabled=""
+          id="stepper-input"
+          max="9999"
+          min="0"
+          type="number"
+          value="42"
+        />
+        <button
+          aria-disabled="true"
+          class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 min-w-0 p-2"
+          data-outline="false"
+          data-plain="false"
+          data-size="medium"
+          data-variant="primary"
+          disabled=""
+          id="stepper-add"
+        >
+          <span
+            class="inline-flex h-5 w-5 flex-col items-center justify-center rounded-sm text-icon-disabled"
+          >
+            <svg
+              fill="none"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.198 3.21496C11.198 2.55235 10.66 2.01432 9.99735 2.01432C9.33475 2.01432 8.79671 2.55235 8.79671 3.21496L8.79936 8.79937L3.21496 8.80202C2.55235 8.80202 2.01432 9.34005 2.01432 10.0027C2.01432 10.6653 2.55235 11.2033 3.21496 11.2033L8.79936 11.2006L8.80201 16.785C8.80201 17.4476 9.34005 17.9857 10.0027 17.9857C10.6653 17.9857 11.2033 17.4476 11.2033 16.785L11.2006 11.2006L16.785 11.198C17.4476 11.198 17.9857 10.66 17.9857 9.99735C17.9857 9.33475 17.4476 8.79671 16.785 8.79671L11.2006 8.79937L11.198 3.21496Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <span
+            class="sr-only"
+          >
+            Increment value
+          </span>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="inline-flex justify-center rounded-interactive-elements-default bg-surface-neutral items-center gap-1"
+    >
+      <button
+        aria-disabled="true"
+        class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 min-w-0 p-2"
+        data-outline="false"
+        data-plain="false"
+        data-size="medium"
+        data-variant="primary"
+        disabled=""
+        id="stepper-subtract"
+      >
+        <span
+          class="inline-flex h-5 w-5 flex-col items-center justify-center rounded-sm text-icon-disabled"
+        >
+          <svg
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18 10C18 10.6808 17.45 11.2308 16.7692 11.2308H3.23077C2.55 11.2308 2 10.6808 2 10C2 9.31923 2.55 8.76923 3.23077 8.76923H16.7692C17.45 8.76923 18 9.31923 18 10Z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <span
+          class="sr-only"
+        >
+          Decrement value
+        </span>
+      </button>
+      <input
+        aria-disabled="true"
+        class="uikit-hide-number-spin-controls rounded-interactive-elements-default inline-flex justify-center items-center border border-solid border-default bg-interactive-plain text-xs font-semibold font-display text text-center hover:border-hovered hover:bg-interactive-plain-hovered active:border-pressed active:bg-interactive-plain-pressed disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled enabled:focus-visible:outline-focus focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 py-1 px-[7px] h-5 w-12"
+        disabled=""
+        id="stepper-input"
+        max="9999"
+        min="0"
+        type="number"
+        value="42"
+      />
+      <button
+        aria-disabled="true"
+        class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 min-w-0 p-2"
+        data-outline="false"
+        data-plain="false"
+        data-size="medium"
+        data-variant="primary"
+        disabled=""
+        id="stepper-add"
+      >
+        <span
+          class="inline-flex h-5 w-5 flex-col items-center justify-center rounded-sm text-icon-disabled"
+        >
+          <svg
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.198 3.21496C11.198 2.55235 10.66 2.01432 9.99735 2.01432C9.33475 2.01432 8.79671 2.55235 8.79671 3.21496L8.79936 8.79937L3.21496 8.80202C2.55235 8.80202 2.01432 9.34005 2.01432 10.0027C2.01432 10.6653 2.55235 11.2033 3.21496 11.2033L8.79936 11.2006L8.80201 16.785C8.80201 17.4476 9.34005 17.9857 10.0027 17.9857C10.6653 17.9857 11.2033 17.4476 11.2033 16.785L11.2006 11.2006L16.785 11.198C17.4476 11.198 17.9857 10.66 17.9857 9.99735C17.9857 9.33475 17.4476 8.79671 16.785 8.79671L11.2006 8.79937L11.198 3.21496Z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <span
+          class="sr-only"
+        >
+          Increment value
+        </span>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Stepper /> > renders correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="inline-flex justify-center rounded-interactive-elements-default bg-surface-neutral items-center gap-1"
+      >
+        <button
+          class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 min-w-0 p-2"
+          data-outline="false"
+          data-plain="false"
+          data-size="medium"
+          data-variant="primary"
+          id="stepper-subtract"
+        >
+          <span
+            class="inline-flex h-5 w-5 flex-col items-center justify-center rounded-sm"
+          >
+            <svg
+              fill="none"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18 10C18 10.6808 17.45 11.2308 16.7692 11.2308H3.23077C2.55 11.2308 2 10.6808 2 10C2 9.31923 2.55 8.76923 3.23077 8.76923H16.7692C17.45 8.76923 18 9.31923 18 10Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <span
+            class="sr-only"
+          >
+            Decrement value
+          </span>
+        </button>
+        <input
+          class="uikit-hide-number-spin-controls rounded-interactive-elements-default inline-flex justify-center items-center border border-solid border-default bg-interactive-plain text-xs font-semibold font-display text text-center hover:border-hovered hover:bg-interactive-plain-hovered active:border-pressed active:bg-interactive-plain-pressed disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled enabled:focus-visible:outline-focus focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 py-1 px-[7px] h-5 w-12"
+          id="stepper-input"
+          max="9999"
+          min="0"
+          type="number"
+          value="42"
+        />
+        <button
+          class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 min-w-0 p-2"
+          data-outline="false"
+          data-plain="false"
+          data-size="medium"
+          data-variant="primary"
+          id="stepper-add"
+        >
+          <span
+            class="inline-flex h-5 w-5 flex-col items-center justify-center rounded-sm"
+          >
+            <svg
+              fill="none"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.198 3.21496C11.198 2.55235 10.66 2.01432 9.99735 2.01432C9.33475 2.01432 8.79671 2.55235 8.79671 3.21496L8.79936 8.79937L3.21496 8.80202C2.55235 8.80202 2.01432 9.34005 2.01432 10.0027C2.01432 10.6653 2.55235 11.2033 3.21496 11.2033L8.79936 11.2006L8.80201 16.785C8.80201 17.4476 9.34005 17.9857 10.0027 17.9857C10.6653 17.9857 11.2033 17.4476 11.2033 16.785L11.2006 11.2006L16.785 11.198C17.4476 11.198 17.9857 10.66 17.9857 9.99735C17.9857 9.33475 17.4476 8.79671 16.785 8.79671L11.2006 8.79937L11.198 3.21496Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <span
+            class="sr-only"
+          >
+            Increment value
+          </span>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="inline-flex justify-center rounded-interactive-elements-default bg-surface-neutral items-center gap-1"
+    >
+      <button
+        class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 min-w-0 p-2"
+        data-outline="false"
+        data-plain="false"
+        data-size="medium"
+        data-variant="primary"
+        id="stepper-subtract"
+      >
+        <span
+          class="inline-flex h-5 w-5 flex-col items-center justify-center rounded-sm"
+        >
+          <svg
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18 10C18 10.6808 17.45 11.2308 16.7692 11.2308H3.23077C2.55 11.2308 2 10.6808 2 10C2 9.31923 2.55 8.76923 3.23077 8.76923H16.7692C17.45 8.76923 18 9.31923 18 10Z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <span
+          class="sr-only"
+        >
+          Decrement value
+        </span>
+      </button>
+      <input
+        class="uikit-hide-number-spin-controls rounded-interactive-elements-default inline-flex justify-center items-center border border-solid border-default bg-interactive-plain text-xs font-semibold font-display text text-center hover:border-hovered hover:bg-interactive-plain-hovered active:border-pressed active:bg-interactive-plain-pressed disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled enabled:focus-visible:outline-focus focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 py-1 px-[7px] h-5 w-12"
+        id="stepper-input"
+        max="9999"
+        min="0"
+        type="number"
+        value="42"
+      />
+      <button
+        class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm font-medium leading-tight enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 bg-primary text-on-interactive hover:bg-interactive-primary-hovered active:bg-interactive-primary-pressed disabled:text-disabled disabled:bg-interactive-disabled h-9 min-w-0 p-2"
+        data-outline="false"
+        data-plain="false"
+        data-size="medium"
+        data-variant="primary"
+        id="stepper-add"
+      >
+        <span
+          class="inline-flex h-5 w-5 flex-col items-center justify-center rounded-sm"
+        >
+          <svg
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.198 3.21496C11.198 2.55235 10.66 2.01432 9.99735 2.01432C9.33475 2.01432 8.79671 2.55235 8.79671 3.21496L8.79936 8.79937L3.21496 8.80202C2.55235 8.80202 2.01432 9.34005 2.01432 10.0027C2.01432 10.6653 2.55235 11.2033 3.21496 11.2033L8.79936 11.2006L8.80201 16.785C8.80201 17.4476 9.34005 17.9857 10.0027 17.9857C10.6653 17.9857 11.2033 17.4476 11.2033 16.785L11.2006 11.2006L16.785 11.198C17.4476 11.198 17.9857 10.66 17.9857 9.99735C17.9857 9.33475 17.4476 8.79671 16.785 8.79671L11.2006 8.79937L11.198 3.21496Z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <span
+          class="sr-only"
+        >
+          Increment value
+        </span>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

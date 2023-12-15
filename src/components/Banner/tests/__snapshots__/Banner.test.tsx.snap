@@ -1,0 +1,916 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Banner /> > renders default and inside banners (variant:'critical') 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="inline-flex h-auto items-start justify-start gap-2 p-4 border bg-surface-critical border-critical w-full rounded-level-1"
+        role="alert"
+      >
+        <div
+          class="inline-flex flex-1 grow items-start gap-2 text"
+        >
+          <div
+            class="inline-flex h-5 w-5 flex-col items-center justify-center"
+          >
+            <svg
+              class="text-icon-critical"
+              fill="none"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10 18C12.1217 18 14.1566 17.1571 15.6569 15.6569C17.1571 14.1566 18 12.1217 18 10C18 7.87827 17.1571 5.84344 15.6569 4.34315C14.1566 2.84285 12.1217 2 10 2C7.87827 2 5.84344 2.84285 4.34315 4.34315C2.84285 5.84344 2 7.87827 2 10C2 12.1217 2.84285 14.1566 4.34315 15.6569C5.84344 17.1571 7.87827 18 10 18ZM10 6C10.4156 6 10.75 6.33437 10.75 6.75V10.25C10.75 10.6656 10.4156 11 10 11C9.58437 11 9.25 10.6656 9.25 10.25V6.75C9.25 6.33437 9.58437 6 10 6ZM9 13C9 12.7348 9.10536 12.4804 9.29289 12.2929C9.48043 12.1054 9.73478 12 10 12C10.2652 12 10.5196 12.1054 10.7071 12.2929C10.8946 12.4804 11 12.7348 11 13C11 13.2652 10.8946 13.5196 10.7071 13.7071C10.5196 13.8946 10.2652 14 10 14C9.73478 14 9.48043 13.8946 9.29289 13.7071C9.10536 13.5196 9 13.2652 9 13Z"
+                fill="currentColor"
+              />
+            </svg>
+          </div>
+          <div
+            class="inline-flex shrink grow basis-0 flex-col items-start justify-start gap-1"
+          >
+            <div
+              class="flex flex-col items-start justify-start gap-2 self-stretch"
+            >
+              <div
+                class="self-stretch text-xs font-normal text"
+              >
+                This is a body text this is a body text.
+              </div>
+              <div
+                class="flex items-center gap-2"
+              >
+                <button
+                  class="border rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm leading-5 font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-critical border-interactive-critical hover:border-interactive-critical-hovered active:border-interactive-critical-pressed hover:text-interactive-critical-hovered active:text-interactive-critical-pressed disabled:border-disabled disabled:text-disabled py-1 px-3"
+                  data-outline="true"
+                  data-plain="false"
+                  data-size="small"
+                  data-variant="critical"
+                >
+                  Label
+                </button>
+                <button
+                  class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-critical hover:text-interactive-critical-hovered active:text-interactive-critical-pressed disabled:text-disabled hover:bg-surface-critical-hovered active:bg-surface-critical-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+                  data-outline="false"
+                  data-plain="true"
+                  data-size="small"
+                  data-variant="critical"
+                >
+                  Label2
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="inline-flex h-auto items-start justify-start gap-2 p-4 border bg-surface-critical border-critical w-full rounded-level-1"
+      role="alert"
+    >
+      <div
+        class="inline-flex flex-1 grow items-start gap-2 text"
+      >
+        <div
+          class="inline-flex h-5 w-5 flex-col items-center justify-center"
+        >
+          <svg
+            class="text-icon-critical"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10 18C12.1217 18 14.1566 17.1571 15.6569 15.6569C17.1571 14.1566 18 12.1217 18 10C18 7.87827 17.1571 5.84344 15.6569 4.34315C14.1566 2.84285 12.1217 2 10 2C7.87827 2 5.84344 2.84285 4.34315 4.34315C2.84285 5.84344 2 7.87827 2 10C2 12.1217 2.84285 14.1566 4.34315 15.6569C5.84344 17.1571 7.87827 18 10 18ZM10 6C10.4156 6 10.75 6.33437 10.75 6.75V10.25C10.75 10.6656 10.4156 11 10 11C9.58437 11 9.25 10.6656 9.25 10.25V6.75C9.25 6.33437 9.58437 6 10 6ZM9 13C9 12.7348 9.10536 12.4804 9.29289 12.2929C9.48043 12.1054 9.73478 12 10 12C10.2652 12 10.5196 12.1054 10.7071 12.2929C10.8946 12.4804 11 12.7348 11 13C11 13.2652 10.8946 13.5196 10.7071 13.7071C10.5196 13.8946 10.2652 14 10 14C9.73478 14 9.48043 13.8946 9.29289 13.7071C9.10536 13.5196 9 13.2652 9 13Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+        <div
+          class="inline-flex shrink grow basis-0 flex-col items-start justify-start gap-1"
+        >
+          <div
+            class="flex flex-col items-start justify-start gap-2 self-stretch"
+          >
+            <div
+              class="self-stretch text-xs font-normal text"
+            >
+              This is a body text this is a body text.
+            </div>
+            <div
+              class="flex items-center gap-2"
+            >
+              <button
+                class="border rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm leading-5 font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-critical border-interactive-critical hover:border-interactive-critical-hovered active:border-interactive-critical-pressed hover:text-interactive-critical-hovered active:text-interactive-critical-pressed disabled:border-disabled disabled:text-disabled py-1 px-3"
+                data-outline="true"
+                data-plain="false"
+                data-size="small"
+                data-variant="critical"
+              >
+                Label
+              </button>
+              <button
+                class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-critical hover:text-interactive-critical-hovered active:text-interactive-critical-pressed disabled:text-disabled hover:bg-surface-critical-hovered active:bg-surface-critical-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+                data-outline="false"
+                data-plain="true"
+                data-size="small"
+                data-variant="critical"
+              >
+                Label2
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Banner /> > renders default and inside banners (variant:'default') 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="inline-flex h-auto items-start justify-start gap-2 p-4 border bg-surface border-default w-full rounded-level-1"
+        role="status"
+      >
+        <div
+          class="inline-flex flex-1 grow items-start gap-2 text"
+        >
+          <div
+            class="inline-flex h-5 w-5 flex-col items-center justify-center"
+          >
+            <svg
+              class="text-icon"
+              fill="none"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4.28571 2C3.025 2 2 3.025 2 4.28571V15.7143C2 16.975 3.025 18 4.28571 18H15.7143C16.975 18 18 16.975 18 15.7143V4.28571C18 3.025 16.975 2 15.7143 2H4.28571ZM8.57143 12.8571H9.42857V10.5714H8.57143C8.09643 10.5714 7.71429 10.1893 7.71429 9.71429C7.71429 9.23929 8.09643 8.85714 8.57143 8.85714H10.2857C10.7607 8.85714 11.1429 9.23929 11.1429 9.71429V12.8571H11.4286C11.9036 12.8571 12.2857 13.2393 12.2857 13.7143C12.2857 14.1893 11.9036 14.5714 11.4286 14.5714H8.57143C8.09643 14.5714 7.71429 14.1893 7.71429 13.7143C7.71429 13.2393 8.09643 12.8571 8.57143 12.8571ZM10 5.42857C10.3031 5.42857 10.5938 5.54898 10.8081 5.76331C11.0224 5.97763 11.1429 6.26832 11.1429 6.57143C11.1429 6.87453 11.0224 7.16522 10.8081 7.37955C10.5938 7.59388 10.3031 7.71429 10 7.71429C9.6969 7.71429 9.40621 7.59388 9.19188 7.37955C8.97755 7.16522 8.85714 6.87453 8.85714 6.57143C8.85714 6.26832 8.97755 5.97763 9.19188 5.76331C9.40621 5.54898 9.6969 5.42857 10 5.42857Z"
+                fill="currentColor"
+              />
+            </svg>
+          </div>
+          <div
+            class="inline-flex shrink grow basis-0 flex-col items-start justify-start gap-1"
+          >
+            <div
+              class="text-sm font-semibold text"
+            >
+              This is a title
+            </div>
+            <div
+              class="flex flex-col items-start justify-start gap-2 self-stretch"
+            >
+              <div
+                class="self-stretch text-xs font-normal text"
+              >
+                This is a body text this is a body text.
+              </div>
+              <div
+                class="flex items-center gap-2"
+              >
+                <button
+                  class="border rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm leading-5 font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 border-default text hover:border-hovered active:border-pressed disabled:text-disabled py-1 px-3"
+                  data-outline="true"
+                  data-plain="false"
+                  data-size="small"
+                  data-variant="basic"
+                >
+                  Label
+                </button>
+                <button
+                  class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text disabled:text-disabled hover:bg-surface-neutral-hovered active:bg-surface-neutral-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+                  data-outline="false"
+                  data-plain="true"
+                  data-size="small"
+                  data-variant="basic"
+                >
+                  Label2
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="inline-flex h-auto items-start justify-start gap-2 p-4 border bg-surface border-default w-full rounded-level-1"
+      role="status"
+    >
+      <div
+        class="inline-flex flex-1 grow items-start gap-2 text"
+      >
+        <div
+          class="inline-flex h-5 w-5 flex-col items-center justify-center"
+        >
+          <svg
+            class="text-icon"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4.28571 2C3.025 2 2 3.025 2 4.28571V15.7143C2 16.975 3.025 18 4.28571 18H15.7143C16.975 18 18 16.975 18 15.7143V4.28571C18 3.025 16.975 2 15.7143 2H4.28571ZM8.57143 12.8571H9.42857V10.5714H8.57143C8.09643 10.5714 7.71429 10.1893 7.71429 9.71429C7.71429 9.23929 8.09643 8.85714 8.57143 8.85714H10.2857C10.7607 8.85714 11.1429 9.23929 11.1429 9.71429V12.8571H11.4286C11.9036 12.8571 12.2857 13.2393 12.2857 13.7143C12.2857 14.1893 11.9036 14.5714 11.4286 14.5714H8.57143C8.09643 14.5714 7.71429 14.1893 7.71429 13.7143C7.71429 13.2393 8.09643 12.8571 8.57143 12.8571ZM10 5.42857C10.3031 5.42857 10.5938 5.54898 10.8081 5.76331C11.0224 5.97763 11.1429 6.26832 11.1429 6.57143C11.1429 6.87453 11.0224 7.16522 10.8081 7.37955C10.5938 7.59388 10.3031 7.71429 10 7.71429C9.6969 7.71429 9.40621 7.59388 9.19188 7.37955C8.97755 7.16522 8.85714 6.87453 8.85714 6.57143C8.85714 6.26832 8.97755 5.97763 9.19188 5.76331C9.40621 5.54898 9.6969 5.42857 10 5.42857Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+        <div
+          class="inline-flex shrink grow basis-0 flex-col items-start justify-start gap-1"
+        >
+          <div
+            class="text-sm font-semibold text"
+          >
+            This is a title
+          </div>
+          <div
+            class="flex flex-col items-start justify-start gap-2 self-stretch"
+          >
+            <div
+              class="self-stretch text-xs font-normal text"
+            >
+              This is a body text this is a body text.
+            </div>
+            <div
+              class="flex items-center gap-2"
+            >
+              <button
+                class="border rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm leading-5 font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 border-default text hover:border-hovered active:border-pressed disabled:text-disabled py-1 px-3"
+                data-outline="true"
+                data-plain="false"
+                data-size="small"
+                data-variant="basic"
+              >
+                Label
+              </button>
+              <button
+                class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text disabled:text-disabled hover:bg-surface-neutral-hovered active:bg-surface-neutral-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+                data-outline="false"
+                data-plain="true"
+                data-size="small"
+                data-variant="basic"
+              >
+                Label2
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Banner /> > renders default and inside banners (variant:'highlight') 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="inline-flex h-auto items-start justify-start gap-2 p-4 border bg-surface-highlight border-highlight w-full rounded-level-2"
+        role="status"
+      >
+        <div
+          class="inline-flex flex-1 grow items-start gap-2 text"
+        >
+          <div
+            class="inline-flex h-5 w-5 flex-col items-center justify-center"
+          >
+            <svg
+              class="text-icon-highlight"
+              fill="none"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.1816 6.75906C12.2223 6.9028 12.3535 6.99967 12.5004 6.99967C12.6472 6.99967 12.7785 6.9028 12.8191 6.75906L13.2503 5.24978L14.7596 4.81856C14.9033 4.77794 15.0002 4.6467 15.0002 4.49983C15.0002 4.35297 14.9033 4.22173 14.7596 4.1811L13.2503 3.74988L12.8191 2.24061C12.7785 2.09687 12.6472 2 12.5004 2C12.3535 2 12.2223 2.09687 12.1816 2.24061L11.7504 3.74988L10.2411 4.1811C10.0974 4.22173 10.0005 4.35297 10.0005 4.49983C10.0005 4.6467 10.0974 4.77794 10.2411 4.81856L11.7504 5.24978L12.1816 6.75906ZM8.66937 6.91842C8.39439 6.35908 7.59757 6.35908 7.32259 6.91842L5.87581 9.85573L2.64165 10.3276C2.02919 10.4151 1.78233 11.1713 2.22605 11.6056L4.56652 13.893L4.01656 17.1209C3.91031 17.7333 4.55402 18.202 5.10399 17.9114L7.99754 16.3865L10.8911 17.9114C11.4411 18.202 12.0848 17.7333 11.9785 17.1209L11.4254 13.893L13.7659 11.6056C14.2096 11.1713 13.9659 10.4151 13.3503 10.3276L10.1162 9.85573L8.66937 6.91842ZM15.4002 9.59949L15.7439 10.8057C15.7751 10.9182 15.8814 10.9994 16.0001 10.9994C16.1189 10.9994 16.222 10.9213 16.2564 10.8057L16.6001 9.59949L17.8063 9.25577C17.9188 9.22452 18 9.11827 18 8.99953C18 8.88079 17.9219 8.77767 17.8063 8.7433L16.6001 8.39957L16.2564 7.1934C16.2251 7.08091 16.1189 6.99967 16.0001 6.99967C15.8814 6.99967 15.7783 7.07779 15.7439 7.1934L15.4002 8.39957L14.194 8.7433C14.0815 8.77455 14.0003 8.88079 14.0003 8.99953C14.0003 9.11827 14.0784 9.22139 14.194 9.25577L15.4002 9.59949Z"
+                fill="currentColor"
+              />
+            </svg>
+          </div>
+          <div
+            class="inline-flex shrink grow basis-0 flex-col items-start justify-start gap-1"
+          >
+            <div
+              class="flex flex-col items-start justify-start gap-2 self-stretch"
+            >
+              <div
+                class="self-stretch text-xs font-normal text"
+              >
+                This is a body text this is a body text.
+              </div>
+              <div
+                class="flex items-center gap-2"
+              >
+                <button
+                  class="border rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm leading-5 font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-highlight border-interactive-highlight hover:border-interactive-highlight-hovered active:border-interactive-highlight-pressed hover:text-interactive-highlight-hovered active:text-interactive-highlight-pressed disabled:border-disabled disabled:text-disabled py-1 px-3"
+                  data-outline="true"
+                  data-plain="false"
+                  data-size="small"
+                  data-variant="highlight"
+                >
+                  Label
+                </button>
+                <button
+                  class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-highlight hover:text-interactive-highlight-hovered active:text-interactive-highlight-pressed disabled:text-disabled hover:bg-surface-highlight-hovered active:bg-surface-highlight-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+                  data-outline="false"
+                  data-plain="true"
+                  data-size="small"
+                  data-variant="highlight"
+                >
+                  Label2
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="inline-flex h-auto items-start justify-start gap-2 p-4 border bg-surface-highlight border-highlight w-full rounded-level-2"
+      role="status"
+    >
+      <div
+        class="inline-flex flex-1 grow items-start gap-2 text"
+      >
+        <div
+          class="inline-flex h-5 w-5 flex-col items-center justify-center"
+        >
+          <svg
+            class="text-icon-highlight"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12.1816 6.75906C12.2223 6.9028 12.3535 6.99967 12.5004 6.99967C12.6472 6.99967 12.7785 6.9028 12.8191 6.75906L13.2503 5.24978L14.7596 4.81856C14.9033 4.77794 15.0002 4.6467 15.0002 4.49983C15.0002 4.35297 14.9033 4.22173 14.7596 4.1811L13.2503 3.74988L12.8191 2.24061C12.7785 2.09687 12.6472 2 12.5004 2C12.3535 2 12.2223 2.09687 12.1816 2.24061L11.7504 3.74988L10.2411 4.1811C10.0974 4.22173 10.0005 4.35297 10.0005 4.49983C10.0005 4.6467 10.0974 4.77794 10.2411 4.81856L11.7504 5.24978L12.1816 6.75906ZM8.66937 6.91842C8.39439 6.35908 7.59757 6.35908 7.32259 6.91842L5.87581 9.85573L2.64165 10.3276C2.02919 10.4151 1.78233 11.1713 2.22605 11.6056L4.56652 13.893L4.01656 17.1209C3.91031 17.7333 4.55402 18.202 5.10399 17.9114L7.99754 16.3865L10.8911 17.9114C11.4411 18.202 12.0848 17.7333 11.9785 17.1209L11.4254 13.893L13.7659 11.6056C14.2096 11.1713 13.9659 10.4151 13.3503 10.3276L10.1162 9.85573L8.66937 6.91842ZM15.4002 9.59949L15.7439 10.8057C15.7751 10.9182 15.8814 10.9994 16.0001 10.9994C16.1189 10.9994 16.222 10.9213 16.2564 10.8057L16.6001 9.59949L17.8063 9.25577C17.9188 9.22452 18 9.11827 18 8.99953C18 8.88079 17.9219 8.77767 17.8063 8.7433L16.6001 8.39957L16.2564 7.1934C16.2251 7.08091 16.1189 6.99967 16.0001 6.99967C15.8814 6.99967 15.7783 7.07779 15.7439 7.1934L15.4002 8.39957L14.194 8.7433C14.0815 8.77455 14.0003 8.88079 14.0003 8.99953C14.0003 9.11827 14.0784 9.22139 14.194 9.25577L15.4002 9.59949Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+        <div
+          class="inline-flex shrink grow basis-0 flex-col items-start justify-start gap-1"
+        >
+          <div
+            class="flex flex-col items-start justify-start gap-2 self-stretch"
+          >
+            <div
+              class="self-stretch text-xs font-normal text"
+            >
+              This is a body text this is a body text.
+            </div>
+            <div
+              class="flex items-center gap-2"
+            >
+              <button
+                class="border rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm leading-5 font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-highlight border-interactive-highlight hover:border-interactive-highlight-hovered active:border-interactive-highlight-pressed hover:text-interactive-highlight-hovered active:text-interactive-highlight-pressed disabled:border-disabled disabled:text-disabled py-1 px-3"
+                data-outline="true"
+                data-plain="false"
+                data-size="small"
+                data-variant="highlight"
+              >
+                Label
+              </button>
+              <button
+                class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-highlight hover:text-interactive-highlight-hovered active:text-interactive-highlight-pressed disabled:text-disabled hover:bg-surface-highlight-hovered active:bg-surface-highlight-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+                data-outline="false"
+                data-plain="true"
+                data-size="small"
+                data-variant="highlight"
+              >
+                Label2
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Banner /> > renders default and inside banners (variant:'success') 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="inline-flex h-auto items-start justify-start gap-2 p-4 border bg-surface-success border-success w-full rounded-level-1"
+        role="status"
+      >
+        <div
+          class="inline-flex flex-1 grow items-start gap-2 text"
+        >
+          <div
+            class="inline-flex h-5 w-5 flex-col items-center justify-center"
+          >
+            <svg
+              class="text-icon-success"
+              fill="none"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10 18C14.4187 18 18 14.4187 18 10C18 5.58125 14.4187 2 10 2C5.58125 2 2 5.58125 2 10C2 14.4187 5.58125 18 10 18ZM13.5312 8.53125L9.53125 12.5312C9.2375 12.825 8.7625 12.825 8.47188 12.5312L6.47188 10.5312C6.17813 10.2375 6.17813 9.7625 6.47188 9.47188C6.76562 9.18125 7.24062 9.17813 7.53125 9.47188L9 10.9406L12.4688 7.46875C12.7625 7.175 13.2375 7.175 13.5281 7.46875C13.8187 7.7625 13.8219 8.2375 13.5281 8.52812L13.5312 8.53125Z"
+                fill="currentColor"
+              />
+            </svg>
+          </div>
+          <div
+            class="inline-flex shrink grow basis-0 flex-col items-start justify-start gap-1"
+          >
+            <div
+              class="flex flex-col items-start justify-start gap-2 self-stretch"
+            >
+              <div
+                class="self-stretch text-xs font-normal text"
+              >
+                This is a body text this is a body text.
+              </div>
+              <div
+                class="flex items-center gap-2"
+              >
+                <button
+                  class="border rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm leading-5 font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-success border-interactive-success hover:border-interactive-success-hovered active:border-interactive-success-pressed hover:text-interactive-success-hovered active:text-interactive-success-pressed disabled:border-disabled disabled:text-disabled py-1 px-3"
+                  data-outline="true"
+                  data-plain="false"
+                  data-size="small"
+                  data-variant="success"
+                >
+                  Label
+                </button>
+                <button
+                  class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-success hover:text-interactive-success-hovered active:text-interactive-success-pressed disabled:text-disabled hover:bg-surface-success-hovered active:bg-surface-success-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+                  data-outline="false"
+                  data-plain="true"
+                  data-size="small"
+                  data-variant="success"
+                >
+                  Label2
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="inline-flex h-auto items-start justify-start gap-2 p-4 border bg-surface-success border-success w-full rounded-level-1"
+      role="status"
+    >
+      <div
+        class="inline-flex flex-1 grow items-start gap-2 text"
+      >
+        <div
+          class="inline-flex h-5 w-5 flex-col items-center justify-center"
+        >
+          <svg
+            class="text-icon-success"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10 18C14.4187 18 18 14.4187 18 10C18 5.58125 14.4187 2 10 2C5.58125 2 2 5.58125 2 10C2 14.4187 5.58125 18 10 18ZM13.5312 8.53125L9.53125 12.5312C9.2375 12.825 8.7625 12.825 8.47188 12.5312L6.47188 10.5312C6.17813 10.2375 6.17813 9.7625 6.47188 9.47188C6.76562 9.18125 7.24062 9.17813 7.53125 9.47188L9 10.9406L12.4688 7.46875C12.7625 7.175 13.2375 7.175 13.5281 7.46875C13.8187 7.7625 13.8219 8.2375 13.5281 8.52812L13.5312 8.53125Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+        <div
+          class="inline-flex shrink grow basis-0 flex-col items-start justify-start gap-1"
+        >
+          <div
+            class="flex flex-col items-start justify-start gap-2 self-stretch"
+          >
+            <div
+              class="self-stretch text-xs font-normal text"
+            >
+              This is a body text this is a body text.
+            </div>
+            <div
+              class="flex items-center gap-2"
+            >
+              <button
+                class="border rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm leading-5 font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-success border-interactive-success hover:border-interactive-success-hovered active:border-interactive-success-pressed hover:text-interactive-success-hovered active:text-interactive-success-pressed disabled:border-disabled disabled:text-disabled py-1 px-3"
+                data-outline="true"
+                data-plain="false"
+                data-size="small"
+                data-variant="success"
+              >
+                Label
+              </button>
+              <button
+                class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-success hover:text-interactive-success-hovered active:text-interactive-success-pressed disabled:text-disabled hover:bg-surface-success-hovered active:bg-surface-success-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+                data-outline="false"
+                data-plain="true"
+                data-size="small"
+                data-variant="success"
+              >
+                Label2
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Banner /> > renders default and inside banners (variant:'warning') 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="inline-flex h-auto items-start justify-start gap-2 p-4 border bg-surface-warning border-warning w-full rounded-level-2"
+        role="alert"
+      >
+        <div
+          class="inline-flex flex-1 grow items-start gap-2 text"
+        >
+          <div
+            class="inline-flex h-5 w-5 flex-col items-center justify-center"
+          >
+            <svg
+              class="text-icon-warning"
+              fill="none"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.99942 2.99951C10.4432 2.99951 10.8526 3.2339 11.0776 3.61831L17.8281 15.1191C18.0562 15.5067 18.0562 15.9848 17.8344 16.3723C17.6125 16.7599 17.1968 17.0005 16.7499 17.0005H3.24894C2.80203 17.0005 2.38637 16.7599 2.16448 16.3723C1.94259 15.9848 1.94572 15.5035 2.17073 15.1191L8.92122 3.61831C9.14623 3.2339 9.55564 2.99951 9.99942 2.99951ZM9.99942 6.9998C9.58377 6.9998 9.24937 7.3342 9.24937 7.74985V11.2501C9.24937 11.6658 9.58377 12.0002 9.99942 12.0002C10.4151 12.0002 10.7495 11.6658 10.7495 11.2501V7.74985C10.7495 7.3342 10.4151 6.9998 9.99942 6.9998ZM10.9995 14.0003C10.9995 13.7351 10.8941 13.4807 10.7066 13.2931C10.519 13.1056 10.2647 13.0002 9.99942 13.0002C9.73418 13.0002 9.47981 13.1056 9.29226 13.2931C9.10471 13.4807 8.99935 13.7351 8.99935 14.0003C8.99935 14.2655 9.10471 14.5199 9.29226 14.7075C9.47981 14.895 9.73418 15.0004 9.99942 15.0004C10.2647 15.0004 10.519 14.895 10.7066 14.7075C10.8941 14.5199 10.9995 14.2655 10.9995 14.0003Z"
+                fill="currentColor"
+              />
+            </svg>
+          </div>
+          <div
+            class="inline-flex shrink grow basis-0 flex-col items-start justify-start gap-1"
+          >
+            <div
+              class="flex flex-col items-start justify-start gap-2 self-stretch"
+            >
+              <div
+                class="self-stretch text-xs font-normal text"
+              >
+                This is a body text this is a body text.
+              </div>
+              <div
+                class="flex items-center gap-2"
+              >
+                <button
+                  class="border rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm leading-5 font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-warning border-interactive-warning hover:border-interactive-warning-hovered active:border-interactive-warning-pressed hover:text-interactive-warning-hovered active:text-interactive-warning-pressed disabled:border-disabled disabled:text-disabled py-1 px-3"
+                  data-outline="true"
+                  data-plain="false"
+                  data-size="small"
+                  data-variant="warning"
+                >
+                  Label
+                </button>
+                <button
+                  class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-warning hover:text-interactive-warning-hovered active:text-interactive-warning-pressed disabled:text-disabled hover:bg-surface-warning-hovered active:bg-surface-warning-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+                  data-outline="false"
+                  data-plain="true"
+                  data-size="small"
+                  data-variant="warning"
+                >
+                  Label2
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="inline-flex h-auto items-start justify-start gap-2 p-4 border bg-surface-warning border-warning w-full rounded-level-2"
+      role="alert"
+    >
+      <div
+        class="inline-flex flex-1 grow items-start gap-2 text"
+      >
+        <div
+          class="inline-flex h-5 w-5 flex-col items-center justify-center"
+        >
+          <svg
+            class="text-icon-warning"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9.99942 2.99951C10.4432 2.99951 10.8526 3.2339 11.0776 3.61831L17.8281 15.1191C18.0562 15.5067 18.0562 15.9848 17.8344 16.3723C17.6125 16.7599 17.1968 17.0005 16.7499 17.0005H3.24894C2.80203 17.0005 2.38637 16.7599 2.16448 16.3723C1.94259 15.9848 1.94572 15.5035 2.17073 15.1191L8.92122 3.61831C9.14623 3.2339 9.55564 2.99951 9.99942 2.99951ZM9.99942 6.9998C9.58377 6.9998 9.24937 7.3342 9.24937 7.74985V11.2501C9.24937 11.6658 9.58377 12.0002 9.99942 12.0002C10.4151 12.0002 10.7495 11.6658 10.7495 11.2501V7.74985C10.7495 7.3342 10.4151 6.9998 9.99942 6.9998ZM10.9995 14.0003C10.9995 13.7351 10.8941 13.4807 10.7066 13.2931C10.519 13.1056 10.2647 13.0002 9.99942 13.0002C9.73418 13.0002 9.47981 13.1056 9.29226 13.2931C9.10471 13.4807 8.99935 13.7351 8.99935 14.0003C8.99935 14.2655 9.10471 14.5199 9.29226 14.7075C9.47981 14.895 9.73418 15.0004 9.99942 15.0004C10.2647 15.0004 10.519 14.895 10.7066 14.7075C10.8941 14.5199 10.9995 14.2655 10.9995 14.0003Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+        <div
+          class="inline-flex shrink grow basis-0 flex-col items-start justify-start gap-1"
+        >
+          <div
+            class="flex flex-col items-start justify-start gap-2 self-stretch"
+          >
+            <div
+              class="self-stretch text-xs font-normal text"
+            >
+              This is a body text this is a body text.
+            </div>
+            <div
+              class="flex items-center gap-2"
+            >
+              <button
+                class="border rounded-interactive-elements-default justify-center items-center gap-1 inline-flex text-sm leading-5 font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-warning border-interactive-warning hover:border-interactive-warning-hovered active:border-interactive-warning-pressed hover:text-interactive-warning-hovered active:text-interactive-warning-pressed disabled:border-disabled disabled:text-disabled py-1 px-3"
+                data-outline="true"
+                data-plain="false"
+                data-size="small"
+                data-variant="warning"
+              >
+                Label
+              </button>
+              <button
+                class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-warning hover:text-interactive-warning-hovered active:text-interactive-warning-pressed disabled:text-disabled hover:bg-surface-warning-hovered active:bg-surface-warning-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+                data-outline="false"
+                data-plain="true"
+                data-size="small"
+                data-variant="warning"
+              >
+                Label2
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

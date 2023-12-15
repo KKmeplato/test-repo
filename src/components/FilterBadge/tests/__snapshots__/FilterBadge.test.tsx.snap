@@ -1,0 +1,724 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<FilterBadge /> > renders add badge 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="relative inline-flex items-center justify-center"
+      >
+        <div
+          class="inline-flex items-center justify-start rounded-level-negative-2 bg-surface"
+        >
+          <div
+            class="z-0 inline-flex items-center justify-start gap-1 rounded-level-negative-2 outline-dashed outline-1 outline-offset-0 outline-outline-default hover:outline-outline-hovered active:outline-outline-pressed [&:has(button:first-child:focus-visible)]:[&:first-child]:outline-outline-pressed"
+          >
+            <button
+              class="inline-flex items-center justify-start gap-1 text-sm font-medium leading-tight text focus:outline-none rounded-level-negative-2 hover:bg-surface-hovered active:bg-surface-pressed py-1 pl-3 pr-2 sm:py-0.5 sm:pl-2 sm:pr-1 enabled:focus-visible:outline enabled:focus-visible:outline-2 enabled:focus-visible:outline-offset-0 enabled:focus-visible:outline-focus enabled:focus-visible:ring-2 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1"
+            >
+              Filter badge text
+              <svg
+                class="h-5 w-5 text-icon"
+                fill="none"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.1979 3.21496C11.1979 2.55235 10.6599 2.01432 9.99728 2.01432C9.33468 2.01432 8.79664 2.55235 8.79664 3.21496L8.79929 8.79937L3.21488 8.80202C2.55228 8.80202 2.01425 9.34005 2.01425 10.0027C2.01425 10.6653 2.55228 11.2033 3.21488 11.2033L8.79929 11.2006L8.80194 16.785C8.80194 17.4476 9.33998 17.9857 10.0026 17.9857C10.6652 17.9857 11.2032 17.4476 11.2032 16.785L11.2006 11.2006L16.785 11.198C17.4476 11.198 17.9856 10.66 17.9856 9.99735C17.9856 9.33475 17.4476 8.79671 16.785 8.79671L11.2006 8.79937L11.1979 3.21496Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="relative inline-flex items-center justify-center"
+    >
+      <div
+        class="inline-flex items-center justify-start rounded-level-negative-2 bg-surface"
+      >
+        <div
+          class="z-0 inline-flex items-center justify-start gap-1 rounded-level-negative-2 outline-dashed outline-1 outline-offset-0 outline-outline-default hover:outline-outline-hovered active:outline-outline-pressed [&:has(button:first-child:focus-visible)]:[&:first-child]:outline-outline-pressed"
+        >
+          <button
+            class="inline-flex items-center justify-start gap-1 text-sm font-medium leading-tight text focus:outline-none rounded-level-negative-2 hover:bg-surface-hovered active:bg-surface-pressed py-1 pl-3 pr-2 sm:py-0.5 sm:pl-2 sm:pr-1 enabled:focus-visible:outline enabled:focus-visible:outline-2 enabled:focus-visible:outline-offset-0 enabled:focus-visible:outline-focus enabled:focus-visible:ring-2 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1"
+          >
+            Filter badge text
+            <svg
+              class="h-5 w-5 text-icon"
+              fill="none"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.1979 3.21496C11.1979 2.55235 10.6599 2.01432 9.99728 2.01432C9.33468 2.01432 8.79664 2.55235 8.79664 3.21496L8.79929 8.79937L3.21488 8.80202C2.55228 8.80202 2.01425 9.34005 2.01425 10.0027C2.01425 10.6653 2.55228 11.2033 3.21488 11.2033L8.79929 11.2006L8.80194 16.785C8.80194 17.4476 9.33998 17.9857 10.0026 17.9857C10.6652 17.9857 11.2032 17.4476 11.2032 16.785L11.2006 11.2006L16.785 11.198C17.4476 11.198 17.9856 10.66 17.9856 9.99735C17.9856 9.33475 17.4476 8.79671 16.785 8.79671L11.2006 8.79937L11.1979 3.21496Z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<FilterBadge /> > renders with toggleable:undefined, disabled:true, disclosure:undefined, icon:undefined 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <button
+        class="inline-flex items-start justify-start gap-1 rounded-level-negative-2 border border-default px-4 py-1 disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled sm:px-2 sm:py-0.5 text-sm font-medium leading-tight text enabled:focus-visible:outline enabled:focus-visible:outline-1 enabled:focus-visible:outline-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1 bg-interactive-primary text-on-interactive hover:border-subdued hover:bg-interactive-primary-hovered focus-visible:bg-interactive-primary-pressed active:border-pressed active:bg-interactive-primary-pressed"
+        disabled=""
+      >
+        Filter badge text
+      </button>
+    </div>
+  </body>,
+  "container": <div>
+    <button
+      class="inline-flex items-start justify-start gap-1 rounded-level-negative-2 border border-default px-4 py-1 disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled sm:px-2 sm:py-0.5 text-sm font-medium leading-tight text enabled:focus-visible:outline enabled:focus-visible:outline-1 enabled:focus-visible:outline-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1 bg-interactive-primary text-on-interactive hover:border-subdued hover:bg-interactive-primary-hovered focus-visible:bg-interactive-primary-pressed active:border-pressed active:bg-interactive-primary-pressed"
+      disabled=""
+    >
+      Filter badge text
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<FilterBadge /> > renders with toggleable:undefined, disabled:undefined, disclosure:undefined, icon:undefined 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <button
+        class="inline-flex items-start justify-start gap-1 rounded-level-negative-2 border border-default bg-surface px-4 py-1 hover:border-hovered hover:bg-surface-hovered active:border-pressed active:bg-surface-pressed disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled sm:px-2 sm:py-0.5 text-sm font-medium leading-tight text enabled:focus-visible:outline enabled:focus-visible:outline-1 enabled:focus-visible:outline-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1"
+      >
+        Filter badge text
+      </button>
+    </div>
+  </body>,
+  "container": <div>
+    <button
+      class="inline-flex items-start justify-start gap-1 rounded-level-negative-2 border border-default bg-surface px-4 py-1 hover:border-hovered hover:bg-surface-hovered active:border-pressed active:bg-surface-pressed disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled sm:px-2 sm:py-0.5 text-sm font-medium leading-tight text enabled:focus-visible:outline enabled:focus-visible:outline-1 enabled:focus-visible:outline-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1"
+    >
+      Filter badge text
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<FilterBadge /> > renders with toggleable:undefined, disabled:undefined, disclosure:undefined, icon:undefined 2`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <button
+        class="inline-flex items-start justify-start gap-1 rounded-level-negative-2 border border-default px-4 py-1 disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled sm:px-2 sm:py-0.5 text-sm font-medium leading-tight text enabled:focus-visible:outline enabled:focus-visible:outline-1 enabled:focus-visible:outline-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1 bg-interactive-primary text-on-interactive hover:border-subdued hover:bg-interactive-primary-hovered focus-visible:bg-interactive-primary-pressed active:border-pressed active:bg-interactive-primary-pressed"
+      >
+        Filter badge text
+      </button>
+    </div>
+  </body>,
+  "container": <div>
+    <button
+      class="inline-flex items-start justify-start gap-1 rounded-level-negative-2 border border-default px-4 py-1 disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled sm:px-2 sm:py-0.5 text-sm font-medium leading-tight text enabled:focus-visible:outline enabled:focus-visible:outline-1 enabled:focus-visible:outline-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1 bg-interactive-primary text-on-interactive hover:border-subdued hover:bg-interactive-primary-hovered focus-visible:bg-interactive-primary-pressed active:border-pressed active:bg-interactive-primary-pressed"
+    >
+      Filter badge text
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<FilterBadge /> > renders with toggleable:undefined, disabled:undefined, disclosure:undefined, icon:undefined 3`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="relative inline-flex items-center justify-center"
+      >
+        <div
+          class="inline-flex items-center justify-start rounded-level-negative-2 bg-surface"
+        >
+          <div
+            class="z-0 inline-flex items-center justify-start gap-1 rounded-level-negative-2 outline-dashed outline-1 outline-offset-0 outline-outline-default cursor-default py-1 pl-3 pr-2 sm:py-0.5 sm:pl-2 sm:pr-1"
+          >
+            <span
+              class="text-sm font-medium leading-tight text"
+            >
+              Filter badge text
+            </span>
+            <span
+              class="z-20 inline-flex items-center"
+            >
+              <button
+                class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+              >
+                <svg
+                  class="h-5 w-5 text-icon"
+                  fill="none"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span
+                  class="sr-only"
+                >
+                  remove icon
+                </span>
+              </button>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="relative inline-flex items-center justify-center"
+    >
+      <div
+        class="inline-flex items-center justify-start rounded-level-negative-2 bg-surface"
+      >
+        <div
+          class="z-0 inline-flex items-center justify-start gap-1 rounded-level-negative-2 outline-dashed outline-1 outline-offset-0 outline-outline-default cursor-default py-1 pl-3 pr-2 sm:py-0.5 sm:pl-2 sm:pr-1"
+        >
+          <span
+            class="text-sm font-medium leading-tight text"
+          >
+            Filter badge text
+          </span>
+          <span
+            class="z-20 inline-flex items-center"
+          >
+            <button
+              class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+            >
+              <svg
+                class="h-5 w-5 text-icon"
+                fill="none"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="sr-only"
+              >
+                remove icon
+              </span>
+            </button>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<FilterBadge /> > renders with toggleable:undefined, disabled:undefined, disclosure:undefined, icon:undefined 4`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="relative inline-flex items-center justify-center"
+      >
+        <div
+          class="inline-flex items-center justify-start rounded-level-negative-2 bg-surface"
+        >
+          <div
+            class="z-0 inline-flex items-center justify-start gap-1 rounded-level-negative-2 outline-dashed outline-1 outline-offset-0 outline-outline-default hover:outline-outline-hovered active:outline-outline-pressed [&:has(button:first-child:focus-visible)]:[&:first-child]:outline-outline-pressed"
+          >
+            <button
+              class="inline-flex items-center justify-start gap-1 text-sm font-medium leading-tight text focus:outline-none rounded-level-negative-2 hover:bg-surface-hovered active:bg-surface-pressed py-1 pl-3 pr-2 sm:py-0.5 sm:pl-2 sm:pr-1 enabled:focus-visible:outline enabled:focus-visible:outline-2 enabled:focus-visible:outline-offset-0 enabled:focus-visible:outline-focus enabled:focus-visible:ring-2 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1"
+            >
+              Filter badge text
+              <svg
+                class="h-5 w-5 text-icon"
+                fill="none"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.1979 3.21496C11.1979 2.55235 10.6599 2.01432 9.99728 2.01432C9.33468 2.01432 8.79664 2.55235 8.79664 3.21496L8.79929 8.79937L3.21488 8.80202C2.55228 8.80202 2.01425 9.34005 2.01425 10.0027C2.01425 10.6653 2.55228 11.2033 3.21488 11.2033L8.79929 11.2006L8.80194 16.785C8.80194 17.4476 9.33998 17.9857 10.0026 17.9857C10.6652 17.9857 11.2032 17.4476 11.2032 16.785L11.2006 11.2006L16.785 11.198C17.4476 11.198 17.9856 10.66 17.9856 9.99735C17.9856 9.33475 17.4476 8.79671 16.785 8.79671L11.2006 8.79937L11.1979 3.21496Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="relative inline-flex items-center justify-center"
+    >
+      <div
+        class="inline-flex items-center justify-start rounded-level-negative-2 bg-surface"
+      >
+        <div
+          class="z-0 inline-flex items-center justify-start gap-1 rounded-level-negative-2 outline-dashed outline-1 outline-offset-0 outline-outline-default hover:outline-outline-hovered active:outline-outline-pressed [&:has(button:first-child:focus-visible)]:[&:first-child]:outline-outline-pressed"
+        >
+          <button
+            class="inline-flex items-center justify-start gap-1 text-sm font-medium leading-tight text focus:outline-none rounded-level-negative-2 hover:bg-surface-hovered active:bg-surface-pressed py-1 pl-3 pr-2 sm:py-0.5 sm:pl-2 sm:pr-1 enabled:focus-visible:outline enabled:focus-visible:outline-2 enabled:focus-visible:outline-offset-0 enabled:focus-visible:outline-focus enabled:focus-visible:ring-2 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1"
+          >
+            Filter badge text
+            <svg
+              class="h-5 w-5 text-icon"
+              fill="none"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.1979 3.21496C11.1979 2.55235 10.6599 2.01432 9.99728 2.01432C9.33468 2.01432 8.79664 2.55235 8.79664 3.21496L8.79929 8.79937L3.21488 8.80202C2.55228 8.80202 2.01425 9.34005 2.01425 10.0027C2.01425 10.6653 2.55228 11.2033 3.21488 11.2033L8.79929 11.2006L8.80194 16.785C8.80194 17.4476 9.33998 17.9857 10.0026 17.9857C10.6652 17.9857 11.2032 17.4476 11.2032 16.785L11.2006 11.2006L16.785 11.198C17.4476 11.198 17.9856 10.66 17.9856 9.99735C17.9856 9.33475 17.4476 8.79671 16.785 8.79671L11.2006 8.79937L11.1979 3.21496Z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<FilterBadge /> > renders with toggleable:undefined, disabled:undefined, disclosure:undefined, icon:undefined 5`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="relative inline-flex items-center justify-center"
+      >
+        <div
+          class="inline-flex items-center justify-start rounded-level-negative-2 bg-surface"
+        >
+          <div
+            class="z-0 inline-flex items-center justify-start gap-1 rounded-level-negative-2 outline-dashed outline-1 outline-offset-0 outline-outline-default hover:outline-outline-hovered active:outline-outline-pressed [&:has(button:first-child:focus-visible)]:[&:first-child]:outline-outline-pressed"
+          >
+            <button
+              class="inline-flex items-center justify-start gap-1 text-sm font-medium leading-tight text focus:outline-none rounded-level-negative-2 hover:bg-surface-hovered active:bg-surface-pressed py-1 pl-3 pr-2 sm:py-0.5 sm:pl-2 sm:pr-1 enabled:focus-visible:outline enabled:focus-visible:outline-2 enabled:focus-visible:outline-offset-0 enabled:focus-visible:outline-focus enabled:focus-visible:ring-2 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1"
+            >
+              Filter badge text
+              <svg
+                class="h-5 w-5 text-icon"
+                fill="none"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.4548 8.2592L13.0259 10.8303C13.2107 11.0151 13.2649 11.2903 13.1645 11.5314C13.0641 11.7724 12.831 11.9291 12.5699 11.9291H7.42964C7.17052 11.9291 6.9355 11.7724 6.83507 11.5314C6.73463 11.2903 6.79087 11.0151 6.97367 10.8303L9.54481 8.2592C9.7959 8.00812 10.2037 8.00812 10.4548 8.2592Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="relative inline-flex items-center justify-center"
+    >
+      <div
+        class="inline-flex items-center justify-start rounded-level-negative-2 bg-surface"
+      >
+        <div
+          class="z-0 inline-flex items-center justify-start gap-1 rounded-level-negative-2 outline-dashed outline-1 outline-offset-0 outline-outline-default hover:outline-outline-hovered active:outline-outline-pressed [&:has(button:first-child:focus-visible)]:[&:first-child]:outline-outline-pressed"
+        >
+          <button
+            class="inline-flex items-center justify-start gap-1 text-sm font-medium leading-tight text focus:outline-none rounded-level-negative-2 hover:bg-surface-hovered active:bg-surface-pressed py-1 pl-3 pr-2 sm:py-0.5 sm:pl-2 sm:pr-1 enabled:focus-visible:outline enabled:focus-visible:outline-2 enabled:focus-visible:outline-offset-0 enabled:focus-visible:outline-focus enabled:focus-visible:ring-2 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1"
+          >
+            Filter badge text
+            <svg
+              class="h-5 w-5 text-icon"
+              fill="none"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10.4548 8.2592L13.0259 10.8303C13.2107 11.0151 13.2649 11.2903 13.1645 11.5314C13.0641 11.7724 12.831 11.9291 12.5699 11.9291H7.42964C7.17052 11.9291 6.9355 11.7724 6.83507 11.5314C6.73463 11.2903 6.79087 11.0151 6.97367 10.8303L9.54481 8.2592C9.7959 8.00812 10.2037 8.00812 10.4548 8.2592Z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

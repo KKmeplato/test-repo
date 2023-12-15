@@ -1,0 +1,1146 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<TableFilterHeaderProps /> > renders with onClearAll:[Function onClearAll], onSearchQueryChange:[Function spy], appliedFilters:[ Array(3) ], togglableFilters:[ Array(3) ] 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class=" flex w-full shrink grow basis-0 items-start justify-between gap-4 border-b border-default p-4 pr-5 md:pr-4"
+      >
+        <div
+          class="flex w-full gap-4 flex-col"
+        >
+          <div
+            class="flex justify-between gap-6 md:gap-4 flex-row w-full md:flex-row"
+          >
+            <div
+              class="flex flex-auto flex-wrap items-start justify-start gap-2 self-stretch"
+            >
+              <button
+                class="inline-flex items-start justify-start gap-1 rounded-level-negative-2 border border-default px-4 py-1 disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled sm:px-2 sm:py-0.5 text-sm font-medium leading-tight text enabled:focus-visible:outline enabled:focus-visible:outline-1 enabled:focus-visible:outline-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1 bg-interactive-primary text-on-interactive hover:border-subdued hover:bg-interactive-primary-hovered focus-visible:bg-interactive-primary-pressed active:border-pressed active:bg-interactive-primary-pressed"
+                id="local"
+              >
+                Local Catalog
+              </button>
+              <button
+                class="inline-flex items-start justify-start gap-1 rounded-level-negative-2 border border-default bg-surface px-4 py-1 hover:border-hovered hover:bg-surface-hovered active:border-pressed active:bg-surface-pressed disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled sm:px-2 sm:py-0.5 text-sm font-medium leading-tight text enabled:focus-visible:outline enabled:focus-visible:outline-1 enabled:focus-visible:outline-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1"
+                id="amazon"
+              >
+                Amazon
+              </button>
+              <button
+                class="inline-flex items-start justify-start gap-1 rounded-level-negative-2 border border-default px-4 py-1 disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled sm:px-2 sm:py-0.5 text-sm font-medium leading-tight text enabled:focus-visible:outline enabled:focus-visible:outline-1 enabled:focus-visible:outline-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1 bg-interactive-primary text-on-interactive hover:border-subdued hover:bg-interactive-primary-hovered focus-visible:bg-interactive-primary-pressed active:border-pressed active:bg-interactive-primary-pressed"
+                id="psg"
+              >
+                PSG
+              </button>
+            </div>
+          </div>
+          <div
+            class="flex w-full flex-wrap items-start justify-start gap-2"
+          >
+            <div
+              class="relative inline-flex items-center justify-center"
+            >
+              <div
+                class="inline-flex items-center justify-start rounded-level-negative-2 bg-surface"
+              >
+                <div
+                  class="z-0 inline-flex items-center justify-start gap-1 rounded-level-negative-2 outline-dashed outline-1 outline-offset-0 outline-outline-default cursor-default py-1 pl-3 pr-2 sm:py-0.5 sm:pl-2 sm:pr-1"
+                >
+                  <span
+                    class="text-sm font-medium leading-tight text"
+                  >
+                    Some Filter 1
+                  </span>
+                  <span
+                    class="z-20 inline-flex items-center"
+                  >
+                    <button
+                      class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+                    >
+                      <svg
+                        class="h-5 w-5 text-icon"
+                        fill="none"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <span
+                        class="sr-only"
+                      >
+                        remove icon
+                      </span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="relative inline-flex items-center justify-center"
+            >
+              <div
+                class="inline-flex items-center justify-start rounded-level-negative-2 bg-surface"
+              >
+                <div
+                  class="z-0 inline-flex items-center justify-start gap-1 rounded-level-negative-2 outline-dashed outline-1 outline-offset-0 outline-outline-default cursor-default py-1 pl-3 pr-2 sm:py-0.5 sm:pl-2 sm:pr-1"
+                >
+                  <span
+                    class="text-sm font-medium leading-tight text"
+                  >
+                    Some Filter 2
+                  </span>
+                  <span
+                    class="z-20 inline-flex items-center"
+                  >
+                    <button
+                      class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+                    >
+                      <svg
+                        class="h-5 w-5 text-icon"
+                        fill="none"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <span
+                        class="sr-only"
+                      >
+                        remove icon
+                      </span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="relative inline-flex items-center justify-center"
+            >
+              <div
+                class="inline-flex items-center justify-start rounded-level-negative-2 bg-surface"
+              >
+                <div
+                  class="z-0 inline-flex items-center justify-start gap-1 rounded-level-negative-2 outline-dashed outline-1 outline-offset-0 outline-outline-default cursor-default py-1 pl-3 pr-2 sm:py-0.5 sm:pl-2 sm:pr-1"
+                >
+                  <span
+                    class="text-sm font-medium leading-tight text"
+                  >
+                    Some Filter 3
+                  </span>
+                  <span
+                    class="z-20 inline-flex items-center"
+                  >
+                    <button
+                      class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+                    >
+                      <svg
+                        class="h-5 w-5 text-icon"
+                        fill="none"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <span
+                        class="sr-only"
+                      >
+                        remove icon
+                      </span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="relative inline-flex items-center justify-center"
+            >
+              <div
+                class="inline-flex items-center justify-start rounded-level-negative-2 bg-surface"
+              >
+                <div
+                  class="z-0 inline-flex items-center justify-start gap-1 rounded-level-negative-2 outline-dashed outline-1 outline-offset-0 outline-outline-default hover:outline-outline-hovered active:outline-outline-pressed [&:has(button:first-child:focus-visible)]:[&:first-child]:outline-outline-pressed"
+                >
+                  <button
+                    aria-controls="radix-:r1:"
+                    aria-expanded="false"
+                    aria-haspopup="dialog"
+                    class="inline-flex items-center justify-start gap-1 text-sm font-medium leading-tight text focus:outline-none rounded-level-negative-2 hover:bg-surface-hovered active:bg-surface-pressed py-1 pl-3 pr-2 sm:py-0.5 sm:pl-2 sm:pr-1 enabled:focus-visible:outline enabled:focus-visible:outline-2 enabled:focus-visible:outline-offset-0 enabled:focus-visible:outline-focus enabled:focus-visible:ring-2 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1"
+                    data-state="closed"
+                  >
+                    Add Filter
+                    <svg
+                      class="h-5 w-5 text-icon"
+                      fill="none"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11.1979 3.21496C11.1979 2.55235 10.6599 2.01432 9.99728 2.01432C9.33468 2.01432 8.79664 2.55235 8.79664 3.21496L8.79929 8.79937L3.21488 8.80202C2.55228 8.80202 2.01425 9.34005 2.01425 10.0027C2.01425 10.6653 2.55228 11.2033 3.21488 11.2033L8.79929 11.2006L8.80194 16.785C8.80194 17.4476 9.33998 17.9857 10.0026 17.9857C10.6652 17.9857 11.2032 17.4476 11.2032 16.785L11.2006 11.2006L16.785 11.198C17.4476 11.198 17.9856 10.66 17.9856 9.99735C17.9856 9.33475 17.4476 8.79671 16.785 8.79671L11.2006 8.79937L11.1979 3.21496Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+              data-outline="false"
+              data-plain="true"
+              data-size="medium"
+              data-variant="primary"
+            >
+              Clear All
+            </button>
+          </div>
+        </div>
+        <button
+          class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+        >
+          <svg
+            class="h-5 w-5 text-icon"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.0006 8.49876C15.0006 9.93321 14.535 11.2583 13.7506 12.3333L17.707 16.2929C18.0977 16.6835 18.0977 17.3179 17.707 17.7086C17.3164 18.0992 16.682 18.0992 16.2913 17.7086L12.3349 13.749C11.2598 14.5366 9.93476 14.9991 8.50032 14.9991C4.90952 14.9991 2 12.0896 2 8.49876C2 4.90796 4.90952 1.99844 8.50032 1.99844C12.0911 1.99844 15.0006 4.90796 15.0006 8.49876ZM8.50032 12.999C9.09129 12.999 9.67649 12.8826 10.2225 12.6564C10.7685 12.4303 11.2646 12.0988 11.6825 11.6809C12.1003 11.263 12.4318 10.7669 12.658 10.2209C12.8841 9.67493 13.0005 9.08974 13.0005 8.49876C13.0005 7.90778 12.8841 7.32259 12.658 6.7766C12.4318 6.23061 12.1003 5.73451 11.6825 5.31663C11.2646 4.89874 10.7685 4.56726 10.2225 4.3411C9.67649 4.11494 9.09129 3.99854 8.50032 3.99854C7.90934 3.99854 7.32415 4.11494 6.77816 4.3411C6.23217 4.56726 5.73607 4.89874 5.31818 5.31663C4.9003 5.73451 4.56881 6.23061 4.34266 6.7766C4.1165 7.32259 4.0001 7.90778 4.0001 8.49876C4.0001 9.08974 4.1165 9.67493 4.34266 10.2209C4.56881 10.7669 4.9003 11.263 5.31818 11.6809C5.73607 12.0988 6.23217 12.4303 6.77816 12.6564C7.32415 12.8826 7.90934 12.999 8.50032 12.999Z"
+              fill="currentColor"
+            />
+          </svg>
+          <span
+            class="sr-only"
+          >
+            Search Icon
+          </span>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class=" flex w-full shrink grow basis-0 items-start justify-between gap-4 border-b border-default p-4 pr-5 md:pr-4"
+    >
+      <div
+        class="flex w-full gap-4 flex-col"
+      >
+        <div
+          class="flex justify-between gap-6 md:gap-4 flex-row w-full md:flex-row"
+        >
+          <div
+            class="flex flex-auto flex-wrap items-start justify-start gap-2 self-stretch"
+          >
+            <button
+              class="inline-flex items-start justify-start gap-1 rounded-level-negative-2 border border-default px-4 py-1 disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled sm:px-2 sm:py-0.5 text-sm font-medium leading-tight text enabled:focus-visible:outline enabled:focus-visible:outline-1 enabled:focus-visible:outline-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1 bg-interactive-primary text-on-interactive hover:border-subdued hover:bg-interactive-primary-hovered focus-visible:bg-interactive-primary-pressed active:border-pressed active:bg-interactive-primary-pressed"
+              id="local"
+            >
+              Local Catalog
+            </button>
+            <button
+              class="inline-flex items-start justify-start gap-1 rounded-level-negative-2 border border-default bg-surface px-4 py-1 hover:border-hovered hover:bg-surface-hovered active:border-pressed active:bg-surface-pressed disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled sm:px-2 sm:py-0.5 text-sm font-medium leading-tight text enabled:focus-visible:outline enabled:focus-visible:outline-1 enabled:focus-visible:outline-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1"
+              id="amazon"
+            >
+              Amazon
+            </button>
+            <button
+              class="inline-flex items-start justify-start gap-1 rounded-level-negative-2 border border-default px-4 py-1 disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled sm:px-2 sm:py-0.5 text-sm font-medium leading-tight text enabled:focus-visible:outline enabled:focus-visible:outline-1 enabled:focus-visible:outline-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1 bg-interactive-primary text-on-interactive hover:border-subdued hover:bg-interactive-primary-hovered focus-visible:bg-interactive-primary-pressed active:border-pressed active:bg-interactive-primary-pressed"
+              id="psg"
+            >
+              PSG
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex w-full flex-wrap items-start justify-start gap-2"
+        >
+          <div
+            class="relative inline-flex items-center justify-center"
+          >
+            <div
+              class="inline-flex items-center justify-start rounded-level-negative-2 bg-surface"
+            >
+              <div
+                class="z-0 inline-flex items-center justify-start gap-1 rounded-level-negative-2 outline-dashed outline-1 outline-offset-0 outline-outline-default cursor-default py-1 pl-3 pr-2 sm:py-0.5 sm:pl-2 sm:pr-1"
+              >
+                <span
+                  class="text-sm font-medium leading-tight text"
+                >
+                  Some Filter 1
+                </span>
+                <span
+                  class="z-20 inline-flex items-center"
+                >
+                  <button
+                    class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+                  >
+                    <svg
+                      class="h-5 w-5 text-icon"
+                      fill="none"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                    <span
+                      class="sr-only"
+                    >
+                      remove icon
+                    </span>
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="relative inline-flex items-center justify-center"
+          >
+            <div
+              class="inline-flex items-center justify-start rounded-level-negative-2 bg-surface"
+            >
+              <div
+                class="z-0 inline-flex items-center justify-start gap-1 rounded-level-negative-2 outline-dashed outline-1 outline-offset-0 outline-outline-default cursor-default py-1 pl-3 pr-2 sm:py-0.5 sm:pl-2 sm:pr-1"
+              >
+                <span
+                  class="text-sm font-medium leading-tight text"
+                >
+                  Some Filter 2
+                </span>
+                <span
+                  class="z-20 inline-flex items-center"
+                >
+                  <button
+                    class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+                  >
+                    <svg
+                      class="h-5 w-5 text-icon"
+                      fill="none"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                    <span
+                      class="sr-only"
+                    >
+                      remove icon
+                    </span>
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="relative inline-flex items-center justify-center"
+          >
+            <div
+              class="inline-flex items-center justify-start rounded-level-negative-2 bg-surface"
+            >
+              <div
+                class="z-0 inline-flex items-center justify-start gap-1 rounded-level-negative-2 outline-dashed outline-1 outline-offset-0 outline-outline-default cursor-default py-1 pl-3 pr-2 sm:py-0.5 sm:pl-2 sm:pr-1"
+              >
+                <span
+                  class="text-sm font-medium leading-tight text"
+                >
+                  Some Filter 3
+                </span>
+                <span
+                  class="z-20 inline-flex items-center"
+                >
+                  <button
+                    class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+                  >
+                    <svg
+                      class="h-5 w-5 text-icon"
+                      fill="none"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                    <span
+                      class="sr-only"
+                    >
+                      remove icon
+                    </span>
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="relative inline-flex items-center justify-center"
+          >
+            <div
+              class="inline-flex items-center justify-start rounded-level-negative-2 bg-surface"
+            >
+              <div
+                class="z-0 inline-flex items-center justify-start gap-1 rounded-level-negative-2 outline-dashed outline-1 outline-offset-0 outline-outline-default hover:outline-outline-hovered active:outline-outline-pressed [&:has(button:first-child:focus-visible)]:[&:first-child]:outline-outline-pressed"
+              >
+                <button
+                  aria-controls="radix-:r1:"
+                  aria-expanded="false"
+                  aria-haspopup="dialog"
+                  class="inline-flex items-center justify-start gap-1 text-sm font-medium leading-tight text focus:outline-none rounded-level-negative-2 hover:bg-surface-hovered active:bg-surface-pressed py-1 pl-3 pr-2 sm:py-0.5 sm:pl-2 sm:pr-1 enabled:focus-visible:outline enabled:focus-visible:outline-2 enabled:focus-visible:outline-offset-0 enabled:focus-visible:outline-focus enabled:focus-visible:ring-2 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1"
+                  data-state="closed"
+                >
+                  Add Filter
+                  <svg
+                    class="h-5 w-5 text-icon"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11.1979 3.21496C11.1979 2.55235 10.6599 2.01432 9.99728 2.01432C9.33468 2.01432 8.79664 2.55235 8.79664 3.21496L8.79929 8.79937L3.21488 8.80202C2.55228 8.80202 2.01425 9.34005 2.01425 10.0027C2.01425 10.6653 2.55228 11.2033 3.21488 11.2033L8.79929 11.2006L8.80194 16.785C8.80194 17.4476 9.33998 17.9857 10.0026 17.9857C10.6652 17.9857 11.2032 17.4476 11.2032 16.785L11.2006 11.2006L16.785 11.198C17.4476 11.198 17.9856 10.66 17.9856 9.99735C17.9856 9.33475 17.4476 8.79671 16.785 8.79671L11.2006 8.79937L11.1979 3.21496Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <button
+            class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+            data-outline="false"
+            data-plain="true"
+            data-size="medium"
+            data-variant="primary"
+          >
+            Clear All
+          </button>
+        </div>
+      </div>
+      <button
+        class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+      >
+        <svg
+          class="h-5 w-5 text-icon"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.0006 8.49876C15.0006 9.93321 14.535 11.2583 13.7506 12.3333L17.707 16.2929C18.0977 16.6835 18.0977 17.3179 17.707 17.7086C17.3164 18.0992 16.682 18.0992 16.2913 17.7086L12.3349 13.749C11.2598 14.5366 9.93476 14.9991 8.50032 14.9991C4.90952 14.9991 2 12.0896 2 8.49876C2 4.90796 4.90952 1.99844 8.50032 1.99844C12.0911 1.99844 15.0006 4.90796 15.0006 8.49876ZM8.50032 12.999C9.09129 12.999 9.67649 12.8826 10.2225 12.6564C10.7685 12.4303 11.2646 12.0988 11.6825 11.6809C12.1003 11.263 12.4318 10.7669 12.658 10.2209C12.8841 9.67493 13.0005 9.08974 13.0005 8.49876C13.0005 7.90778 12.8841 7.32259 12.658 6.7766C12.4318 6.23061 12.1003 5.73451 11.6825 5.31663C11.2646 4.89874 10.7685 4.56726 10.2225 4.3411C9.67649 4.11494 9.09129 3.99854 8.50032 3.99854C7.90934 3.99854 7.32415 4.11494 6.77816 4.3411C6.23217 4.56726 5.73607 4.89874 5.31818 5.31663C4.9003 5.73451 4.56881 6.23061 4.34266 6.7766C4.1165 7.32259 4.0001 7.90778 4.0001 8.49876C4.0001 9.08974 4.1165 9.67493 4.34266 10.2209C4.56881 10.7669 4.9003 11.263 5.31818 11.6809C5.73607 12.0988 6.23217 12.4303 6.77816 12.6564C7.32415 12.8826 7.90934 12.999 8.50032 12.999Z"
+            fill="currentColor"
+          />
+        </svg>
+        <span
+          class="sr-only"
+        >
+          Search Icon
+        </span>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<TableFilterHeaderProps /> > renders with onClearAll:[Function onClearAll], onSearchQueryChange:[Function spy], appliedFilters:undefined, togglableFilters:[ Array(3) ] 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class=" flex w-full shrink grow basis-0 items-start justify-between gap-4 border-b border-default p-4 pr-5 md:pr-4"
+      >
+        <div
+          class="flex w-full gap-4 flex-col"
+        >
+          <div
+            class="flex justify-between gap-6 md:gap-4 flex-row w-full md:flex-row"
+          >
+            <div
+              class="flex flex-auto flex-wrap items-start justify-start gap-2 self-stretch"
+            >
+              <button
+                class="inline-flex items-start justify-start gap-1 rounded-level-negative-2 border border-default px-4 py-1 disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled sm:px-2 sm:py-0.5 text-sm font-medium leading-tight text enabled:focus-visible:outline enabled:focus-visible:outline-1 enabled:focus-visible:outline-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1 bg-interactive-primary text-on-interactive hover:border-subdued hover:bg-interactive-primary-hovered focus-visible:bg-interactive-primary-pressed active:border-pressed active:bg-interactive-primary-pressed"
+                id="local"
+              >
+                Local Catalog
+              </button>
+              <button
+                class="inline-flex items-start justify-start gap-1 rounded-level-negative-2 border border-default bg-surface px-4 py-1 hover:border-hovered hover:bg-surface-hovered active:border-pressed active:bg-surface-pressed disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled sm:px-2 sm:py-0.5 text-sm font-medium leading-tight text enabled:focus-visible:outline enabled:focus-visible:outline-1 enabled:focus-visible:outline-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1"
+                id="amazon"
+              >
+                Amazon
+              </button>
+              <button
+                class="inline-flex items-start justify-start gap-1 rounded-level-negative-2 border border-default px-4 py-1 disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled sm:px-2 sm:py-0.5 text-sm font-medium leading-tight text enabled:focus-visible:outline enabled:focus-visible:outline-1 enabled:focus-visible:outline-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1 bg-interactive-primary text-on-interactive hover:border-subdued hover:bg-interactive-primary-hovered focus-visible:bg-interactive-primary-pressed active:border-pressed active:bg-interactive-primary-pressed"
+                id="psg"
+              >
+                PSG
+              </button>
+            </div>
+          </div>
+          <div
+            class="flex w-full flex-wrap items-start justify-start gap-2"
+          />
+        </div>
+        <button
+          class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+        >
+          <svg
+            class="h-5 w-5 text-icon"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.0006 8.49876C15.0006 9.93321 14.535 11.2583 13.7506 12.3333L17.707 16.2929C18.0977 16.6835 18.0977 17.3179 17.707 17.7086C17.3164 18.0992 16.682 18.0992 16.2913 17.7086L12.3349 13.749C11.2598 14.5366 9.93476 14.9991 8.50032 14.9991C4.90952 14.9991 2 12.0896 2 8.49876C2 4.90796 4.90952 1.99844 8.50032 1.99844C12.0911 1.99844 15.0006 4.90796 15.0006 8.49876ZM8.50032 12.999C9.09129 12.999 9.67649 12.8826 10.2225 12.6564C10.7685 12.4303 11.2646 12.0988 11.6825 11.6809C12.1003 11.263 12.4318 10.7669 12.658 10.2209C12.8841 9.67493 13.0005 9.08974 13.0005 8.49876C13.0005 7.90778 12.8841 7.32259 12.658 6.7766C12.4318 6.23061 12.1003 5.73451 11.6825 5.31663C11.2646 4.89874 10.7685 4.56726 10.2225 4.3411C9.67649 4.11494 9.09129 3.99854 8.50032 3.99854C7.90934 3.99854 7.32415 4.11494 6.77816 4.3411C6.23217 4.56726 5.73607 4.89874 5.31818 5.31663C4.9003 5.73451 4.56881 6.23061 4.34266 6.7766C4.1165 7.32259 4.0001 7.90778 4.0001 8.49876C4.0001 9.08974 4.1165 9.67493 4.34266 10.2209C4.56881 10.7669 4.9003 11.263 5.31818 11.6809C5.73607 12.0988 6.23217 12.4303 6.77816 12.6564C7.32415 12.8826 7.90934 12.999 8.50032 12.999Z"
+              fill="currentColor"
+            />
+          </svg>
+          <span
+            class="sr-only"
+          >
+            Search Icon
+          </span>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class=" flex w-full shrink grow basis-0 items-start justify-between gap-4 border-b border-default p-4 pr-5 md:pr-4"
+    >
+      <div
+        class="flex w-full gap-4 flex-col"
+      >
+        <div
+          class="flex justify-between gap-6 md:gap-4 flex-row w-full md:flex-row"
+        >
+          <div
+            class="flex flex-auto flex-wrap items-start justify-start gap-2 self-stretch"
+          >
+            <button
+              class="inline-flex items-start justify-start gap-1 rounded-level-negative-2 border border-default px-4 py-1 disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled sm:px-2 sm:py-0.5 text-sm font-medium leading-tight text enabled:focus-visible:outline enabled:focus-visible:outline-1 enabled:focus-visible:outline-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1 bg-interactive-primary text-on-interactive hover:border-subdued hover:bg-interactive-primary-hovered focus-visible:bg-interactive-primary-pressed active:border-pressed active:bg-interactive-primary-pressed"
+              id="local"
+            >
+              Local Catalog
+            </button>
+            <button
+              class="inline-flex items-start justify-start gap-1 rounded-level-negative-2 border border-default bg-surface px-4 py-1 hover:border-hovered hover:bg-surface-hovered active:border-pressed active:bg-surface-pressed disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled sm:px-2 sm:py-0.5 text-sm font-medium leading-tight text enabled:focus-visible:outline enabled:focus-visible:outline-1 enabled:focus-visible:outline-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1"
+              id="amazon"
+            >
+              Amazon
+            </button>
+            <button
+              class="inline-flex items-start justify-start gap-1 rounded-level-negative-2 border border-default px-4 py-1 disabled:border-disabled disabled:bg-surface-disabled disabled:text-disabled sm:px-2 sm:py-0.5 text-sm font-medium leading-tight text enabled:focus-visible:outline enabled:focus-visible:outline-1 enabled:focus-visible:outline-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1 bg-interactive-primary text-on-interactive hover:border-subdued hover:bg-interactive-primary-hovered focus-visible:bg-interactive-primary-pressed active:border-pressed active:bg-interactive-primary-pressed"
+              id="psg"
+            >
+              PSG
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex w-full flex-wrap items-start justify-start gap-2"
+        />
+      </div>
+      <button
+        class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+      >
+        <svg
+          class="h-5 w-5 text-icon"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.0006 8.49876C15.0006 9.93321 14.535 11.2583 13.7506 12.3333L17.707 16.2929C18.0977 16.6835 18.0977 17.3179 17.707 17.7086C17.3164 18.0992 16.682 18.0992 16.2913 17.7086L12.3349 13.749C11.2598 14.5366 9.93476 14.9991 8.50032 14.9991C4.90952 14.9991 2 12.0896 2 8.49876C2 4.90796 4.90952 1.99844 8.50032 1.99844C12.0911 1.99844 15.0006 4.90796 15.0006 8.49876ZM8.50032 12.999C9.09129 12.999 9.67649 12.8826 10.2225 12.6564C10.7685 12.4303 11.2646 12.0988 11.6825 11.6809C12.1003 11.263 12.4318 10.7669 12.658 10.2209C12.8841 9.67493 13.0005 9.08974 13.0005 8.49876C13.0005 7.90778 12.8841 7.32259 12.658 6.7766C12.4318 6.23061 12.1003 5.73451 11.6825 5.31663C11.2646 4.89874 10.7685 4.56726 10.2225 4.3411C9.67649 4.11494 9.09129 3.99854 8.50032 3.99854C7.90934 3.99854 7.32415 4.11494 6.77816 4.3411C6.23217 4.56726 5.73607 4.89874 5.31818 5.31663C4.9003 5.73451 4.56881 6.23061 4.34266 6.7766C4.1165 7.32259 4.0001 7.90778 4.0001 8.49876C4.0001 9.08974 4.1165 9.67493 4.34266 10.2209C4.56881 10.7669 4.9003 11.263 5.31818 11.6809C5.73607 12.0988 6.23217 12.4303 6.77816 12.6564C7.32415 12.8826 7.90934 12.999 8.50032 12.999Z"
+            fill="currentColor"
+          />
+        </svg>
+        <span
+          class="sr-only"
+        >
+          Search Icon
+        </span>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<TableFilterHeaderProps /> > renders with onClearAll:undefined, onSearchQueryChange:undefined, appliedFilters:[ Array(3) ], togglableFilters:undefined 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class=" flex w-full shrink grow basis-0 items-start justify-between gap-4 border-b border-default p-4 pr-5 md:pr-4"
+      >
+        <div
+          class="flex w-full flex-col gap-0 md:flex-row-reverse md:gap-4"
+        >
+          <div
+            class="flex justify-between gap-6 md:gap-4 flex-row md:flex-row-reverse"
+          />
+          <div
+            class="flex w-full flex-wrap items-start justify-start gap-2"
+          >
+            <div
+              class="relative inline-flex items-center justify-center"
+            >
+              <div
+                class="inline-flex items-center justify-start rounded-level-negative-2 bg-surface"
+              >
+                <div
+                  class="z-0 inline-flex items-center justify-start gap-1 rounded-level-negative-2 outline-dashed outline-1 outline-offset-0 outline-outline-default cursor-default py-1 pl-3 pr-2 sm:py-0.5 sm:pl-2 sm:pr-1"
+                >
+                  <span
+                    class="text-sm font-medium leading-tight text"
+                  >
+                    Some Filter 1
+                  </span>
+                  <span
+                    class="z-20 inline-flex items-center"
+                  >
+                    <button
+                      class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+                    >
+                      <svg
+                        class="h-5 w-5 text-icon"
+                        fill="none"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <span
+                        class="sr-only"
+                      >
+                        remove icon
+                      </span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="relative inline-flex items-center justify-center"
+            >
+              <div
+                class="inline-flex items-center justify-start rounded-level-negative-2 bg-surface"
+              >
+                <div
+                  class="z-0 inline-flex items-center justify-start gap-1 rounded-level-negative-2 outline-dashed outline-1 outline-offset-0 outline-outline-default cursor-default py-1 pl-3 pr-2 sm:py-0.5 sm:pl-2 sm:pr-1"
+                >
+                  <span
+                    class="text-sm font-medium leading-tight text"
+                  >
+                    Some Filter 2
+                  </span>
+                  <span
+                    class="z-20 inline-flex items-center"
+                  >
+                    <button
+                      class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+                    >
+                      <svg
+                        class="h-5 w-5 text-icon"
+                        fill="none"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <span
+                        class="sr-only"
+                      >
+                        remove icon
+                      </span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="relative inline-flex items-center justify-center"
+            >
+              <div
+                class="inline-flex items-center justify-start rounded-level-negative-2 bg-surface"
+              >
+                <div
+                  class="z-0 inline-flex items-center justify-start gap-1 rounded-level-negative-2 outline-dashed outline-1 outline-offset-0 outline-outline-default cursor-default py-1 pl-3 pr-2 sm:py-0.5 sm:pl-2 sm:pr-1"
+                >
+                  <span
+                    class="text-sm font-medium leading-tight text"
+                  >
+                    Some Filter 3
+                  </span>
+                  <span
+                    class="z-20 inline-flex items-center"
+                  >
+                    <button
+                      class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+                    >
+                      <svg
+                        class="h-5 w-5 text-icon"
+                        fill="none"
+                        viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                      <span
+                        class="sr-only"
+                      >
+                        remove icon
+                      </span>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="relative inline-flex items-center justify-center"
+            >
+              <div
+                class="inline-flex items-center justify-start rounded-level-negative-2 bg-surface"
+              >
+                <div
+                  class="z-0 inline-flex items-center justify-start gap-1 rounded-level-negative-2 outline-dashed outline-1 outline-offset-0 outline-outline-default hover:outline-outline-hovered active:outline-outline-pressed [&:has(button:first-child:focus-visible)]:[&:first-child]:outline-outline-pressed"
+                >
+                  <button
+                    aria-controls="radix-:r0:"
+                    aria-expanded="false"
+                    aria-haspopup="dialog"
+                    class="inline-flex items-center justify-start gap-1 text-sm font-medium leading-tight text focus:outline-none rounded-level-negative-2 hover:bg-surface-hovered active:bg-surface-pressed py-1 pl-3 pr-2 sm:py-0.5 sm:pl-2 sm:pr-1 enabled:focus-visible:outline enabled:focus-visible:outline-2 enabled:focus-visible:outline-offset-0 enabled:focus-visible:outline-focus enabled:focus-visible:ring-2 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1"
+                    data-state="closed"
+                  >
+                    Add Filter
+                    <svg
+                      class="h-5 w-5 text-icon"
+                      fill="none"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11.1979 3.21496C11.1979 2.55235 10.6599 2.01432 9.99728 2.01432C9.33468 2.01432 8.79664 2.55235 8.79664 3.21496L8.79929 8.79937L3.21488 8.80202C2.55228 8.80202 2.01425 9.34005 2.01425 10.0027C2.01425 10.6653 2.55228 11.2033 3.21488 11.2033L8.79929 11.2006L8.80194 16.785C8.80194 17.4476 9.33998 17.9857 10.0026 17.9857C10.6652 17.9857 11.2032 17.4476 11.2032 16.785L11.2006 11.2006L16.785 11.198C17.4476 11.198 17.9856 10.66 17.9856 9.99735C17.9856 9.33475 17.4476 8.79671 16.785 8.79671L11.2006 8.79937L11.1979 3.21496Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+              data-outline="false"
+              data-plain="true"
+              data-size="medium"
+              data-variant="primary"
+            >
+              Clear All
+            </button>
+          </div>
+        </div>
+        <button
+          class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+        >
+          <svg
+            class="h-5 w-5 text-icon"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.0006 8.49876C15.0006 9.93321 14.535 11.2583 13.7506 12.3333L17.707 16.2929C18.0977 16.6835 18.0977 17.3179 17.707 17.7086C17.3164 18.0992 16.682 18.0992 16.2913 17.7086L12.3349 13.749C11.2598 14.5366 9.93476 14.9991 8.50032 14.9991C4.90952 14.9991 2 12.0896 2 8.49876C2 4.90796 4.90952 1.99844 8.50032 1.99844C12.0911 1.99844 15.0006 4.90796 15.0006 8.49876ZM8.50032 12.999C9.09129 12.999 9.67649 12.8826 10.2225 12.6564C10.7685 12.4303 11.2646 12.0988 11.6825 11.6809C12.1003 11.263 12.4318 10.7669 12.658 10.2209C12.8841 9.67493 13.0005 9.08974 13.0005 8.49876C13.0005 7.90778 12.8841 7.32259 12.658 6.7766C12.4318 6.23061 12.1003 5.73451 11.6825 5.31663C11.2646 4.89874 10.7685 4.56726 10.2225 4.3411C9.67649 4.11494 9.09129 3.99854 8.50032 3.99854C7.90934 3.99854 7.32415 4.11494 6.77816 4.3411C6.23217 4.56726 5.73607 4.89874 5.31818 5.31663C4.9003 5.73451 4.56881 6.23061 4.34266 6.7766C4.1165 7.32259 4.0001 7.90778 4.0001 8.49876C4.0001 9.08974 4.1165 9.67493 4.34266 10.2209C4.56881 10.7669 4.9003 11.263 5.31818 11.6809C5.73607 12.0988 6.23217 12.4303 6.77816 12.6564C7.32415 12.8826 7.90934 12.999 8.50032 12.999Z"
+              fill="currentColor"
+            />
+          </svg>
+          <span
+            class="sr-only"
+          >
+            Search Icon
+          </span>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class=" flex w-full shrink grow basis-0 items-start justify-between gap-4 border-b border-default p-4 pr-5 md:pr-4"
+    >
+      <div
+        class="flex w-full flex-col gap-0 md:flex-row-reverse md:gap-4"
+      >
+        <div
+          class="flex justify-between gap-6 md:gap-4 flex-row md:flex-row-reverse"
+        />
+        <div
+          class="flex w-full flex-wrap items-start justify-start gap-2"
+        >
+          <div
+            class="relative inline-flex items-center justify-center"
+          >
+            <div
+              class="inline-flex items-center justify-start rounded-level-negative-2 bg-surface"
+            >
+              <div
+                class="z-0 inline-flex items-center justify-start gap-1 rounded-level-negative-2 outline-dashed outline-1 outline-offset-0 outline-outline-default cursor-default py-1 pl-3 pr-2 sm:py-0.5 sm:pl-2 sm:pr-1"
+              >
+                <span
+                  class="text-sm font-medium leading-tight text"
+                >
+                  Some Filter 1
+                </span>
+                <span
+                  class="z-20 inline-flex items-center"
+                >
+                  <button
+                    class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+                  >
+                    <svg
+                      class="h-5 w-5 text-icon"
+                      fill="none"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                    <span
+                      class="sr-only"
+                    >
+                      remove icon
+                    </span>
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="relative inline-flex items-center justify-center"
+          >
+            <div
+              class="inline-flex items-center justify-start rounded-level-negative-2 bg-surface"
+            >
+              <div
+                class="z-0 inline-flex items-center justify-start gap-1 rounded-level-negative-2 outline-dashed outline-1 outline-offset-0 outline-outline-default cursor-default py-1 pl-3 pr-2 sm:py-0.5 sm:pl-2 sm:pr-1"
+              >
+                <span
+                  class="text-sm font-medium leading-tight text"
+                >
+                  Some Filter 2
+                </span>
+                <span
+                  class="z-20 inline-flex items-center"
+                >
+                  <button
+                    class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+                  >
+                    <svg
+                      class="h-5 w-5 text-icon"
+                      fill="none"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                    <span
+                      class="sr-only"
+                    >
+                      remove icon
+                    </span>
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="relative inline-flex items-center justify-center"
+          >
+            <div
+              class="inline-flex items-center justify-start rounded-level-negative-2 bg-surface"
+            >
+              <div
+                class="z-0 inline-flex items-center justify-start gap-1 rounded-level-negative-2 outline-dashed outline-1 outline-offset-0 outline-outline-default cursor-default py-1 pl-3 pr-2 sm:py-0.5 sm:pl-2 sm:pr-1"
+              >
+                <span
+                  class="text-sm font-medium leading-tight text"
+                >
+                  Some Filter 3
+                </span>
+                <span
+                  class="z-20 inline-flex items-center"
+                >
+                  <button
+                    class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+                  >
+                    <svg
+                      class="h-5 w-5 text-icon"
+                      fill="none"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                    <span
+                      class="sr-only"
+                    >
+                      remove icon
+                    </span>
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="relative inline-flex items-center justify-center"
+          >
+            <div
+              class="inline-flex items-center justify-start rounded-level-negative-2 bg-surface"
+            >
+              <div
+                class="z-0 inline-flex items-center justify-start gap-1 rounded-level-negative-2 outline-dashed outline-1 outline-offset-0 outline-outline-default hover:outline-outline-hovered active:outline-outline-pressed [&:has(button:first-child:focus-visible)]:[&:first-child]:outline-outline-pressed"
+              >
+                <button
+                  aria-controls="radix-:r0:"
+                  aria-expanded="false"
+                  aria-haspopup="dialog"
+                  class="inline-flex items-center justify-start gap-1 text-sm font-medium leading-tight text focus:outline-none rounded-level-negative-2 hover:bg-surface-hovered active:bg-surface-pressed py-1 pl-3 pr-2 sm:py-0.5 sm:pl-2 sm:pr-1 enabled:focus-visible:outline enabled:focus-visible:outline-2 enabled:focus-visible:outline-offset-0 enabled:focus-visible:outline-focus enabled:focus-visible:ring-2 enabled:focus-visible:ring-focus enabled:focus-visible:ring-offset-1"
+                  data-state="closed"
+                >
+                  Add Filter
+                  <svg
+                    class="h-5 w-5 text-icon"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11.1979 3.21496C11.1979 2.55235 10.6599 2.01432 9.99728 2.01432C9.33468 2.01432 8.79664 2.55235 8.79664 3.21496L8.79929 8.79937L3.21488 8.80202C2.55228 8.80202 2.01425 9.34005 2.01425 10.0027C2.01425 10.6653 2.55228 11.2033 3.21488 11.2033L8.79929 11.2006L8.80194 16.785C8.80194 17.4476 9.33998 17.9857 10.0026 17.9857C10.6652 17.9857 11.2032 17.4476 11.2032 16.785L11.2006 11.2006L16.785 11.198C17.4476 11.198 17.9856 10.66 17.9856 9.99735C17.9856 9.33475 17.4476 8.79671 16.785 8.79671L11.2006 8.79937L11.1979 3.21496Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <button
+            class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+            data-outline="false"
+            data-plain="true"
+            data-size="medium"
+            data-variant="primary"
+          >
+            Clear All
+          </button>
+        </div>
+      </div>
+      <button
+        class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+      >
+        <svg
+          class="h-5 w-5 text-icon"
+          fill="none"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.0006 8.49876C15.0006 9.93321 14.535 11.2583 13.7506 12.3333L17.707 16.2929C18.0977 16.6835 18.0977 17.3179 17.707 17.7086C17.3164 18.0992 16.682 18.0992 16.2913 17.7086L12.3349 13.749C11.2598 14.5366 9.93476 14.9991 8.50032 14.9991C4.90952 14.9991 2 12.0896 2 8.49876C2 4.90796 4.90952 1.99844 8.50032 1.99844C12.0911 1.99844 15.0006 4.90796 15.0006 8.49876ZM8.50032 12.999C9.09129 12.999 9.67649 12.8826 10.2225 12.6564C10.7685 12.4303 11.2646 12.0988 11.6825 11.6809C12.1003 11.263 12.4318 10.7669 12.658 10.2209C12.8841 9.67493 13.0005 9.08974 13.0005 8.49876C13.0005 7.90778 12.8841 7.32259 12.658 6.7766C12.4318 6.23061 12.1003 5.73451 11.6825 5.31663C11.2646 4.89874 10.7685 4.56726 10.2225 4.3411C9.67649 4.11494 9.09129 3.99854 8.50032 3.99854C7.90934 3.99854 7.32415 4.11494 6.77816 4.3411C6.23217 4.56726 5.73607 4.89874 5.31818 5.31663C4.9003 5.73451 4.56881 6.23061 4.34266 6.7766C4.1165 7.32259 4.0001 7.90778 4.0001 8.49876C4.0001 9.08974 4.1165 9.67493 4.34266 10.2209C4.56881 10.7669 4.9003 11.263 5.31818 11.6809C5.73607 12.0988 6.23217 12.4303 6.77816 12.6564C7.32415 12.8826 7.90934 12.999 8.50032 12.999Z"
+            fill="currentColor"
+          />
+        </svg>
+        <span
+          class="sr-only"
+        >
+          Search Icon
+        </span>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

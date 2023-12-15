@@ -1,0 +1,1043 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Checkbox /> > onChange invoked 1`] = `
+<DocumentFragment>
+  <div
+    class="inline-flex flex-col items-start"
+  >
+    <button
+      aria-checked="false"
+      class="group flex items-start gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+      data-state="unchecked"
+      data-testid="test-checkbox"
+      id=":r6:"
+      role="checkbox"
+      type="button"
+      value="confirmed"
+    >
+      <span
+        class="relative m-[1px] h-[18px] min-w-[18px] rounded-level-3 border-2 border-default bg-interactive-plain group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-hover:shadow-sm group-hover:shadow-[rgb(0,0,0,0.08)]"
+        data-state="unchecked"
+        style="pointer-events: none;"
+      >
+        <svg
+          aria-hidden="true"
+          class="absolute left-[4px] top-[5px] hidden text-icon-on-interactive group-hover:left-[2px] group-hover:top-[3px] group-hover:block group-hover:text-interactive-plain-hovered"
+          fill="none"
+          height="8"
+          viewBox="0 0 10 8"
+          width="10"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M9.72318 0.237414C10.0707 0.574491 10.0942 1.14584 9.77561 1.51356L4.40976 7.70711C4.25243 7.88871 4.03181 7.99443 3.79903 7.99979C3.56625 8.00514 3.3415 7.90965 3.17686 7.73545L0.250031 4.63868C-0.0833435 4.28595 -0.0833435 3.71406 0.250031 3.36133C0.583405 3.00859 1.12391 3.00859 1.45729 3.36133L3.75367 5.79105L8.51706 0.292899C8.83564 -0.0748211 9.37564 -0.0996624 9.72318 0.237414Z"
+            fill="currentColor"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </span>
+      <label
+        class="text-left text-sm text group-hover:cursor-pointer"
+        for=":r6:"
+      >
+        I agree to TOS
+      </label>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Checkbox /> > onChange invoked 2`] = `
+<DocumentFragment>
+  <div
+    class="inline-flex flex-col items-start"
+  >
+    <button
+      aria-checked="true"
+      class="group flex items-start gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+      data-state="checked"
+      data-testid="test-checkbox"
+      id=":r7:"
+      role="checkbox"
+      type="button"
+      value="confirmed"
+    >
+      <span
+        class="relative m-[1px] h-[18px] min-w-[18px] rounded-level-3 group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-hover:shadow-sm group-hover:shadow-[rgb(0,0,0,0.08)] border-0 border-interactive-primary bg-interactive-primary group-hover:border-interactive-primary-hovered group-hover:bg-interactive-primary-hovered"
+        data-state="checked"
+        style="pointer-events: none;"
+      >
+        <svg
+          aria-hidden="true"
+          class="absolute left-[4px] top-[5px] text-icon-on-interactive block group-hover:block group-hover:text-interactive-plain-hovered"
+          fill="none"
+          height="8"
+          viewBox="0 0 10 8"
+          width="10"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M9.72318 0.237414C10.0707 0.574491 10.0942 1.14584 9.77561 1.51356L4.40976 7.70711C4.25243 7.88871 4.03181 7.99443 3.79903 7.99979C3.56625 8.00514 3.3415 7.90965 3.17686 7.73545L0.250031 4.63868C-0.0833435 4.28595 -0.0833435 3.71406 0.250031 3.36133C0.583405 3.00859 1.12391 3.00859 1.45729 3.36133L3.75367 5.79105L8.51706 0.292899C8.83564 -0.0748211 9.37564 -0.0996624 9.72318 0.237414Z"
+            fill="currentColor"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </span>
+      <label
+        class="text-left text-sm text group-hover:cursor-pointer"
+        for=":r7:"
+      >
+        I agree to TOS
+      </label>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Checkbox /> > onChange not invoked when disabled 1`] = `
+<DocumentFragment>
+  <div
+    class="inline-flex flex-col items-start"
+  >
+    <button
+      aria-checked="false"
+      class="group flex items-start gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+      data-disabled=""
+      data-state="unchecked"
+      data-testid="test-checkbox"
+      disabled=""
+      id=":r8:"
+      role="checkbox"
+      type="button"
+      value="confirmed"
+    >
+      <span
+        class="relative m-[1px] h-[18px] min-w-[18px] rounded-level-3 border-2 group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 border-disabled bg-surface-disabled"
+        data-disabled=""
+        data-state="unchecked"
+        style="pointer-events: none;"
+      >
+        <svg
+          aria-hidden="true"
+          class="absolute left-[4px] top-[5px] hidden group-hover:left-[2px] group-hover:top-[3px] text-icon-disabled"
+          fill="none"
+          height="8"
+          viewBox="0 0 10 8"
+          width="10"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M9.72318 0.237414C10.0707 0.574491 10.0942 1.14584 9.77561 1.51356L4.40976 7.70711C4.25243 7.88871 4.03181 7.99443 3.79903 7.99979C3.56625 8.00514 3.3415 7.90965 3.17686 7.73545L0.250031 4.63868C-0.0833435 4.28595 -0.0833435 3.71406 0.250031 3.36133C0.583405 3.00859 1.12391 3.00859 1.45729 3.36133L3.75367 5.79105L8.51706 0.292899C8.83564 -0.0748211 9.37564 -0.0996624 9.72318 0.237414Z"
+            fill="currentColor"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </span>
+      <label
+        aria-disabled="true"
+        class="text-left text-sm text text-disabled"
+        for=":r8:"
+      >
+        I agree to TOS
+      </label>
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`<Checkbox /> > renders with  1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="inline-flex flex-col items-start"
+      >
+        <button
+          aria-checked="false"
+          class="group flex items-start gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+          data-state="unchecked"
+          id=":r0:"
+          role="checkbox"
+          type="button"
+          value="confirmed"
+        >
+          <span
+            class="relative m-[1px] h-[18px] min-w-[18px] rounded-level-3 border-2 border-default bg-interactive-plain group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-hover:shadow-sm group-hover:shadow-[rgb(0,0,0,0.08)]"
+            data-state="unchecked"
+            style="pointer-events: none;"
+          >
+            <svg
+              aria-hidden="true"
+              class="absolute left-[4px] top-[5px] hidden text-icon-on-interactive group-hover:left-[2px] group-hover:top-[3px] group-hover:block group-hover:text-interactive-plain-hovered"
+              fill="none"
+              height="8"
+              viewBox="0 0 10 8"
+              width="10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M9.72318 0.237414C10.0707 0.574491 10.0942 1.14584 9.77561 1.51356L4.40976 7.70711C4.25243 7.88871 4.03181 7.99443 3.79903 7.99979C3.56625 8.00514 3.3415 7.90965 3.17686 7.73545L0.250031 4.63868C-0.0833435 4.28595 -0.0833435 3.71406 0.250031 3.36133C0.583405 3.00859 1.12391 3.00859 1.45729 3.36133L3.75367 5.79105L8.51706 0.292899C8.83564 -0.0748211 9.37564 -0.0996624 9.72318 0.237414Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+          <label
+            class="text-left text-sm text group-hover:cursor-pointer"
+            for=":r0:"
+          >
+            I agree to TOS
+          </label>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="inline-flex flex-col items-start"
+    >
+      <button
+        aria-checked="false"
+        class="group flex items-start gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+        data-state="unchecked"
+        id=":r0:"
+        role="checkbox"
+        type="button"
+        value="confirmed"
+      >
+        <span
+          class="relative m-[1px] h-[18px] min-w-[18px] rounded-level-3 border-2 border-default bg-interactive-plain group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-hover:shadow-sm group-hover:shadow-[rgb(0,0,0,0.08)]"
+          data-state="unchecked"
+          style="pointer-events: none;"
+        >
+          <svg
+            aria-hidden="true"
+            class="absolute left-[4px] top-[5px] hidden text-icon-on-interactive group-hover:left-[2px] group-hover:top-[3px] group-hover:block group-hover:text-interactive-plain-hovered"
+            fill="none"
+            height="8"
+            viewBox="0 0 10 8"
+            width="10"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M9.72318 0.237414C10.0707 0.574491 10.0942 1.14584 9.77561 1.51356L4.40976 7.70711C4.25243 7.88871 4.03181 7.99443 3.79903 7.99979C3.56625 8.00514 3.3415 7.90965 3.17686 7.73545L0.250031 4.63868C-0.0833435 4.28595 -0.0833435 3.71406 0.250031 3.36133C0.583405 3.00859 1.12391 3.00859 1.45729 3.36133L3.75367 5.79105L8.51706 0.292899C8.83564 -0.0748211 9.37564 -0.0996624 9.72318 0.237414Z"
+              fill="currentColor"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </span>
+        <label
+          class="text-left text-sm text group-hover:cursor-pointer"
+          for=":r0:"
+        >
+          I agree to TOS
+        </label>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Checkbox /> > renders with  2`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="inline-flex flex-col items-start"
+      >
+        <button
+          aria-checked="false"
+          class="group flex items-start gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+          data-disabled=""
+          data-state="unchecked"
+          disabled=""
+          id=":r1:"
+          role="checkbox"
+          type="button"
+          value="confirmed"
+        >
+          <span
+            class="relative m-[1px] h-[18px] min-w-[18px] rounded-level-3 border-2 group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 border-disabled bg-surface-disabled"
+            data-disabled=""
+            data-state="unchecked"
+            style="pointer-events: none;"
+          >
+            <svg
+              aria-hidden="true"
+              class="absolute left-[4px] top-[5px] hidden group-hover:left-[2px] group-hover:top-[3px] text-icon-disabled"
+              fill="none"
+              height="8"
+              viewBox="0 0 10 8"
+              width="10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M9.72318 0.237414C10.0707 0.574491 10.0942 1.14584 9.77561 1.51356L4.40976 7.70711C4.25243 7.88871 4.03181 7.99443 3.79903 7.99979C3.56625 8.00514 3.3415 7.90965 3.17686 7.73545L0.250031 4.63868C-0.0833435 4.28595 -0.0833435 3.71406 0.250031 3.36133C0.583405 3.00859 1.12391 3.00859 1.45729 3.36133L3.75367 5.79105L8.51706 0.292899C8.83564 -0.0748211 9.37564 -0.0996624 9.72318 0.237414Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+          <label
+            aria-disabled="true"
+            class="text-left text-sm text text-disabled"
+            for=":r1:"
+          >
+            I agree to TOS
+          </label>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="inline-flex flex-col items-start"
+    >
+      <button
+        aria-checked="false"
+        class="group flex items-start gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+        data-disabled=""
+        data-state="unchecked"
+        disabled=""
+        id=":r1:"
+        role="checkbox"
+        type="button"
+        value="confirmed"
+      >
+        <span
+          class="relative m-[1px] h-[18px] min-w-[18px] rounded-level-3 border-2 group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 border-disabled bg-surface-disabled"
+          data-disabled=""
+          data-state="unchecked"
+          style="pointer-events: none;"
+        >
+          <svg
+            aria-hidden="true"
+            class="absolute left-[4px] top-[5px] hidden group-hover:left-[2px] group-hover:top-[3px] text-icon-disabled"
+            fill="none"
+            height="8"
+            viewBox="0 0 10 8"
+            width="10"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M9.72318 0.237414C10.0707 0.574491 10.0942 1.14584 9.77561 1.51356L4.40976 7.70711C4.25243 7.88871 4.03181 7.99443 3.79903 7.99979C3.56625 8.00514 3.3415 7.90965 3.17686 7.73545L0.250031 4.63868C-0.0833435 4.28595 -0.0833435 3.71406 0.250031 3.36133C0.583405 3.00859 1.12391 3.00859 1.45729 3.36133L3.75367 5.79105L8.51706 0.292899C8.83564 -0.0748211 9.37564 -0.0996624 9.72318 0.237414Z"
+              fill="currentColor"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </span>
+        <label
+          aria-disabled="true"
+          class="text-left text-sm text text-disabled"
+          for=":r1:"
+        >
+          I agree to TOS
+        </label>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Checkbox /> > renders with  3`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="inline-flex flex-col items-start"
+      >
+        <button
+          aria-checked="false"
+          aria-invalid="true"
+          class="group flex items-start gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+          data-error="true"
+          data-state="unchecked"
+          id=":r2:"
+          role="checkbox"
+          type="button"
+          value="confirmed"
+        >
+          <span
+            class="relative m-[1px] h-[18px] min-w-[18px] rounded-level-3 border-2 group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-hover:shadow-sm group-hover:shadow-[rgb(0,0,0,0.08)] border-critical bg-surface-critical group-hover:bg-surface-critical-hovered"
+            data-state="unchecked"
+            style="pointer-events: none;"
+          >
+            <svg
+              aria-hidden="true"
+              class="absolute left-[4px] top-[5px] hidden text-icon-on-interactive group-hover:left-[2px] group-hover:top-[3px] group-hover:block group-hover:text-interactive-plain-hovered"
+              fill="none"
+              height="8"
+              viewBox="0 0 10 8"
+              width="10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M9.72318 0.237414C10.0707 0.574491 10.0942 1.14584 9.77561 1.51356L4.40976 7.70711C4.25243 7.88871 4.03181 7.99443 3.79903 7.99979C3.56625 8.00514 3.3415 7.90965 3.17686 7.73545L0.250031 4.63868C-0.0833435 4.28595 -0.0833435 3.71406 0.250031 3.36133C0.583405 3.00859 1.12391 3.00859 1.45729 3.36133L3.75367 5.79105L8.51706 0.292899C8.83564 -0.0748211 9.37564 -0.0996624 9.72318 0.237414Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+          <label
+            class="text-left text-sm text group-hover:cursor-pointer"
+            for=":r2:"
+          >
+            I agree to TOS
+          </label>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="inline-flex flex-col items-start"
+    >
+      <button
+        aria-checked="false"
+        aria-invalid="true"
+        class="group flex items-start gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+        data-error="true"
+        data-state="unchecked"
+        id=":r2:"
+        role="checkbox"
+        type="button"
+        value="confirmed"
+      >
+        <span
+          class="relative m-[1px] h-[18px] min-w-[18px] rounded-level-3 border-2 group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-hover:shadow-sm group-hover:shadow-[rgb(0,0,0,0.08)] border-critical bg-surface-critical group-hover:bg-surface-critical-hovered"
+          data-state="unchecked"
+          style="pointer-events: none;"
+        >
+          <svg
+            aria-hidden="true"
+            class="absolute left-[4px] top-[5px] hidden text-icon-on-interactive group-hover:left-[2px] group-hover:top-[3px] group-hover:block group-hover:text-interactive-plain-hovered"
+            fill="none"
+            height="8"
+            viewBox="0 0 10 8"
+            width="10"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M9.72318 0.237414C10.0707 0.574491 10.0942 1.14584 9.77561 1.51356L4.40976 7.70711C4.25243 7.88871 4.03181 7.99443 3.79903 7.99979C3.56625 8.00514 3.3415 7.90965 3.17686 7.73545L0.250031 4.63868C-0.0833435 4.28595 -0.0833435 3.71406 0.250031 3.36133C0.583405 3.00859 1.12391 3.00859 1.45729 3.36133L3.75367 5.79105L8.51706 0.292899C8.83564 -0.0748211 9.37564 -0.0996624 9.72318 0.237414Z"
+              fill="currentColor"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </span>
+        <label
+          class="text-left text-sm text group-hover:cursor-pointer"
+          for=":r2:"
+        >
+          I agree to TOS
+        </label>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Checkbox /> > renders with  4`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="inline-flex flex-col items-start"
+      >
+        <button
+          aria-checked="true"
+          class="group flex items-start gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+          data-state="checked"
+          id=":r3:"
+          role="checkbox"
+          type="button"
+          value="confirmed"
+        >
+          <span
+            class="relative m-[1px] h-[18px] min-w-[18px] rounded-level-3 group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-hover:shadow-sm group-hover:shadow-[rgb(0,0,0,0.08)] border-0 border-interactive-primary bg-interactive-primary group-hover:border-interactive-primary-hovered group-hover:bg-interactive-primary-hovered"
+            data-state="checked"
+            style="pointer-events: none;"
+          >
+            <svg
+              aria-hidden="true"
+              class="absolute left-[4px] top-[5px] text-icon-on-interactive block group-hover:block group-hover:text-interactive-plain-hovered"
+              fill="none"
+              height="8"
+              viewBox="0 0 10 8"
+              width="10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M9.72318 0.237414C10.0707 0.574491 10.0942 1.14584 9.77561 1.51356L4.40976 7.70711C4.25243 7.88871 4.03181 7.99443 3.79903 7.99979C3.56625 8.00514 3.3415 7.90965 3.17686 7.73545L0.250031 4.63868C-0.0833435 4.28595 -0.0833435 3.71406 0.250031 3.36133C0.583405 3.00859 1.12391 3.00859 1.45729 3.36133L3.75367 5.79105L8.51706 0.292899C8.83564 -0.0748211 9.37564 -0.0996624 9.72318 0.237414Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+          <label
+            class="text-left text-sm text group-hover:cursor-pointer"
+            for=":r3:"
+          >
+            I agree to TOS
+          </label>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="inline-flex flex-col items-start"
+    >
+      <button
+        aria-checked="true"
+        class="group flex items-start gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+        data-state="checked"
+        id=":r3:"
+        role="checkbox"
+        type="button"
+        value="confirmed"
+      >
+        <span
+          class="relative m-[1px] h-[18px] min-w-[18px] rounded-level-3 group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-hover:shadow-sm group-hover:shadow-[rgb(0,0,0,0.08)] border-0 border-interactive-primary bg-interactive-primary group-hover:border-interactive-primary-hovered group-hover:bg-interactive-primary-hovered"
+          data-state="checked"
+          style="pointer-events: none;"
+        >
+          <svg
+            aria-hidden="true"
+            class="absolute left-[4px] top-[5px] text-icon-on-interactive block group-hover:block group-hover:text-interactive-plain-hovered"
+            fill="none"
+            height="8"
+            viewBox="0 0 10 8"
+            width="10"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M9.72318 0.237414C10.0707 0.574491 10.0942 1.14584 9.77561 1.51356L4.40976 7.70711C4.25243 7.88871 4.03181 7.99443 3.79903 7.99979C3.56625 8.00514 3.3415 7.90965 3.17686 7.73545L0.250031 4.63868C-0.0833435 4.28595 -0.0833435 3.71406 0.250031 3.36133C0.583405 3.00859 1.12391 3.00859 1.45729 3.36133L3.75367 5.79105L8.51706 0.292899C8.83564 -0.0748211 9.37564 -0.0996624 9.72318 0.237414Z"
+              fill="currentColor"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </span>
+        <label
+          class="text-left text-sm text group-hover:cursor-pointer"
+          for=":r3:"
+        >
+          I agree to TOS
+        </label>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Checkbox /> > renders with  5`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="inline-flex flex-col items-start"
+      >
+        <button
+          aria-checked="mixed"
+          class="group flex items-start gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+          data-state="indeterminate"
+          id=":r4:"
+          role="checkbox"
+          type="button"
+          value="confirmed"
+        >
+          <span
+            class="relative m-[1px] h-[18px] min-w-[18px] rounded-level-3 border-2 group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-hover:shadow-sm group-hover:shadow-[rgb(0,0,0,0.08)] border-interactive-primary bg-interactive-primary group-hover:border-interactive-primary-hovered group-hover:bg-interactive-primary-hovered"
+            data-state="indeterminate"
+            style="pointer-events: none;"
+          >
+            <svg
+              aria-hidden="true"
+              class="bg-interactive-primary text-icon-on-interactive group-hover:bg-interactive-primary-hovered"
+              fill="none"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M18 10C18 10.6808 17.45 11.2308 16.7692 11.2308H3.23077C2.55 11.2308 2 10.6808 2 10C2 9.31923 2.55 8.76923 3.23077 8.76923H16.7692C17.45 8.76923 18 9.31923 18 10Z"
+                fill="currentColor"
+              />
+            </svg>
+          </span>
+          <label
+            class="text-left text-sm text group-hover:cursor-pointer"
+            for=":r4:"
+          >
+            I agree to TOS
+          </label>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="inline-flex flex-col items-start"
+    >
+      <button
+        aria-checked="mixed"
+        class="group flex items-start gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+        data-state="indeterminate"
+        id=":r4:"
+        role="checkbox"
+        type="button"
+        value="confirmed"
+      >
+        <span
+          class="relative m-[1px] h-[18px] min-w-[18px] rounded-level-3 border-2 group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 group-hover:shadow-sm group-hover:shadow-[rgb(0,0,0,0.08)] border-interactive-primary bg-interactive-primary group-hover:border-interactive-primary-hovered group-hover:bg-interactive-primary-hovered"
+          data-state="indeterminate"
+          style="pointer-events: none;"
+        >
+          <svg
+            aria-hidden="true"
+            class="bg-interactive-primary text-icon-on-interactive group-hover:bg-interactive-primary-hovered"
+            fill="none"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18 10C18 10.6808 17.45 11.2308 16.7692 11.2308H3.23077C2.55 11.2308 2 10.6808 2 10C2 9.31923 2.55 8.76923 3.23077 8.76923H16.7692C17.45 8.76923 18 9.31923 18 10Z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <label
+          class="text-left text-sm text group-hover:cursor-pointer"
+          for=":r4:"
+        >
+          I agree to TOS
+        </label>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Checkbox /> > renders with  6`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="inline-flex flex-col items-start"
+      >
+        <button
+          aria-checked="true"
+          class="group flex items-start gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+          data-disabled=""
+          data-state="checked"
+          disabled=""
+          id=":r5:"
+          role="checkbox"
+          type="button"
+          value="confirmed"
+        >
+          <span
+            class="relative m-[1px] h-[18px] min-w-[18px] rounded-level-3 group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 border-0 group-hover:border-hovered border-interactive-disabled bg-interactive-disabled"
+            data-disabled=""
+            data-state="checked"
+            style="pointer-events: none;"
+          >
+            <svg
+              aria-hidden="true"
+              class="absolute left-[4px] top-[5px] block text-icon-disabled"
+              fill="none"
+              height="8"
+              viewBox="0 0 10 8"
+              width="10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M9.72318 0.237414C10.0707 0.574491 10.0942 1.14584 9.77561 1.51356L4.40976 7.70711C4.25243 7.88871 4.03181 7.99443 3.79903 7.99979C3.56625 8.00514 3.3415 7.90965 3.17686 7.73545L0.250031 4.63868C-0.0833435 4.28595 -0.0833435 3.71406 0.250031 3.36133C0.583405 3.00859 1.12391 3.00859 1.45729 3.36133L3.75367 5.79105L8.51706 0.292899C8.83564 -0.0748211 9.37564 -0.0996624 9.72318 0.237414Z"
+                fill="currentColor"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+          <label
+            aria-disabled="true"
+            class="text-left text-sm text text-disabled"
+            for=":r5:"
+          >
+            I agree to TOS
+          </label>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="inline-flex flex-col items-start"
+    >
+      <button
+        aria-checked="true"
+        class="group flex items-start gap-2 py-1 focus-visible:outline-none focus-visible:ring-0"
+        data-disabled=""
+        data-state="checked"
+        disabled=""
+        id=":r5:"
+        role="checkbox"
+        type="button"
+        value="confirmed"
+      >
+        <span
+          class="relative m-[1px] h-[18px] min-w-[18px] rounded-level-3 group-focus-visible:outline group-focus-visible:outline-1 group-focus-visible:outline-focus group-focus-visible:ring-1 group-focus-visible:ring-focus group-focus-visible:ring-offset-1 border-0 group-hover:border-hovered border-interactive-disabled bg-interactive-disabled"
+          data-disabled=""
+          data-state="checked"
+          style="pointer-events: none;"
+        >
+          <svg
+            aria-hidden="true"
+            class="absolute left-[4px] top-[5px] block text-icon-disabled"
+            fill="none"
+            height="8"
+            viewBox="0 0 10 8"
+            width="10"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M9.72318 0.237414C10.0707 0.574491 10.0942 1.14584 9.77561 1.51356L4.40976 7.70711C4.25243 7.88871 4.03181 7.99443 3.79903 7.99979C3.56625 8.00514 3.3415 7.90965 3.17686 7.73545L0.250031 4.63868C-0.0833435 4.28595 -0.0833435 3.71406 0.250031 3.36133C0.583405 3.00859 1.12391 3.00859 1.45729 3.36133L3.75367 5.79105L8.51706 0.292899C8.83564 -0.0748211 9.37564 -0.0996624 9.72318 0.237414Z"
+              fill="currentColor"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </span>
+        <label
+          aria-disabled="true"
+          class="text-left text-sm text text-disabled"
+          for=":r5:"
+        >
+          I agree to TOS
+        </label>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

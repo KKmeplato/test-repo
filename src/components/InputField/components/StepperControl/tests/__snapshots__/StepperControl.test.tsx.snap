@@ -1,0 +1,295 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<StepperControl /> > renders when min: +0, max: 10, disabled: false 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="relative left-[6px] flex flex-col gap-0.5"
+      >
+        <div
+          aria-disabled="false"
+          class="h-[14px] w-[18px] cursor-pointer rounded-level-3 bg-surface-neutral text-icon select-none group-hover:bg-surface-neutral-hovered group-hover:text-icon-hovered"
+          data-testid="increment"
+          role="button"
+          tabindex="-1"
+        >
+          <svg
+            class="rounded-level-3 active:bg-surface-neutral-pressed"
+            fill="none"
+            viewBox="0 0 18 14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5.90169 9H12.0983C12.8493 9 13.27 8.24649 12.806 7.7324L9.70769 4.29945C9.34735 3.90018 8.65265 3.90018 8.29231 4.29945L5.19399 7.7324C4.73001 8.24649 5.15069 9 5.90169 9Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+        <div
+          aria-disabled="false"
+          class="h-[14px] w-[18px] cursor-pointer rounded-level-3 bg-surface-neutral text-icon select-none group-hover:bg-surface-neutral-hovered group-hover:text-icon-hovered"
+          data-testid="decrement"
+          role="button"
+          tabindex="-1"
+        >
+          <svg
+            class="rounded-level-3 active:bg-surface-neutral-pressed"
+            fill="none"
+            viewBox="0 0 18 14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12.0983 5L5.90169 5C5.15069 5 4.73001 5.75351 5.19399 6.2676L8.29231 9.70055C8.65265 10.0998 9.34735 10.0998 9.70769 9.70055L12.806 6.2676C13.27 5.75351 12.8493 5 12.0983 5Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="relative left-[6px] flex flex-col gap-0.5"
+    >
+      <div
+        aria-disabled="false"
+        class="h-[14px] w-[18px] cursor-pointer rounded-level-3 bg-surface-neutral text-icon select-none group-hover:bg-surface-neutral-hovered group-hover:text-icon-hovered"
+        data-testid="increment"
+        role="button"
+        tabindex="-1"
+      >
+        <svg
+          class="rounded-level-3 active:bg-surface-neutral-pressed"
+          fill="none"
+          viewBox="0 0 18 14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5.90169 9H12.0983C12.8493 9 13.27 8.24649 12.806 7.7324L9.70769 4.29945C9.34735 3.90018 8.65265 3.90018 8.29231 4.29945L5.19399 7.7324C4.73001 8.24649 5.15069 9 5.90169 9Z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+      <div
+        aria-disabled="false"
+        class="h-[14px] w-[18px] cursor-pointer rounded-level-3 bg-surface-neutral text-icon select-none group-hover:bg-surface-neutral-hovered group-hover:text-icon-hovered"
+        data-testid="decrement"
+        role="button"
+        tabindex="-1"
+      >
+        <svg
+          class="rounded-level-3 active:bg-surface-neutral-pressed"
+          fill="none"
+          viewBox="0 0 18 14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.0983 5L5.90169 5C5.15069 5 4.73001 5.75351 5.19399 6.2676L8.29231 9.70055C8.65265 10.0998 9.34735 10.0998 9.70769 9.70055L12.806 6.2676C13.27 5.75351 12.8493 5 12.0983 5Z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<StepperControl /> > renders when min: +0, max: 10, disabled: false 2`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="relative left-[6px] flex flex-col gap-0.5"
+      >
+        <div
+          aria-disabled="false"
+          class="h-[14px] w-[18px] cursor-pointer rounded-level-3 bg-surface-neutral text-icon select-none group-hover:bg-surface-neutral-hovered group-hover:text-icon-hovered"
+          data-testid="increment"
+          role="button"
+          tabindex="-1"
+        >
+          <svg
+            class="rounded-level-3 active:bg-surface-neutral-pressed"
+            fill="none"
+            viewBox="0 0 18 14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5.90169 9H12.0983C12.8493 9 13.27 8.24649 12.806 7.7324L9.70769 4.29945C9.34735 3.90018 8.65265 3.90018 8.29231 4.29945L5.19399 7.7324C4.73001 8.24649 5.15069 9 5.90169 9Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+        <div
+          aria-disabled="false"
+          class="h-[14px] w-[18px] cursor-pointer rounded-level-3 bg-surface-neutral text-icon select-none group-hover:bg-surface-neutral-hovered group-hover:text-icon-hovered"
+          data-testid="decrement"
+          role="button"
+          tabindex="-1"
+        >
+          <svg
+            class="rounded-level-3 active:bg-surface-neutral-pressed"
+            fill="none"
+            viewBox="0 0 18 14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12.0983 5L5.90169 5C5.15069 5 4.73001 5.75351 5.19399 6.2676L8.29231 9.70055C8.65265 10.0998 9.34735 10.0998 9.70769 9.70055L12.806 6.2676C13.27 5.75351 12.8493 5 12.0983 5Z"
+              fill="currentColor"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="relative left-[6px] flex flex-col gap-0.5"
+    >
+      <div
+        aria-disabled="false"
+        class="h-[14px] w-[18px] cursor-pointer rounded-level-3 bg-surface-neutral text-icon select-none group-hover:bg-surface-neutral-hovered group-hover:text-icon-hovered"
+        data-testid="increment"
+        role="button"
+        tabindex="-1"
+      >
+        <svg
+          class="rounded-level-3 active:bg-surface-neutral-pressed"
+          fill="none"
+          viewBox="0 0 18 14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5.90169 9H12.0983C12.8493 9 13.27 8.24649 12.806 7.7324L9.70769 4.29945C9.34735 3.90018 8.65265 3.90018 8.29231 4.29945L5.19399 7.7324C4.73001 8.24649 5.15069 9 5.90169 9Z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+      <div
+        aria-disabled="false"
+        class="h-[14px] w-[18px] cursor-pointer rounded-level-3 bg-surface-neutral text-icon select-none group-hover:bg-surface-neutral-hovered group-hover:text-icon-hovered"
+        data-testid="decrement"
+        role="button"
+        tabindex="-1"
+      >
+        <svg
+          class="rounded-level-3 active:bg-surface-neutral-pressed"
+          fill="none"
+          viewBox="0 0 18 14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.0983 5L5.90169 5C5.15069 5 4.73001 5.75351 5.19399 6.2676L8.29231 9.70055C8.65265 10.0998 9.34735 10.0998 9.70769 9.70055L12.806 6.2676C13.27 5.75351 12.8493 5 12.0983 5Z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

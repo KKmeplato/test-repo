@@ -1,0 +1,2166 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Accordion /> > renders with 3, type:'multiple' 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col gap-2"
+        data-orientation="vertical"
+      >
+        <div
+          class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+          data-orientation="vertical"
+          data-state="closed"
+          id=":r9:"
+        >
+          <h3
+            class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <button
+              aria-controls="radix-:rb:"
+              aria-expanded="false"
+              class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+              data-orientation="vertical"
+              data-radix-collection-item=""
+              data-state="closed"
+              id="radix-:ra:"
+              type="button"
+            >
+              <svg
+                class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+              >
+                Header content 1
+              </span>
+            </button>
+            <div
+              class="flex items-center justify-center rounded p-2"
+            >
+              <button
+                class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+                data-outline="false"
+                data-plain="true"
+                data-size="small"
+                data-variant="primary"
+              >
+                action 1
+              </button>
+            </div>
+          </h3>
+          <div
+            aria-labelledby="radix-:ra:"
+            class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+            data-orientation="vertical"
+            data-state="closed"
+            hidden=""
+            id="radix-:rb:"
+            role="region"
+            style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+          />
+        </div>
+        <div
+          class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+          data-orientation="vertical"
+          data-state="closed"
+          id=":rc:"
+        >
+          <h3
+            class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <button
+              aria-controls="radix-:re:"
+              aria-expanded="false"
+              class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+              data-orientation="vertical"
+              data-radix-collection-item=""
+              data-state="closed"
+              id="radix-:rd:"
+              type="button"
+            >
+              <svg
+                class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+              >
+                Header content 2
+              </span>
+            </button>
+            <div
+              class="flex items-center justify-center rounded p-2"
+            >
+              <button
+                class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+                data-outline="false"
+                data-plain="true"
+                data-size="small"
+                data-variant="primary"
+              >
+                action 2
+              </button>
+            </div>
+          </h3>
+          <div
+            aria-labelledby="radix-:rd:"
+            class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+            data-orientation="vertical"
+            data-state="closed"
+            hidden=""
+            id="radix-:re:"
+            role="region"
+            style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+          />
+        </div>
+        <div
+          class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+          data-disabled=""
+          data-orientation="vertical"
+          data-state="closed"
+          id=":rf:"
+        >
+          <h3
+            class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+            data-disabled=""
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <button
+              aria-controls="radix-:rh:"
+              aria-expanded="false"
+              class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+              data-disabled=""
+              data-orientation="vertical"
+              data-radix-collection-item=""
+              data-state="closed"
+              disabled=""
+              id="radix-:rg:"
+              type="button"
+            >
+              <svg
+                class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+              >
+                <h3>
+                  Header content 3
+                </h3>
+              </span>
+            </button>
+          </h3>
+          <div
+            aria-labelledby="radix-:rg:"
+            class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+            data-disabled=""
+            data-orientation="vertical"
+            data-state="closed"
+            hidden=""
+            id="radix-:rh:"
+            role="region"
+            style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col gap-2"
+      data-orientation="vertical"
+    >
+      <div
+        class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+        data-orientation="vertical"
+        data-state="closed"
+        id=":r9:"
+      >
+        <h3
+          class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+          data-orientation="vertical"
+          data-state="closed"
+        >
+          <button
+            aria-controls="radix-:rb:"
+            aria-expanded="false"
+            class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="closed"
+            id="radix-:ra:"
+            type="button"
+          >
+            <svg
+              class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+            >
+              Header content 1
+            </span>
+          </button>
+          <div
+            class="flex items-center justify-center rounded p-2"
+          >
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+              data-outline="false"
+              data-plain="true"
+              data-size="small"
+              data-variant="primary"
+            >
+              action 1
+            </button>
+          </div>
+        </h3>
+        <div
+          aria-labelledby="radix-:ra:"
+          class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+          data-orientation="vertical"
+          data-state="closed"
+          hidden=""
+          id="radix-:rb:"
+          role="region"
+          style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+        />
+      </div>
+      <div
+        class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+        data-orientation="vertical"
+        data-state="closed"
+        id=":rc:"
+      >
+        <h3
+          class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+          data-orientation="vertical"
+          data-state="closed"
+        >
+          <button
+            aria-controls="radix-:re:"
+            aria-expanded="false"
+            class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="closed"
+            id="radix-:rd:"
+            type="button"
+          >
+            <svg
+              class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+            >
+              Header content 2
+            </span>
+          </button>
+          <div
+            class="flex items-center justify-center rounded p-2"
+          >
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+              data-outline="false"
+              data-plain="true"
+              data-size="small"
+              data-variant="primary"
+            >
+              action 2
+            </button>
+          </div>
+        </h3>
+        <div
+          aria-labelledby="radix-:rd:"
+          class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+          data-orientation="vertical"
+          data-state="closed"
+          hidden=""
+          id="radix-:re:"
+          role="region"
+          style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+        />
+      </div>
+      <div
+        class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+        data-disabled=""
+        data-orientation="vertical"
+        data-state="closed"
+        id=":rf:"
+      >
+        <h3
+          class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+          data-disabled=""
+          data-orientation="vertical"
+          data-state="closed"
+        >
+          <button
+            aria-controls="radix-:rh:"
+            aria-expanded="false"
+            class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+            data-disabled=""
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="closed"
+            disabled=""
+            id="radix-:rg:"
+            type="button"
+          >
+            <svg
+              class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+            >
+              <h3>
+                Header content 3
+              </h3>
+            </span>
+          </button>
+        </h3>
+        <div
+          aria-labelledby="radix-:rg:"
+          class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+          data-disabled=""
+          data-orientation="vertical"
+          data-state="closed"
+          hidden=""
+          id="radix-:rh:"
+          role="region"
+          style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Accordion /> > renders with 3, type:'multiple' 2`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col gap-2"
+        data-orientation="vertical"
+      >
+        <div
+          class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+          data-orientation="vertical"
+          data-state="closed"
+          id=":ri:"
+        >
+          <h3
+            class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <button
+              aria-controls="radix-:rk:"
+              aria-expanded="false"
+              class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+              data-orientation="vertical"
+              data-radix-collection-item=""
+              data-state="closed"
+              id="radix-:rj:"
+              type="button"
+            >
+              <svg
+                class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+              >
+                Header content 1
+              </span>
+            </button>
+            <div
+              class="flex items-center justify-center rounded p-2"
+            >
+              <button
+                class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+                data-outline="false"
+                data-plain="true"
+                data-size="small"
+                data-variant="primary"
+              >
+                action 1
+              </button>
+            </div>
+          </h3>
+          <div
+            aria-labelledby="radix-:rj:"
+            class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+            data-orientation="vertical"
+            data-state="closed"
+            hidden=""
+            id="radix-:rk:"
+            role="region"
+            style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+          />
+        </div>
+        <div
+          class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+          data-orientation="vertical"
+          data-state="closed"
+          id=":rl:"
+        >
+          <h3
+            class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <button
+              aria-controls="radix-:rn:"
+              aria-expanded="false"
+              class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+              data-orientation="vertical"
+              data-radix-collection-item=""
+              data-state="closed"
+              id="radix-:rm:"
+              type="button"
+            >
+              <svg
+                class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+              >
+                Header content 2
+              </span>
+            </button>
+            <div
+              class="flex items-center justify-center rounded p-2"
+            >
+              <button
+                class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+                data-outline="false"
+                data-plain="true"
+                data-size="small"
+                data-variant="primary"
+              >
+                action 2
+              </button>
+            </div>
+          </h3>
+          <div
+            aria-labelledby="radix-:rm:"
+            class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+            data-orientation="vertical"
+            data-state="closed"
+            hidden=""
+            id="radix-:rn:"
+            role="region"
+            style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+          />
+        </div>
+        <div
+          class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+          data-disabled=""
+          data-orientation="vertical"
+          data-state="closed"
+          id=":ro:"
+        >
+          <h3
+            class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+            data-disabled=""
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <button
+              aria-controls="radix-:rq:"
+              aria-expanded="false"
+              class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+              data-disabled=""
+              data-orientation="vertical"
+              data-radix-collection-item=""
+              data-state="closed"
+              disabled=""
+              id="radix-:rp:"
+              type="button"
+            >
+              <svg
+                class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+              >
+                <h3>
+                  Header content 3
+                </h3>
+              </span>
+            </button>
+          </h3>
+          <div
+            aria-labelledby="radix-:rp:"
+            class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+            data-disabled=""
+            data-orientation="vertical"
+            data-state="closed"
+            hidden=""
+            id="radix-:rq:"
+            role="region"
+            style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col gap-2"
+      data-orientation="vertical"
+    >
+      <div
+        class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+        data-orientation="vertical"
+        data-state="closed"
+        id=":ri:"
+      >
+        <h3
+          class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+          data-orientation="vertical"
+          data-state="closed"
+        >
+          <button
+            aria-controls="radix-:rk:"
+            aria-expanded="false"
+            class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="closed"
+            id="radix-:rj:"
+            type="button"
+          >
+            <svg
+              class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+            >
+              Header content 1
+            </span>
+          </button>
+          <div
+            class="flex items-center justify-center rounded p-2"
+          >
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+              data-outline="false"
+              data-plain="true"
+              data-size="small"
+              data-variant="primary"
+            >
+              action 1
+            </button>
+          </div>
+        </h3>
+        <div
+          aria-labelledby="radix-:rj:"
+          class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+          data-orientation="vertical"
+          data-state="closed"
+          hidden=""
+          id="radix-:rk:"
+          role="region"
+          style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+        />
+      </div>
+      <div
+        class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+        data-orientation="vertical"
+        data-state="closed"
+        id=":rl:"
+      >
+        <h3
+          class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+          data-orientation="vertical"
+          data-state="closed"
+        >
+          <button
+            aria-controls="radix-:rn:"
+            aria-expanded="false"
+            class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="closed"
+            id="radix-:rm:"
+            type="button"
+          >
+            <svg
+              class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+            >
+              Header content 2
+            </span>
+          </button>
+          <div
+            class="flex items-center justify-center rounded p-2"
+          >
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+              data-outline="false"
+              data-plain="true"
+              data-size="small"
+              data-variant="primary"
+            >
+              action 2
+            </button>
+          </div>
+        </h3>
+        <div
+          aria-labelledby="radix-:rm:"
+          class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+          data-orientation="vertical"
+          data-state="closed"
+          hidden=""
+          id="radix-:rn:"
+          role="region"
+          style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+        />
+      </div>
+      <div
+        class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+        data-disabled=""
+        data-orientation="vertical"
+        data-state="closed"
+        id=":ro:"
+      >
+        <h3
+          class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+          data-disabled=""
+          data-orientation="vertical"
+          data-state="closed"
+        >
+          <button
+            aria-controls="radix-:rq:"
+            aria-expanded="false"
+            class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+            data-disabled=""
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="closed"
+            disabled=""
+            id="radix-:rp:"
+            type="button"
+          >
+            <svg
+              class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+            >
+              <h3>
+                Header content 3
+              </h3>
+            </span>
+          </button>
+        </h3>
+        <div
+          aria-labelledby="radix-:rp:"
+          class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+          data-disabled=""
+          data-orientation="vertical"
+          data-state="closed"
+          hidden=""
+          id="radix-:rq:"
+          role="region"
+          style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Accordion /> > renders with 3, type:'single' 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col gap-2"
+        data-orientation="vertical"
+      >
+        <div
+          class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+          data-orientation="vertical"
+          data-state="closed"
+          id=":rr:"
+        >
+          <h3
+            class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <button
+              aria-controls="radix-:rt:"
+              aria-expanded="false"
+              class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+              data-orientation="vertical"
+              data-radix-collection-item=""
+              data-state="closed"
+              id="radix-:rs:"
+              type="button"
+            >
+              <svg
+                class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+              >
+                Header content 1
+              </span>
+            </button>
+            <div
+              class="flex items-center justify-center rounded p-2"
+            >
+              <button
+                class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+                data-outline="false"
+                data-plain="true"
+                data-size="small"
+                data-variant="primary"
+              >
+                action 1
+              </button>
+            </div>
+          </h3>
+          <div
+            aria-labelledby="radix-:rs:"
+            class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+            data-orientation="vertical"
+            data-state="closed"
+            hidden=""
+            id="radix-:rt:"
+            role="region"
+            style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+          />
+        </div>
+        <div
+          class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+          data-orientation="vertical"
+          data-state="closed"
+          id=":ru:"
+        >
+          <h3
+            class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <button
+              aria-controls="radix-:r10:"
+              aria-expanded="false"
+              class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+              data-orientation="vertical"
+              data-radix-collection-item=""
+              data-state="closed"
+              id="radix-:rv:"
+              type="button"
+            >
+              <svg
+                class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+              >
+                Header content 2
+              </span>
+            </button>
+            <div
+              class="flex items-center justify-center rounded p-2"
+            >
+              <button
+                class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+                data-outline="false"
+                data-plain="true"
+                data-size="small"
+                data-variant="primary"
+              >
+                action 2
+              </button>
+            </div>
+          </h3>
+          <div
+            aria-labelledby="radix-:rv:"
+            class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+            data-orientation="vertical"
+            data-state="closed"
+            hidden=""
+            id="radix-:r10:"
+            role="region"
+            style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+          />
+        </div>
+        <div
+          class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+          data-disabled=""
+          data-orientation="vertical"
+          data-state="closed"
+          id=":r11:"
+        >
+          <h3
+            class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+            data-disabled=""
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <button
+              aria-controls="radix-:r13:"
+              aria-expanded="false"
+              class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+              data-disabled=""
+              data-orientation="vertical"
+              data-radix-collection-item=""
+              data-state="closed"
+              disabled=""
+              id="radix-:r12:"
+              type="button"
+            >
+              <svg
+                class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+              >
+                <h3>
+                  Header content 3
+                </h3>
+              </span>
+            </button>
+          </h3>
+          <div
+            aria-labelledby="radix-:r12:"
+            class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+            data-disabled=""
+            data-orientation="vertical"
+            data-state="closed"
+            hidden=""
+            id="radix-:r13:"
+            role="region"
+            style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col gap-2"
+      data-orientation="vertical"
+    >
+      <div
+        class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+        data-orientation="vertical"
+        data-state="closed"
+        id=":rr:"
+      >
+        <h3
+          class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+          data-orientation="vertical"
+          data-state="closed"
+        >
+          <button
+            aria-controls="radix-:rt:"
+            aria-expanded="false"
+            class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="closed"
+            id="radix-:rs:"
+            type="button"
+          >
+            <svg
+              class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+            >
+              Header content 1
+            </span>
+          </button>
+          <div
+            class="flex items-center justify-center rounded p-2"
+          >
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+              data-outline="false"
+              data-plain="true"
+              data-size="small"
+              data-variant="primary"
+            >
+              action 1
+            </button>
+          </div>
+        </h3>
+        <div
+          aria-labelledby="radix-:rs:"
+          class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+          data-orientation="vertical"
+          data-state="closed"
+          hidden=""
+          id="radix-:rt:"
+          role="region"
+          style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+        />
+      </div>
+      <div
+        class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+        data-orientation="vertical"
+        data-state="closed"
+        id=":ru:"
+      >
+        <h3
+          class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+          data-orientation="vertical"
+          data-state="closed"
+        >
+          <button
+            aria-controls="radix-:r10:"
+            aria-expanded="false"
+            class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="closed"
+            id="radix-:rv:"
+            type="button"
+          >
+            <svg
+              class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+            >
+              Header content 2
+            </span>
+          </button>
+          <div
+            class="flex items-center justify-center rounded p-2"
+          >
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+              data-outline="false"
+              data-plain="true"
+              data-size="small"
+              data-variant="primary"
+            >
+              action 2
+            </button>
+          </div>
+        </h3>
+        <div
+          aria-labelledby="radix-:rv:"
+          class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+          data-orientation="vertical"
+          data-state="closed"
+          hidden=""
+          id="radix-:r10:"
+          role="region"
+          style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+        />
+      </div>
+      <div
+        class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+        data-disabled=""
+        data-orientation="vertical"
+        data-state="closed"
+        id=":r11:"
+      >
+        <h3
+          class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+          data-disabled=""
+          data-orientation="vertical"
+          data-state="closed"
+        >
+          <button
+            aria-controls="radix-:r13:"
+            aria-expanded="false"
+            class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+            data-disabled=""
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="closed"
+            disabled=""
+            id="radix-:r12:"
+            type="button"
+          >
+            <svg
+              class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+            >
+              <h3>
+                Header content 3
+              </h3>
+            </span>
+          </button>
+        </h3>
+        <div
+          aria-labelledby="radix-:r12:"
+          class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+          data-disabled=""
+          data-orientation="vertical"
+          data-state="closed"
+          hidden=""
+          id="radix-:r13:"
+          role="region"
+          style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Accordion /> > renders with 3, type:'single' 2`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col gap-2"
+        data-orientation="vertical"
+      >
+        <div
+          class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+          data-orientation="vertical"
+          data-state="closed"
+          id=":r14:"
+        >
+          <h3
+            class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <button
+              aria-controls="radix-:r16:"
+              aria-expanded="false"
+              class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+              data-orientation="vertical"
+              data-radix-collection-item=""
+              data-state="closed"
+              id="radix-:r15:"
+              type="button"
+            >
+              <svg
+                class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+              >
+                Header content 1
+              </span>
+            </button>
+            <div
+              class="flex items-center justify-center rounded p-2"
+            >
+              <button
+                class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+                data-outline="false"
+                data-plain="true"
+                data-size="small"
+                data-variant="primary"
+              >
+                action 1
+              </button>
+            </div>
+          </h3>
+          <div
+            aria-labelledby="radix-:r15:"
+            class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+            data-orientation="vertical"
+            data-state="closed"
+            hidden=""
+            id="radix-:r16:"
+            role="region"
+            style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+          />
+        </div>
+        <div
+          class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+          data-orientation="vertical"
+          data-state="closed"
+          id=":r17:"
+        >
+          <h3
+            class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <button
+              aria-controls="radix-:r19:"
+              aria-expanded="false"
+              class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+              data-orientation="vertical"
+              data-radix-collection-item=""
+              data-state="closed"
+              id="radix-:r18:"
+              type="button"
+            >
+              <svg
+                class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+              >
+                Header content 2
+              </span>
+            </button>
+            <div
+              class="flex items-center justify-center rounded p-2"
+            >
+              <button
+                class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+                data-outline="false"
+                data-plain="true"
+                data-size="small"
+                data-variant="primary"
+              >
+                action 2
+              </button>
+            </div>
+          </h3>
+          <div
+            aria-labelledby="radix-:r18:"
+            class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+            data-orientation="vertical"
+            data-state="closed"
+            hidden=""
+            id="radix-:r19:"
+            role="region"
+            style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+          />
+        </div>
+        <div
+          class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+          data-disabled=""
+          data-orientation="vertical"
+          data-state="closed"
+          id=":r1a:"
+        >
+          <h3
+            class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+            data-disabled=""
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <button
+              aria-controls="radix-:r1c:"
+              aria-expanded="false"
+              class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+              data-disabled=""
+              data-orientation="vertical"
+              data-radix-collection-item=""
+              data-state="closed"
+              disabled=""
+              id="radix-:r1b:"
+              type="button"
+            >
+              <svg
+                class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+              >
+                <h3>
+                  Header content 3
+                </h3>
+              </span>
+            </button>
+          </h3>
+          <div
+            aria-labelledby="radix-:r1b:"
+            class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+            data-disabled=""
+            data-orientation="vertical"
+            data-state="closed"
+            hidden=""
+            id="radix-:r1c:"
+            role="region"
+            style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col gap-2"
+      data-orientation="vertical"
+    >
+      <div
+        class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+        data-orientation="vertical"
+        data-state="closed"
+        id=":r14:"
+      >
+        <h3
+          class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+          data-orientation="vertical"
+          data-state="closed"
+        >
+          <button
+            aria-controls="radix-:r16:"
+            aria-expanded="false"
+            class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="closed"
+            id="radix-:r15:"
+            type="button"
+          >
+            <svg
+              class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+            >
+              Header content 1
+            </span>
+          </button>
+          <div
+            class="flex items-center justify-center rounded p-2"
+          >
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+              data-outline="false"
+              data-plain="true"
+              data-size="small"
+              data-variant="primary"
+            >
+              action 1
+            </button>
+          </div>
+        </h3>
+        <div
+          aria-labelledby="radix-:r15:"
+          class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+          data-orientation="vertical"
+          data-state="closed"
+          hidden=""
+          id="radix-:r16:"
+          role="region"
+          style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+        />
+      </div>
+      <div
+        class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+        data-orientation="vertical"
+        data-state="closed"
+        id=":r17:"
+      >
+        <h3
+          class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+          data-orientation="vertical"
+          data-state="closed"
+        >
+          <button
+            aria-controls="radix-:r19:"
+            aria-expanded="false"
+            class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="closed"
+            id="radix-:r18:"
+            type="button"
+          >
+            <svg
+              class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+            >
+              Header content 2
+            </span>
+          </button>
+          <div
+            class="flex items-center justify-center rounded p-2"
+          >
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+              data-outline="false"
+              data-plain="true"
+              data-size="small"
+              data-variant="primary"
+            >
+              action 2
+            </button>
+          </div>
+        </h3>
+        <div
+          aria-labelledby="radix-:r18:"
+          class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+          data-orientation="vertical"
+          data-state="closed"
+          hidden=""
+          id="radix-:r19:"
+          role="region"
+          style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+        />
+      </div>
+      <div
+        class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+        data-disabled=""
+        data-orientation="vertical"
+        data-state="closed"
+        id=":r1a:"
+      >
+        <h3
+          class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+          data-disabled=""
+          data-orientation="vertical"
+          data-state="closed"
+        >
+          <button
+            aria-controls="radix-:r1c:"
+            aria-expanded="false"
+            class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+            data-disabled=""
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="closed"
+            disabled=""
+            id="radix-:r1b:"
+            type="button"
+          >
+            <svg
+              class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+            >
+              <h3>
+                Header content 3
+              </h3>
+            </span>
+          </button>
+        </h3>
+        <div
+          aria-labelledby="radix-:r1b:"
+          class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+          data-disabled=""
+          data-orientation="vertical"
+          data-state="closed"
+          hidden=""
+          id="radix-:r1c:"
+          role="region"
+          style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Accordion /> > renders with 3, type:undefined 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col gap-2"
+        data-orientation="vertical"
+      >
+        <div
+          class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+          data-orientation="vertical"
+          data-state="closed"
+          id=":r0:"
+        >
+          <h3
+            class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <button
+              aria-controls="radix-:r2:"
+              aria-expanded="false"
+              class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+              data-orientation="vertical"
+              data-radix-collection-item=""
+              data-state="closed"
+              id="radix-:r1:"
+              type="button"
+            >
+              <svg
+                class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+              >
+                Header content 1
+              </span>
+            </button>
+            <div
+              class="flex items-center justify-center rounded p-2"
+            >
+              <button
+                class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+                data-outline="false"
+                data-plain="true"
+                data-size="small"
+                data-variant="primary"
+              >
+                action 1
+              </button>
+            </div>
+          </h3>
+          <div
+            aria-labelledby="radix-:r1:"
+            class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+            data-orientation="vertical"
+            data-state="closed"
+            hidden=""
+            id="radix-:r2:"
+            role="region"
+            style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+          />
+        </div>
+        <div
+          class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+          data-orientation="vertical"
+          data-state="closed"
+          id=":r3:"
+        >
+          <h3
+            class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <button
+              aria-controls="radix-:r5:"
+              aria-expanded="false"
+              class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+              data-orientation="vertical"
+              data-radix-collection-item=""
+              data-state="closed"
+              id="radix-:r4:"
+              type="button"
+            >
+              <svg
+                class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+              >
+                Header content 2
+              </span>
+            </button>
+            <div
+              class="flex items-center justify-center rounded p-2"
+            >
+              <button
+                class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+                data-outline="false"
+                data-plain="true"
+                data-size="small"
+                data-variant="primary"
+              >
+                action 2
+              </button>
+            </div>
+          </h3>
+          <div
+            aria-labelledby="radix-:r4:"
+            class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+            data-orientation="vertical"
+            data-state="closed"
+            hidden=""
+            id="radix-:r5:"
+            role="region"
+            style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+          />
+        </div>
+        <div
+          class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+          data-disabled=""
+          data-orientation="vertical"
+          data-state="closed"
+          id=":r6:"
+        >
+          <h3
+            class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+            data-disabled=""
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <button
+              aria-controls="radix-:r8:"
+              aria-expanded="false"
+              class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+              data-disabled=""
+              data-orientation="vertical"
+              data-radix-collection-item=""
+              data-state="closed"
+              disabled=""
+              id="radix-:r7:"
+              type="button"
+            >
+              <svg
+                class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+              >
+                <h3>
+                  Header content 3
+                </h3>
+              </span>
+            </button>
+          </h3>
+          <div
+            aria-labelledby="radix-:r7:"
+            class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+            data-disabled=""
+            data-orientation="vertical"
+            data-state="closed"
+            hidden=""
+            id="radix-:r8:"
+            role="region"
+            style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col gap-2"
+      data-orientation="vertical"
+    >
+      <div
+        class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+        data-orientation="vertical"
+        data-state="closed"
+        id=":r0:"
+      >
+        <h3
+          class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+          data-orientation="vertical"
+          data-state="closed"
+        >
+          <button
+            aria-controls="radix-:r2:"
+            aria-expanded="false"
+            class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="closed"
+            id="radix-:r1:"
+            type="button"
+          >
+            <svg
+              class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+            >
+              Header content 1
+            </span>
+          </button>
+          <div
+            class="flex items-center justify-center rounded p-2"
+          >
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+              data-outline="false"
+              data-plain="true"
+              data-size="small"
+              data-variant="primary"
+            >
+              action 1
+            </button>
+          </div>
+        </h3>
+        <div
+          aria-labelledby="radix-:r1:"
+          class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+          data-orientation="vertical"
+          data-state="closed"
+          hidden=""
+          id="radix-:r2:"
+          role="region"
+          style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+        />
+      </div>
+      <div
+        class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+        data-orientation="vertical"
+        data-state="closed"
+        id=":r3:"
+      >
+        <h3
+          class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+          data-orientation="vertical"
+          data-state="closed"
+        >
+          <button
+            aria-controls="radix-:r5:"
+            aria-expanded="false"
+            class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="closed"
+            id="radix-:r4:"
+            type="button"
+          >
+            <svg
+              class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+            >
+              Header content 2
+            </span>
+          </button>
+          <div
+            class="flex items-center justify-center rounded p-2"
+          >
+            <button
+              class="rounded-interactive-elements-default justify-center items-center gap-1 inline-flex font-medium enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed disabled:text-disabled hover:bg-surface-selected-hovered active:bg-surface-selected-pressed disabled:hover:bg-inherit px-2 py-0.5 text-sm"
+              data-outline="false"
+              data-plain="true"
+              data-size="small"
+              data-variant="primary"
+            >
+              action 2
+            </button>
+          </div>
+        </h3>
+        <div
+          aria-labelledby="radix-:r4:"
+          class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+          data-orientation="vertical"
+          data-state="closed"
+          hidden=""
+          id="radix-:r5:"
+          role="region"
+          style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+        />
+      </div>
+      <div
+        class="w-full rounded-level-2 hover:bg-surface-hovered focus:outline-none radix-disabled:bg-surface-disabled radix-disabled:hover:bg-surface-disabled radix-disabled:active:bg-surface-disabled [&:has([data-radix-collection-item]:active:not([data-disabled]))]:bg-surface-pressed"
+        data-disabled=""
+        data-orientation="vertical"
+        data-state="closed"
+        id=":r6:"
+      >
+        <h3
+          class="inline-flex w-full items-start justify-start gap-2 radix-state-closed:rounded-level-2 radix-state-open:rounded-t-lg"
+          data-disabled=""
+          data-orientation="vertical"
+          data-state="closed"
+        >
+          <button
+            aria-controls="radix-:r8:"
+            aria-expanded="false"
+            class="group inline-flex shrink grow basis-0 gap-2 p-2 text-left focus:outline-none"
+            data-disabled=""
+            data-orientation="vertical"
+            data-radix-collection-item=""
+            data-state="closed"
+            disabled=""
+            id="radix-:r7:"
+            type="button"
+          >
+            <svg
+              class="h-5 w-5 shrink-0 p-0.5 text-icon ease-in-out motion-reduce:transition-none group-radix-state-closed:duration-300 group-radix-state-open:rotate-90 group-radix-state-open:duration-300 group-focus-within:rounded group-focus-within:outline group-focus-within:outline-1 group-focus-within:outline-focus group-focus-within:ring-1 group-focus-within:ring-focus group-focus-within:ring-offset-1"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.2361 10.8069C14.6824 10.3606 14.6824 9.63584 14.2361 9.18956L7.38122 2.33471C6.93495 1.88843 6.21019 1.88843 5.76391 2.33471C5.31763 2.78099 5.31763 3.50575 5.76391 3.95202L11.8119 10L5.76748 16.048C5.3212 16.4943 5.3212 17.219 5.76748 17.6653C6.21376 18.1116 6.93851 18.1116 7.38479 17.6653L14.2396 10.8104L14.2361 10.8069Z"
+                fill="currentColor"
+              />
+            </svg>
+            <span
+              class="inline-flex shrink grow basis-0 flex-col items-start justify-center gap-2.5 rounded py-1 text-xs leading-none"
+            >
+              <h3>
+                Header content 3
+              </h3>
+            </span>
+          </button>
+        </h3>
+        <div
+          aria-labelledby="radix-:r7:"
+          class="rounded-b-lg p-2 pl-4 text-xs text radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open motion-reduce:transition-none"
+          data-disabled=""
+          data-orientation="vertical"
+          data-state="closed"
+          hidden=""
+          id="radix-:r8:"
+          role="region"
+          style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

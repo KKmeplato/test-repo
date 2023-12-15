@@ -1,0 +1,51 @@
+# ┌────────────────────────────────────────────────────────────────────┐
+# │ Ansible playbook to sync storybook build from CI to lb1 and lb2.   │
+# └────────────────────────────────────────────────────────────────────┘
+
+# -- PLAY ------------------------------------
+- name: "Deploy Storybook"
+
+  # TODO: Determine if we can move this over to a dedicated web-server
+  #       for internal services at some point. Maybe within staging?
+  hosts: [lb1.meplato.com, lb2.meplato.com]
+
+  # Enable privilige escalation to overwrite files and apply permissions.
+  become: true
+
+  # No need for host metadata collection, we just run a sync job.
+  gather_facts: false
+
+  # Define variables for better visibility and control here.
+  vars:
+    storybook_build_path: "{{ lookup('env', 'GITHUB_WORKSPACE') }}/storybook-static"
+    lb_destination_path: "/srv/www/ui-kit-storybook"
+
+  # -- TASKS ------------------------------------
+  # We copy the build directory to our servers
+  # and make sure the owner and permissions are
+  # set properly.
+  tasks:
+    # NOTE: When using synchronize (which is basically rsync),
+    #       we need to be careful with trailing slashes!
+    # TL;DR:
+    # copy CONTENT into FOLDER: source/  -->  destination/
+    # copy CONTENT into FOLDER: source/  -->  destination
+    # copy FOLDER  into FOLDER: source   -->  destination/
+    # copy FOLDER  into FOLDER: source   -->  destination
+    #
+    # We want to sync the CONTENT into the destination FOLDER,
+    # so we set both trailing slashes here.
+    - name: "Synchronize build folder to nodes"
+      ansible.posix.synchronize:
+        src: "{{ storybook_build_path }}/"
+        dest: "{{ lb_destination_path }}/"
+        delete: true
+        recursive: true
+
+    - name: "Set ownership and permissions on the destination folder"
+      ansible.builtin.file:
+        path: "{{ lb_destination_path }}"
+        owner: "nginx"
+        group: "nginx"
+        mode: "0770"
+        recurse: true

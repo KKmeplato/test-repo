@@ -1,0 +1,2241 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Toast /> > renders with 'Catalog deleted' / false 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="bg font-sans text"
+        data-mode="light"
+        data-theme="meplato"
+        id="uikit-theme"
+      >
+        <div
+          aria-label="Notifications (F8)"
+          role="region"
+          style=""
+          tabindex="-1"
+        >
+          <span
+            aria-hidden="true"
+            style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+            tabindex="0"
+          />
+          <ol
+            class="fixed bottom-[3.75rem] left-0 right-0 flex justify-center focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1"
+            tabindex="-1"
+          >
+            <li
+              aria-atomic="true"
+              aria-live="off"
+              class="relative rounded-level-2 bg-surface shadow-2xl focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 data-[state=closed]:animate-[toastOut_0.6s_cubic-bezier(1,-0.01,0.41,1.39)] data-[state=open]:animate-[toastIn_0.6s_cubic-bezier(0.86,0.13,0.29,1.34)]"
+              data-radix-collection-item=""
+              data-state="open"
+              data-swipe-direction="right"
+              mode="light"
+              role="status"
+              style="user-select: none;"
+              tabindex="0"
+              theme="meplato"
+            >
+              <div
+                class="flex items-center gap-2 px-3 py-2 md:gap-4 md:px-4 md:py-3"
+              >
+                <span
+                  class="text-sm text"
+                >
+                  Catalog deleted
+                </span>
+                <button
+                  class="rounded-level-3 items-center inline-flex underline cursor-pointer text-sm text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 underline-offset-2"
+                  style="text-underline-position: from-font;"
+                  type="button"
+                >
+                  Undo
+                </button>
+                <button
+                  class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+                >
+                  <svg
+                    class="h-5 w-5 text-icon"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <span
+                    class="sr-only"
+                  >
+                    Close toast
+                  </span>
+                </button>
+                <div
+                  aria-label="close automatically"
+                  aria-valuemax="3000"
+                  aria-valuemin="0"
+                  aria-valuenow="0"
+                  aria-valuetext="0%"
+                  class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs absolute bottom-0 left-0 h-1 w-full rounded-t-none"
+                  data-max="3000"
+                  data-state="loading"
+                  data-value="0"
+                  role="progressbar"
+                  style="transform: translateZ(0);"
+                >
+                  <div
+                    class="h-full w-full transition-none bg-interactive-primary"
+                    data-max="3000"
+                    data-state="loading"
+                    data-value="0"
+                    style="transform: translateX(-100%);"
+                  />
+                </div>
+              </div>
+            </li>
+          </ol>
+          <span
+            aria-hidden="true"
+            style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+            tabindex="0"
+          />
+        </div>
+      </div>
+    </div>
+    <span
+      aria-atomic="true"
+      aria-live="assertive"
+      role="status"
+      style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+    />
+  </body>,
+  "container": <div>
+    <div
+      class="bg font-sans text"
+      data-mode="light"
+      data-theme="meplato"
+      id="uikit-theme"
+    >
+      <div
+        aria-label="Notifications (F8)"
+        role="region"
+        style=""
+        tabindex="-1"
+      >
+        <span
+          aria-hidden="true"
+          style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+          tabindex="0"
+        />
+        <ol
+          class="fixed bottom-[3.75rem] left-0 right-0 flex justify-center focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1"
+          tabindex="-1"
+        >
+          <li
+            aria-atomic="true"
+            aria-live="off"
+            class="relative rounded-level-2 bg-surface shadow-2xl focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 data-[state=closed]:animate-[toastOut_0.6s_cubic-bezier(1,-0.01,0.41,1.39)] data-[state=open]:animate-[toastIn_0.6s_cubic-bezier(0.86,0.13,0.29,1.34)]"
+            data-radix-collection-item=""
+            data-state="open"
+            data-swipe-direction="right"
+            mode="light"
+            role="status"
+            style="user-select: none;"
+            tabindex="0"
+            theme="meplato"
+          >
+            <div
+              class="flex items-center gap-2 px-3 py-2 md:gap-4 md:px-4 md:py-3"
+            >
+              <span
+                class="text-sm text"
+              >
+                Catalog deleted
+              </span>
+              <button
+                class="rounded-level-3 items-center inline-flex underline cursor-pointer text-sm text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 underline-offset-2"
+                style="text-underline-position: from-font;"
+                type="button"
+              >
+                Undo
+              </button>
+              <button
+                class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+              >
+                <svg
+                  class="h-5 w-5 text-icon"
+                  fill="none"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span
+                  class="sr-only"
+                >
+                  Close toast
+                </span>
+              </button>
+              <div
+                aria-label="close automatically"
+                aria-valuemax="3000"
+                aria-valuemin="0"
+                aria-valuenow="0"
+                aria-valuetext="0%"
+                class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs absolute bottom-0 left-0 h-1 w-full rounded-t-none"
+                data-max="3000"
+                data-state="loading"
+                data-value="0"
+                role="progressbar"
+                style="transform: translateZ(0);"
+              >
+                <div
+                  class="h-full w-full transition-none bg-interactive-primary"
+                  data-max="3000"
+                  data-state="loading"
+                  data-value="0"
+                  style="transform: translateX(-100%);"
+                />
+              </div>
+            </div>
+          </li>
+        </ol>
+        <span
+          aria-hidden="true"
+          style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+          tabindex="0"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Toast /> > renders with 'Catalog deleted' / false 2`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="bg font-sans text"
+        data-mode="dark"
+        data-theme="meplato"
+        id="uikit-theme"
+      >
+        <div
+          aria-label="Notifications (F8)"
+          role="region"
+          style=""
+          tabindex="-1"
+        >
+          <span
+            aria-hidden="true"
+            style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+            tabindex="0"
+          />
+          <ol
+            class="fixed bottom-[3.75rem] left-0 right-0 flex justify-center focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1"
+            tabindex="-1"
+          >
+            <li
+              aria-atomic="true"
+              aria-live="off"
+              class="relative rounded-level-2 bg-surface shadow-2xl focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 data-[state=closed]:animate-[toastOut_0.6s_cubic-bezier(1,-0.01,0.41,1.39)] data-[state=open]:animate-[toastIn_0.6s_cubic-bezier(0.86,0.13,0.29,1.34)]"
+              data-radix-collection-item=""
+              data-state="open"
+              data-swipe-direction="right"
+              mode="dark"
+              role="status"
+              style="user-select: none;"
+              tabindex="0"
+              theme="meplato"
+            >
+              <div
+                class="flex items-center gap-2 px-3 py-2 md:gap-4 md:px-4 md:py-3"
+              >
+                <span
+                  class="text-sm text"
+                >
+                  Catalog deleted
+                </span>
+                <button
+                  class="rounded-level-3 items-center inline-flex underline cursor-pointer text-sm text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 underline-offset-2"
+                  style="text-underline-position: from-font;"
+                  type="button"
+                >
+                  Undo
+                </button>
+                <button
+                  class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+                >
+                  <svg
+                    class="h-5 w-5 text-icon"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <span
+                    class="sr-only"
+                  >
+                    Close toast
+                  </span>
+                </button>
+                <div
+                  aria-label="close automatically"
+                  aria-valuemax="3000"
+                  aria-valuemin="0"
+                  aria-valuenow="0"
+                  aria-valuetext="0%"
+                  class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs absolute bottom-0 left-0 h-1 w-full rounded-t-none"
+                  data-max="3000"
+                  data-state="loading"
+                  data-value="0"
+                  role="progressbar"
+                  style="transform: translateZ(0);"
+                >
+                  <div
+                    class="h-full w-full transition-none bg-interactive-primary"
+                    data-max="3000"
+                    data-state="loading"
+                    data-value="0"
+                    style="transform: translateX(-100%);"
+                  />
+                </div>
+              </div>
+            </li>
+          </ol>
+          <span
+            aria-hidden="true"
+            style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+            tabindex="0"
+          />
+        </div>
+      </div>
+    </div>
+    <span
+      aria-atomic="true"
+      aria-live="assertive"
+      role="status"
+      style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+    />
+  </body>,
+  "container": <div>
+    <div
+      class="bg font-sans text"
+      data-mode="dark"
+      data-theme="meplato"
+      id="uikit-theme"
+    >
+      <div
+        aria-label="Notifications (F8)"
+        role="region"
+        style=""
+        tabindex="-1"
+      >
+        <span
+          aria-hidden="true"
+          style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+          tabindex="0"
+        />
+        <ol
+          class="fixed bottom-[3.75rem] left-0 right-0 flex justify-center focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1"
+          tabindex="-1"
+        >
+          <li
+            aria-atomic="true"
+            aria-live="off"
+            class="relative rounded-level-2 bg-surface shadow-2xl focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 data-[state=closed]:animate-[toastOut_0.6s_cubic-bezier(1,-0.01,0.41,1.39)] data-[state=open]:animate-[toastIn_0.6s_cubic-bezier(0.86,0.13,0.29,1.34)]"
+            data-radix-collection-item=""
+            data-state="open"
+            data-swipe-direction="right"
+            mode="dark"
+            role="status"
+            style="user-select: none;"
+            tabindex="0"
+            theme="meplato"
+          >
+            <div
+              class="flex items-center gap-2 px-3 py-2 md:gap-4 md:px-4 md:py-3"
+            >
+              <span
+                class="text-sm text"
+              >
+                Catalog deleted
+              </span>
+              <button
+                class="rounded-level-3 items-center inline-flex underline cursor-pointer text-sm text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 underline-offset-2"
+                style="text-underline-position: from-font;"
+                type="button"
+              >
+                Undo
+              </button>
+              <button
+                class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+              >
+                <svg
+                  class="h-5 w-5 text-icon"
+                  fill="none"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span
+                  class="sr-only"
+                >
+                  Close toast
+                </span>
+              </button>
+              <div
+                aria-label="close automatically"
+                aria-valuemax="3000"
+                aria-valuemin="0"
+                aria-valuenow="0"
+                aria-valuetext="0%"
+                class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs absolute bottom-0 left-0 h-1 w-full rounded-t-none"
+                data-max="3000"
+                data-state="loading"
+                data-value="0"
+                role="progressbar"
+                style="transform: translateZ(0);"
+              >
+                <div
+                  class="h-full w-full transition-none bg-interactive-primary"
+                  data-max="3000"
+                  data-state="loading"
+                  data-value="0"
+                  style="transform: translateX(-100%);"
+                />
+              </div>
+            </div>
+          </li>
+        </ol>
+        <span
+          aria-hidden="true"
+          style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+          tabindex="0"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Toast /> > renders with 'Catalog deleted' / false 3`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="bg font-sans text"
+        data-mode="light"
+        data-theme="webridge"
+        id="uikit-theme"
+      >
+        <div
+          aria-label="Notifications (F8)"
+          role="region"
+          style=""
+          tabindex="-1"
+        >
+          <span
+            aria-hidden="true"
+            style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+            tabindex="0"
+          />
+          <ol
+            class="fixed bottom-[3.75rem] left-0 right-0 flex justify-center focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1"
+            tabindex="-1"
+          >
+            <li
+              aria-atomic="true"
+              aria-live="off"
+              class="relative rounded-level-2 bg-surface shadow-2xl focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 data-[state=closed]:animate-[toastOut_0.6s_cubic-bezier(1,-0.01,0.41,1.39)] data-[state=open]:animate-[toastIn_0.6s_cubic-bezier(0.86,0.13,0.29,1.34)]"
+              data-radix-collection-item=""
+              data-state="open"
+              data-swipe-direction="right"
+              mode="light"
+              role="status"
+              style="user-select: none;"
+              tabindex="0"
+              theme="webridge"
+            >
+              <div
+                class="flex items-center gap-2 px-3 py-2 md:gap-4 md:px-4 md:py-3"
+              >
+                <span
+                  class="text-sm text"
+                >
+                  Catalog deleted
+                </span>
+                <button
+                  class="rounded-level-3 items-center inline-flex underline cursor-pointer text-sm text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 underline-offset-2"
+                  style="text-underline-position: from-font;"
+                  type="button"
+                >
+                  Undo
+                </button>
+                <button
+                  class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+                >
+                  <svg
+                    class="h-5 w-5 text-icon"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <span
+                    class="sr-only"
+                  >
+                    Close toast
+                  </span>
+                </button>
+                <div
+                  aria-label="close automatically"
+                  aria-valuemax="3000"
+                  aria-valuemin="0"
+                  aria-valuenow="0"
+                  aria-valuetext="0%"
+                  class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs absolute bottom-0 left-0 h-1 w-full rounded-t-none"
+                  data-max="3000"
+                  data-state="loading"
+                  data-value="0"
+                  role="progressbar"
+                  style="transform: translateZ(0);"
+                >
+                  <div
+                    class="h-full w-full transition-none bg-interactive-primary"
+                    data-max="3000"
+                    data-state="loading"
+                    data-value="0"
+                    style="transform: translateX(-100%);"
+                  />
+                </div>
+              </div>
+            </li>
+          </ol>
+          <span
+            aria-hidden="true"
+            style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+            tabindex="0"
+          />
+        </div>
+      </div>
+    </div>
+    <span
+      aria-atomic="true"
+      aria-live="assertive"
+      role="status"
+      style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+    />
+  </body>,
+  "container": <div>
+    <div
+      class="bg font-sans text"
+      data-mode="light"
+      data-theme="webridge"
+      id="uikit-theme"
+    >
+      <div
+        aria-label="Notifications (F8)"
+        role="region"
+        style=""
+        tabindex="-1"
+      >
+        <span
+          aria-hidden="true"
+          style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+          tabindex="0"
+        />
+        <ol
+          class="fixed bottom-[3.75rem] left-0 right-0 flex justify-center focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1"
+          tabindex="-1"
+        >
+          <li
+            aria-atomic="true"
+            aria-live="off"
+            class="relative rounded-level-2 bg-surface shadow-2xl focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 data-[state=closed]:animate-[toastOut_0.6s_cubic-bezier(1,-0.01,0.41,1.39)] data-[state=open]:animate-[toastIn_0.6s_cubic-bezier(0.86,0.13,0.29,1.34)]"
+            data-radix-collection-item=""
+            data-state="open"
+            data-swipe-direction="right"
+            mode="light"
+            role="status"
+            style="user-select: none;"
+            tabindex="0"
+            theme="webridge"
+          >
+            <div
+              class="flex items-center gap-2 px-3 py-2 md:gap-4 md:px-4 md:py-3"
+            >
+              <span
+                class="text-sm text"
+              >
+                Catalog deleted
+              </span>
+              <button
+                class="rounded-level-3 items-center inline-flex underline cursor-pointer text-sm text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 underline-offset-2"
+                style="text-underline-position: from-font;"
+                type="button"
+              >
+                Undo
+              </button>
+              <button
+                class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+              >
+                <svg
+                  class="h-5 w-5 text-icon"
+                  fill="none"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span
+                  class="sr-only"
+                >
+                  Close toast
+                </span>
+              </button>
+              <div
+                aria-label="close automatically"
+                aria-valuemax="3000"
+                aria-valuemin="0"
+                aria-valuenow="0"
+                aria-valuetext="0%"
+                class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs absolute bottom-0 left-0 h-1 w-full rounded-t-none"
+                data-max="3000"
+                data-state="loading"
+                data-value="0"
+                role="progressbar"
+                style="transform: translateZ(0);"
+              >
+                <div
+                  class="h-full w-full transition-none bg-interactive-primary"
+                  data-max="3000"
+                  data-state="loading"
+                  data-value="0"
+                  style="transform: translateX(-100%);"
+                />
+              </div>
+            </div>
+          </li>
+        </ol>
+        <span
+          aria-hidden="true"
+          style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+          tabindex="0"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Toast /> > renders with 'Catalog deleted' / false 4`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="bg font-sans text"
+        data-mode="dark"
+        data-theme="webridge"
+        id="uikit-theme"
+      >
+        <div
+          aria-label="Notifications (F8)"
+          role="region"
+          style=""
+          tabindex="-1"
+        >
+          <span
+            aria-hidden="true"
+            style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+            tabindex="0"
+          />
+          <ol
+            class="fixed bottom-[3.75rem] left-0 right-0 flex justify-center focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1"
+            tabindex="-1"
+          >
+            <li
+              aria-atomic="true"
+              aria-live="off"
+              class="relative rounded-level-2 bg-surface shadow-2xl focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 data-[state=closed]:animate-[toastOut_0.6s_cubic-bezier(1,-0.01,0.41,1.39)] data-[state=open]:animate-[toastIn_0.6s_cubic-bezier(0.86,0.13,0.29,1.34)]"
+              data-radix-collection-item=""
+              data-state="open"
+              data-swipe-direction="right"
+              mode="dark"
+              role="status"
+              style="user-select: none;"
+              tabindex="0"
+              theme="webridge"
+            >
+              <div
+                class="flex items-center gap-2 px-3 py-2 md:gap-4 md:px-4 md:py-3"
+              >
+                <span
+                  class="text-sm text"
+                >
+                  Catalog deleted
+                </span>
+                <button
+                  class="rounded-level-3 items-center inline-flex underline cursor-pointer text-sm text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 underline-offset-2"
+                  style="text-underline-position: from-font;"
+                  type="button"
+                >
+                  Undo
+                </button>
+                <button
+                  class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+                >
+                  <svg
+                    class="h-5 w-5 text-icon"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <span
+                    class="sr-only"
+                  >
+                    Close toast
+                  </span>
+                </button>
+                <div
+                  aria-label="close automatically"
+                  aria-valuemax="3000"
+                  aria-valuemin="0"
+                  aria-valuenow="0"
+                  aria-valuetext="0%"
+                  class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs absolute bottom-0 left-0 h-1 w-full rounded-t-none"
+                  data-max="3000"
+                  data-state="loading"
+                  data-value="0"
+                  role="progressbar"
+                  style="transform: translateZ(0);"
+                >
+                  <div
+                    class="h-full w-full transition-none bg-interactive-primary"
+                    data-max="3000"
+                    data-state="loading"
+                    data-value="0"
+                    style="transform: translateX(-100%);"
+                  />
+                </div>
+              </div>
+            </li>
+          </ol>
+          <span
+            aria-hidden="true"
+            style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+            tabindex="0"
+          />
+        </div>
+      </div>
+    </div>
+    <span
+      aria-atomic="true"
+      aria-live="assertive"
+      role="status"
+      style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+    />
+  </body>,
+  "container": <div>
+    <div
+      class="bg font-sans text"
+      data-mode="dark"
+      data-theme="webridge"
+      id="uikit-theme"
+    >
+      <div
+        aria-label="Notifications (F8)"
+        role="region"
+        style=""
+        tabindex="-1"
+      >
+        <span
+          aria-hidden="true"
+          style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+          tabindex="0"
+        />
+        <ol
+          class="fixed bottom-[3.75rem] left-0 right-0 flex justify-center focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1"
+          tabindex="-1"
+        >
+          <li
+            aria-atomic="true"
+            aria-live="off"
+            class="relative rounded-level-2 bg-surface shadow-2xl focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 data-[state=closed]:animate-[toastOut_0.6s_cubic-bezier(1,-0.01,0.41,1.39)] data-[state=open]:animate-[toastIn_0.6s_cubic-bezier(0.86,0.13,0.29,1.34)]"
+            data-radix-collection-item=""
+            data-state="open"
+            data-swipe-direction="right"
+            mode="dark"
+            role="status"
+            style="user-select: none;"
+            tabindex="0"
+            theme="webridge"
+          >
+            <div
+              class="flex items-center gap-2 px-3 py-2 md:gap-4 md:px-4 md:py-3"
+            >
+              <span
+                class="text-sm text"
+              >
+                Catalog deleted
+              </span>
+              <button
+                class="rounded-level-3 items-center inline-flex underline cursor-pointer text-sm text-interactive-primary hover:text-interactive-primary-hovered active:text-interactive-primary-pressed focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 underline-offset-2"
+                style="text-underline-position: from-font;"
+                type="button"
+              >
+                Undo
+              </button>
+              <button
+                class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-surface-neutral-hovered enabled:active:bg-surface-neutral-pressed"
+              >
+                <svg
+                  class="h-5 w-5 text-icon"
+                  fill="none"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span
+                  class="sr-only"
+                >
+                  Close toast
+                </span>
+              </button>
+              <div
+                aria-label="close automatically"
+                aria-valuemax="3000"
+                aria-valuemin="0"
+                aria-valuenow="0"
+                aria-valuetext="0%"
+                class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs absolute bottom-0 left-0 h-1 w-full rounded-t-none"
+                data-max="3000"
+                data-state="loading"
+                data-value="0"
+                role="progressbar"
+                style="transform: translateZ(0);"
+              >
+                <div
+                  class="h-full w-full transition-none bg-interactive-primary"
+                  data-max="3000"
+                  data-state="loading"
+                  data-value="0"
+                  style="transform: translateX(-100%);"
+                />
+              </div>
+            </div>
+          </li>
+        </ol>
+        <span
+          aria-hidden="true"
+          style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+          tabindex="0"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Toast /> > renders with 'Catalog not deleted' / true 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="bg font-sans text"
+        data-mode="light"
+        data-theme="meplato"
+        id="uikit-theme"
+      >
+        <div
+          aria-label="Notifications (F8)"
+          role="region"
+          style=""
+          tabindex="-1"
+        >
+          <span
+            aria-hidden="true"
+            style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+            tabindex="0"
+          />
+          <ol
+            class="fixed bottom-[3.75rem] left-0 right-0 flex justify-center focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1"
+            tabindex="-1"
+          >
+            <li
+              aria-atomic="true"
+              aria-live="off"
+              class="relative rounded-level-2 shadow-2xl focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 bg-interactive-critical data-[state=closed]:animate-[toastOut_0.6s_cubic-bezier(1,-0.01,0.41,1.39)] data-[state=open]:animate-[toastIn_0.6s_cubic-bezier(0.86,0.13,0.29,1.34)]"
+              data-radix-collection-item=""
+              data-state="open"
+              data-swipe-direction="right"
+              mode="light"
+              role="status"
+              style="user-select: none;"
+              tabindex="0"
+              theme="meplato"
+            >
+              <div
+                class="flex items-center gap-2 px-3 py-2 md:gap-4 md:px-4 md:py-3"
+              >
+                <svg
+                  class="h-5 w-5 text-on-interactive"
+                  fill="none"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10 18C12.1217 18 14.1566 17.1571 15.6569 15.6569C17.1571 14.1566 18 12.1217 18 10C18 7.87827 17.1571 5.84344 15.6569 4.34315C14.1566 2.84285 12.1217 2 10 2C7.87827 2 5.84344 2.84285 4.34315 4.34315C2.84285 5.84344 2 7.87827 2 10C2 12.1217 2.84285 14.1566 4.34315 15.6569C5.84344 17.1571 7.87827 18 10 18ZM10 6C10.4156 6 10.75 6.33437 10.75 6.75V10.25C10.75 10.6656 10.4156 11 10 11C9.58437 11 9.25 10.6656 9.25 10.25V6.75C9.25 6.33437 9.58437 6 10 6ZM9 13C9 12.7348 9.10536 12.4804 9.29289 12.2929C9.48043 12.1054 9.73478 12 10 12C10.2652 12 10.5196 12.1054 10.7071 12.2929C10.8946 12.4804 11 12.7348 11 13C11 13.2652 10.8946 13.5196 10.7071 13.7071C10.5196 13.8946 10.2652 14 10 14C9.73478 14 9.48043 13.8946 9.29289 13.7071C9.10536 13.5196 9 13.2652 9 13Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span
+                  class="text-sm text text-on-interactive"
+                >
+                  Catalog not deleted
+                </span>
+                <button
+                  class="rounded-level-3 items-center inline-flex underline cursor-pointer text-sm focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 underline-offset-2 text-on-interactive hover:text-on-interactive active:text-on-interactive"
+                  style="text-underline-position: from-font;"
+                  type="button"
+                >
+                  Undo
+                </button>
+                <button
+                  class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-interactive-critical-hovered enabled:active:bg-interactive-critical-pressed"
+                >
+                  <svg
+                    class="h-5 w-5 text-on-interactive"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <span
+                    class="sr-only"
+                  >
+                    Close toast
+                  </span>
+                </button>
+                <div
+                  aria-label="close automatically"
+                  aria-valuemax="3000"
+                  aria-valuemin="0"
+                  aria-valuenow="0"
+                  aria-valuetext="0%"
+                  class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs absolute bottom-0 left-0 h-1 w-full rounded-t-none"
+                  data-max="3000"
+                  data-state="loading"
+                  data-value="0"
+                  role="progressbar"
+                  style="transform: translateZ(0);"
+                >
+                  <div
+                    class="h-full w-full transition-none bg-interactive-critical"
+                    data-max="3000"
+                    data-state="loading"
+                    data-value="0"
+                    style="transform: translateX(-100%);"
+                  />
+                </div>
+              </div>
+            </li>
+          </ol>
+          <span
+            aria-hidden="true"
+            style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+            tabindex="0"
+          />
+        </div>
+      </div>
+    </div>
+    <span
+      aria-atomic="true"
+      aria-live="assertive"
+      role="status"
+      style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+    />
+  </body>,
+  "container": <div>
+    <div
+      class="bg font-sans text"
+      data-mode="light"
+      data-theme="meplato"
+      id="uikit-theme"
+    >
+      <div
+        aria-label="Notifications (F8)"
+        role="region"
+        style=""
+        tabindex="-1"
+      >
+        <span
+          aria-hidden="true"
+          style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+          tabindex="0"
+        />
+        <ol
+          class="fixed bottom-[3.75rem] left-0 right-0 flex justify-center focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1"
+          tabindex="-1"
+        >
+          <li
+            aria-atomic="true"
+            aria-live="off"
+            class="relative rounded-level-2 shadow-2xl focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 bg-interactive-critical data-[state=closed]:animate-[toastOut_0.6s_cubic-bezier(1,-0.01,0.41,1.39)] data-[state=open]:animate-[toastIn_0.6s_cubic-bezier(0.86,0.13,0.29,1.34)]"
+            data-radix-collection-item=""
+            data-state="open"
+            data-swipe-direction="right"
+            mode="light"
+            role="status"
+            style="user-select: none;"
+            tabindex="0"
+            theme="meplato"
+          >
+            <div
+              class="flex items-center gap-2 px-3 py-2 md:gap-4 md:px-4 md:py-3"
+            >
+              <svg
+                class="h-5 w-5 text-on-interactive"
+                fill="none"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10 18C12.1217 18 14.1566 17.1571 15.6569 15.6569C17.1571 14.1566 18 12.1217 18 10C18 7.87827 17.1571 5.84344 15.6569 4.34315C14.1566 2.84285 12.1217 2 10 2C7.87827 2 5.84344 2.84285 4.34315 4.34315C2.84285 5.84344 2 7.87827 2 10C2 12.1217 2.84285 14.1566 4.34315 15.6569C5.84344 17.1571 7.87827 18 10 18ZM10 6C10.4156 6 10.75 6.33437 10.75 6.75V10.25C10.75 10.6656 10.4156 11 10 11C9.58437 11 9.25 10.6656 9.25 10.25V6.75C9.25 6.33437 9.58437 6 10 6ZM9 13C9 12.7348 9.10536 12.4804 9.29289 12.2929C9.48043 12.1054 9.73478 12 10 12C10.2652 12 10.5196 12.1054 10.7071 12.2929C10.8946 12.4804 11 12.7348 11 13C11 13.2652 10.8946 13.5196 10.7071 13.7071C10.5196 13.8946 10.2652 14 10 14C9.73478 14 9.48043 13.8946 9.29289 13.7071C9.10536 13.5196 9 13.2652 9 13Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="text-sm text text-on-interactive"
+              >
+                Catalog not deleted
+              </span>
+              <button
+                class="rounded-level-3 items-center inline-flex underline cursor-pointer text-sm focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 underline-offset-2 text-on-interactive hover:text-on-interactive active:text-on-interactive"
+                style="text-underline-position: from-font;"
+                type="button"
+              >
+                Undo
+              </button>
+              <button
+                class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-interactive-critical-hovered enabled:active:bg-interactive-critical-pressed"
+              >
+                <svg
+                  class="h-5 w-5 text-on-interactive"
+                  fill="none"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span
+                  class="sr-only"
+                >
+                  Close toast
+                </span>
+              </button>
+              <div
+                aria-label="close automatically"
+                aria-valuemax="3000"
+                aria-valuemin="0"
+                aria-valuenow="0"
+                aria-valuetext="0%"
+                class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs absolute bottom-0 left-0 h-1 w-full rounded-t-none"
+                data-max="3000"
+                data-state="loading"
+                data-value="0"
+                role="progressbar"
+                style="transform: translateZ(0);"
+              >
+                <div
+                  class="h-full w-full transition-none bg-interactive-critical"
+                  data-max="3000"
+                  data-state="loading"
+                  data-value="0"
+                  style="transform: translateX(-100%);"
+                />
+              </div>
+            </div>
+          </li>
+        </ol>
+        <span
+          aria-hidden="true"
+          style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+          tabindex="0"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Toast /> > renders with 'Catalog not deleted' / true 2`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="bg font-sans text"
+        data-mode="dark"
+        data-theme="meplato"
+        id="uikit-theme"
+      >
+        <div
+          aria-label="Notifications (F8)"
+          role="region"
+          style=""
+          tabindex="-1"
+        >
+          <span
+            aria-hidden="true"
+            style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+            tabindex="0"
+          />
+          <ol
+            class="fixed bottom-[3.75rem] left-0 right-0 flex justify-center focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1"
+            tabindex="-1"
+          >
+            <li
+              aria-atomic="true"
+              aria-live="off"
+              class="relative rounded-level-2 shadow-2xl focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 bg-interactive-critical data-[state=closed]:animate-[toastOut_0.6s_cubic-bezier(1,-0.01,0.41,1.39)] data-[state=open]:animate-[toastIn_0.6s_cubic-bezier(0.86,0.13,0.29,1.34)]"
+              data-radix-collection-item=""
+              data-state="open"
+              data-swipe-direction="right"
+              mode="dark"
+              role="status"
+              style="user-select: none;"
+              tabindex="0"
+              theme="meplato"
+            >
+              <div
+                class="flex items-center gap-2 px-3 py-2 md:gap-4 md:px-4 md:py-3"
+              >
+                <svg
+                  class="h-5 w-5 text-on-interactive"
+                  fill="none"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10 18C12.1217 18 14.1566 17.1571 15.6569 15.6569C17.1571 14.1566 18 12.1217 18 10C18 7.87827 17.1571 5.84344 15.6569 4.34315C14.1566 2.84285 12.1217 2 10 2C7.87827 2 5.84344 2.84285 4.34315 4.34315C2.84285 5.84344 2 7.87827 2 10C2 12.1217 2.84285 14.1566 4.34315 15.6569C5.84344 17.1571 7.87827 18 10 18ZM10 6C10.4156 6 10.75 6.33437 10.75 6.75V10.25C10.75 10.6656 10.4156 11 10 11C9.58437 11 9.25 10.6656 9.25 10.25V6.75C9.25 6.33437 9.58437 6 10 6ZM9 13C9 12.7348 9.10536 12.4804 9.29289 12.2929C9.48043 12.1054 9.73478 12 10 12C10.2652 12 10.5196 12.1054 10.7071 12.2929C10.8946 12.4804 11 12.7348 11 13C11 13.2652 10.8946 13.5196 10.7071 13.7071C10.5196 13.8946 10.2652 14 10 14C9.73478 14 9.48043 13.8946 9.29289 13.7071C9.10536 13.5196 9 13.2652 9 13Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span
+                  class="text-sm text text-on-interactive"
+                >
+                  Catalog not deleted
+                </span>
+                <button
+                  class="rounded-level-3 items-center inline-flex underline cursor-pointer text-sm focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 underline-offset-2 text-on-interactive hover:text-on-interactive active:text-on-interactive"
+                  style="text-underline-position: from-font;"
+                  type="button"
+                >
+                  Undo
+                </button>
+                <button
+                  class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-interactive-critical-hovered enabled:active:bg-interactive-critical-pressed"
+                >
+                  <svg
+                    class="h-5 w-5 text-on-interactive"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <span
+                    class="sr-only"
+                  >
+                    Close toast
+                  </span>
+                </button>
+                <div
+                  aria-label="close automatically"
+                  aria-valuemax="3000"
+                  aria-valuemin="0"
+                  aria-valuenow="0"
+                  aria-valuetext="0%"
+                  class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs absolute bottom-0 left-0 h-1 w-full rounded-t-none"
+                  data-max="3000"
+                  data-state="loading"
+                  data-value="0"
+                  role="progressbar"
+                  style="transform: translateZ(0);"
+                >
+                  <div
+                    class="h-full w-full transition-none bg-interactive-critical"
+                    data-max="3000"
+                    data-state="loading"
+                    data-value="0"
+                    style="transform: translateX(-100%);"
+                  />
+                </div>
+              </div>
+            </li>
+          </ol>
+          <span
+            aria-hidden="true"
+            style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+            tabindex="0"
+          />
+        </div>
+      </div>
+    </div>
+    <span
+      aria-atomic="true"
+      aria-live="assertive"
+      role="status"
+      style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+    />
+  </body>,
+  "container": <div>
+    <div
+      class="bg font-sans text"
+      data-mode="dark"
+      data-theme="meplato"
+      id="uikit-theme"
+    >
+      <div
+        aria-label="Notifications (F8)"
+        role="region"
+        style=""
+        tabindex="-1"
+      >
+        <span
+          aria-hidden="true"
+          style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+          tabindex="0"
+        />
+        <ol
+          class="fixed bottom-[3.75rem] left-0 right-0 flex justify-center focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1"
+          tabindex="-1"
+        >
+          <li
+            aria-atomic="true"
+            aria-live="off"
+            class="relative rounded-level-2 shadow-2xl focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 bg-interactive-critical data-[state=closed]:animate-[toastOut_0.6s_cubic-bezier(1,-0.01,0.41,1.39)] data-[state=open]:animate-[toastIn_0.6s_cubic-bezier(0.86,0.13,0.29,1.34)]"
+            data-radix-collection-item=""
+            data-state="open"
+            data-swipe-direction="right"
+            mode="dark"
+            role="status"
+            style="user-select: none;"
+            tabindex="0"
+            theme="meplato"
+          >
+            <div
+              class="flex items-center gap-2 px-3 py-2 md:gap-4 md:px-4 md:py-3"
+            >
+              <svg
+                class="h-5 w-5 text-on-interactive"
+                fill="none"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10 18C12.1217 18 14.1566 17.1571 15.6569 15.6569C17.1571 14.1566 18 12.1217 18 10C18 7.87827 17.1571 5.84344 15.6569 4.34315C14.1566 2.84285 12.1217 2 10 2C7.87827 2 5.84344 2.84285 4.34315 4.34315C2.84285 5.84344 2 7.87827 2 10C2 12.1217 2.84285 14.1566 4.34315 15.6569C5.84344 17.1571 7.87827 18 10 18ZM10 6C10.4156 6 10.75 6.33437 10.75 6.75V10.25C10.75 10.6656 10.4156 11 10 11C9.58437 11 9.25 10.6656 9.25 10.25V6.75C9.25 6.33437 9.58437 6 10 6ZM9 13C9 12.7348 9.10536 12.4804 9.29289 12.2929C9.48043 12.1054 9.73478 12 10 12C10.2652 12 10.5196 12.1054 10.7071 12.2929C10.8946 12.4804 11 12.7348 11 13C11 13.2652 10.8946 13.5196 10.7071 13.7071C10.5196 13.8946 10.2652 14 10 14C9.73478 14 9.48043 13.8946 9.29289 13.7071C9.10536 13.5196 9 13.2652 9 13Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="text-sm text text-on-interactive"
+              >
+                Catalog not deleted
+              </span>
+              <button
+                class="rounded-level-3 items-center inline-flex underline cursor-pointer text-sm focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 underline-offset-2 text-on-interactive hover:text-on-interactive active:text-on-interactive"
+                style="text-underline-position: from-font;"
+                type="button"
+              >
+                Undo
+              </button>
+              <button
+                class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-interactive-critical-hovered enabled:active:bg-interactive-critical-pressed"
+              >
+                <svg
+                  class="h-5 w-5 text-on-interactive"
+                  fill="none"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span
+                  class="sr-only"
+                >
+                  Close toast
+                </span>
+              </button>
+              <div
+                aria-label="close automatically"
+                aria-valuemax="3000"
+                aria-valuemin="0"
+                aria-valuenow="0"
+                aria-valuetext="0%"
+                class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs absolute bottom-0 left-0 h-1 w-full rounded-t-none"
+                data-max="3000"
+                data-state="loading"
+                data-value="0"
+                role="progressbar"
+                style="transform: translateZ(0);"
+              >
+                <div
+                  class="h-full w-full transition-none bg-interactive-critical"
+                  data-max="3000"
+                  data-state="loading"
+                  data-value="0"
+                  style="transform: translateX(-100%);"
+                />
+              </div>
+            </div>
+          </li>
+        </ol>
+        <span
+          aria-hidden="true"
+          style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+          tabindex="0"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Toast /> > renders with 'Catalog not deleted' / true 3`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="bg font-sans text"
+        data-mode="light"
+        data-theme="webridge"
+        id="uikit-theme"
+      >
+        <div
+          aria-label="Notifications (F8)"
+          role="region"
+          style=""
+          tabindex="-1"
+        >
+          <span
+            aria-hidden="true"
+            style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+            tabindex="0"
+          />
+          <ol
+            class="fixed bottom-[3.75rem] left-0 right-0 flex justify-center focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1"
+            tabindex="-1"
+          >
+            <li
+              aria-atomic="true"
+              aria-live="off"
+              class="relative rounded-level-2 shadow-2xl focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 bg-interactive-critical data-[state=closed]:animate-[toastOut_0.6s_cubic-bezier(1,-0.01,0.41,1.39)] data-[state=open]:animate-[toastIn_0.6s_cubic-bezier(0.86,0.13,0.29,1.34)]"
+              data-radix-collection-item=""
+              data-state="open"
+              data-swipe-direction="right"
+              mode="light"
+              role="status"
+              style="user-select: none;"
+              tabindex="0"
+              theme="webridge"
+            >
+              <div
+                class="flex items-center gap-2 px-3 py-2 md:gap-4 md:px-4 md:py-3"
+              >
+                <svg
+                  class="h-5 w-5 text-on-interactive"
+                  fill="none"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10 18C12.1217 18 14.1566 17.1571 15.6569 15.6569C17.1571 14.1566 18 12.1217 18 10C18 7.87827 17.1571 5.84344 15.6569 4.34315C14.1566 2.84285 12.1217 2 10 2C7.87827 2 5.84344 2.84285 4.34315 4.34315C2.84285 5.84344 2 7.87827 2 10C2 12.1217 2.84285 14.1566 4.34315 15.6569C5.84344 17.1571 7.87827 18 10 18ZM10 6C10.4156 6 10.75 6.33437 10.75 6.75V10.25C10.75 10.6656 10.4156 11 10 11C9.58437 11 9.25 10.6656 9.25 10.25V6.75C9.25 6.33437 9.58437 6 10 6ZM9 13C9 12.7348 9.10536 12.4804 9.29289 12.2929C9.48043 12.1054 9.73478 12 10 12C10.2652 12 10.5196 12.1054 10.7071 12.2929C10.8946 12.4804 11 12.7348 11 13C11 13.2652 10.8946 13.5196 10.7071 13.7071C10.5196 13.8946 10.2652 14 10 14C9.73478 14 9.48043 13.8946 9.29289 13.7071C9.10536 13.5196 9 13.2652 9 13Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span
+                  class="text-sm text text-on-interactive"
+                >
+                  Catalog not deleted
+                </span>
+                <button
+                  class="rounded-level-3 items-center inline-flex underline cursor-pointer text-sm focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 underline-offset-2 text-on-interactive hover:text-on-interactive active:text-on-interactive"
+                  style="text-underline-position: from-font;"
+                  type="button"
+                >
+                  Undo
+                </button>
+                <button
+                  class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-interactive-critical-hovered enabled:active:bg-interactive-critical-pressed"
+                >
+                  <svg
+                    class="h-5 w-5 text-on-interactive"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <span
+                    class="sr-only"
+                  >
+                    Close toast
+                  </span>
+                </button>
+                <div
+                  aria-label="close automatically"
+                  aria-valuemax="3000"
+                  aria-valuemin="0"
+                  aria-valuenow="0"
+                  aria-valuetext="0%"
+                  class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs absolute bottom-0 left-0 h-1 w-full rounded-t-none"
+                  data-max="3000"
+                  data-state="loading"
+                  data-value="0"
+                  role="progressbar"
+                  style="transform: translateZ(0);"
+                >
+                  <div
+                    class="h-full w-full transition-none bg-interactive-critical"
+                    data-max="3000"
+                    data-state="loading"
+                    data-value="0"
+                    style="transform: translateX(-100%);"
+                  />
+                </div>
+              </div>
+            </li>
+          </ol>
+          <span
+            aria-hidden="true"
+            style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+            tabindex="0"
+          />
+        </div>
+      </div>
+    </div>
+    <span
+      aria-atomic="true"
+      aria-live="assertive"
+      role="status"
+      style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+    />
+  </body>,
+  "container": <div>
+    <div
+      class="bg font-sans text"
+      data-mode="light"
+      data-theme="webridge"
+      id="uikit-theme"
+    >
+      <div
+        aria-label="Notifications (F8)"
+        role="region"
+        style=""
+        tabindex="-1"
+      >
+        <span
+          aria-hidden="true"
+          style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+          tabindex="0"
+        />
+        <ol
+          class="fixed bottom-[3.75rem] left-0 right-0 flex justify-center focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1"
+          tabindex="-1"
+        >
+          <li
+            aria-atomic="true"
+            aria-live="off"
+            class="relative rounded-level-2 shadow-2xl focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 bg-interactive-critical data-[state=closed]:animate-[toastOut_0.6s_cubic-bezier(1,-0.01,0.41,1.39)] data-[state=open]:animate-[toastIn_0.6s_cubic-bezier(0.86,0.13,0.29,1.34)]"
+            data-radix-collection-item=""
+            data-state="open"
+            data-swipe-direction="right"
+            mode="light"
+            role="status"
+            style="user-select: none;"
+            tabindex="0"
+            theme="webridge"
+          >
+            <div
+              class="flex items-center gap-2 px-3 py-2 md:gap-4 md:px-4 md:py-3"
+            >
+              <svg
+                class="h-5 w-5 text-on-interactive"
+                fill="none"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10 18C12.1217 18 14.1566 17.1571 15.6569 15.6569C17.1571 14.1566 18 12.1217 18 10C18 7.87827 17.1571 5.84344 15.6569 4.34315C14.1566 2.84285 12.1217 2 10 2C7.87827 2 5.84344 2.84285 4.34315 4.34315C2.84285 5.84344 2 7.87827 2 10C2 12.1217 2.84285 14.1566 4.34315 15.6569C5.84344 17.1571 7.87827 18 10 18ZM10 6C10.4156 6 10.75 6.33437 10.75 6.75V10.25C10.75 10.6656 10.4156 11 10 11C9.58437 11 9.25 10.6656 9.25 10.25V6.75C9.25 6.33437 9.58437 6 10 6ZM9 13C9 12.7348 9.10536 12.4804 9.29289 12.2929C9.48043 12.1054 9.73478 12 10 12C10.2652 12 10.5196 12.1054 10.7071 12.2929C10.8946 12.4804 11 12.7348 11 13C11 13.2652 10.8946 13.5196 10.7071 13.7071C10.5196 13.8946 10.2652 14 10 14C9.73478 14 9.48043 13.8946 9.29289 13.7071C9.10536 13.5196 9 13.2652 9 13Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="text-sm text text-on-interactive"
+              >
+                Catalog not deleted
+              </span>
+              <button
+                class="rounded-level-3 items-center inline-flex underline cursor-pointer text-sm focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 underline-offset-2 text-on-interactive hover:text-on-interactive active:text-on-interactive"
+                style="text-underline-position: from-font;"
+                type="button"
+              >
+                Undo
+              </button>
+              <button
+                class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-interactive-critical-hovered enabled:active:bg-interactive-critical-pressed"
+              >
+                <svg
+                  class="h-5 w-5 text-on-interactive"
+                  fill="none"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span
+                  class="sr-only"
+                >
+                  Close toast
+                </span>
+              </button>
+              <div
+                aria-label="close automatically"
+                aria-valuemax="3000"
+                aria-valuemin="0"
+                aria-valuenow="0"
+                aria-valuetext="0%"
+                class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs absolute bottom-0 left-0 h-1 w-full rounded-t-none"
+                data-max="3000"
+                data-state="loading"
+                data-value="0"
+                role="progressbar"
+                style="transform: translateZ(0);"
+              >
+                <div
+                  class="h-full w-full transition-none bg-interactive-critical"
+                  data-max="3000"
+                  data-state="loading"
+                  data-value="0"
+                  style="transform: translateX(-100%);"
+                />
+              </div>
+            </div>
+          </li>
+        </ol>
+        <span
+          aria-hidden="true"
+          style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+          tabindex="0"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`<Toast /> > renders with 'Catalog not deleted' / true 4`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="bg font-sans text"
+        data-mode="dark"
+        data-theme="webridge"
+        id="uikit-theme"
+      >
+        <div
+          aria-label="Notifications (F8)"
+          role="region"
+          style=""
+          tabindex="-1"
+        >
+          <span
+            aria-hidden="true"
+            style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+            tabindex="0"
+          />
+          <ol
+            class="fixed bottom-[3.75rem] left-0 right-0 flex justify-center focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1"
+            tabindex="-1"
+          >
+            <li
+              aria-atomic="true"
+              aria-live="off"
+              class="relative rounded-level-2 shadow-2xl focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 bg-interactive-critical data-[state=closed]:animate-[toastOut_0.6s_cubic-bezier(1,-0.01,0.41,1.39)] data-[state=open]:animate-[toastIn_0.6s_cubic-bezier(0.86,0.13,0.29,1.34)]"
+              data-radix-collection-item=""
+              data-state="open"
+              data-swipe-direction="right"
+              mode="dark"
+              role="status"
+              style="user-select: none;"
+              tabindex="0"
+              theme="webridge"
+            >
+              <div
+                class="flex items-center gap-2 px-3 py-2 md:gap-4 md:px-4 md:py-3"
+              >
+                <svg
+                  class="h-5 w-5 text-on-interactive"
+                  fill="none"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10 18C12.1217 18 14.1566 17.1571 15.6569 15.6569C17.1571 14.1566 18 12.1217 18 10C18 7.87827 17.1571 5.84344 15.6569 4.34315C14.1566 2.84285 12.1217 2 10 2C7.87827 2 5.84344 2.84285 4.34315 4.34315C2.84285 5.84344 2 7.87827 2 10C2 12.1217 2.84285 14.1566 4.34315 15.6569C5.84344 17.1571 7.87827 18 10 18ZM10 6C10.4156 6 10.75 6.33437 10.75 6.75V10.25C10.75 10.6656 10.4156 11 10 11C9.58437 11 9.25 10.6656 9.25 10.25V6.75C9.25 6.33437 9.58437 6 10 6ZM9 13C9 12.7348 9.10536 12.4804 9.29289 12.2929C9.48043 12.1054 9.73478 12 10 12C10.2652 12 10.5196 12.1054 10.7071 12.2929C10.8946 12.4804 11 12.7348 11 13C11 13.2652 10.8946 13.5196 10.7071 13.7071C10.5196 13.8946 10.2652 14 10 14C9.73478 14 9.48043 13.8946 9.29289 13.7071C9.10536 13.5196 9 13.2652 9 13Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span
+                  class="text-sm text text-on-interactive"
+                >
+                  Catalog not deleted
+                </span>
+                <button
+                  class="rounded-level-3 items-center inline-flex underline cursor-pointer text-sm focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 underline-offset-2 text-on-interactive hover:text-on-interactive active:text-on-interactive"
+                  style="text-underline-position: from-font;"
+                  type="button"
+                >
+                  Undo
+                </button>
+                <button
+                  class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-interactive-critical-hovered enabled:active:bg-interactive-critical-pressed"
+                >
+                  <svg
+                    class="h-5 w-5 text-on-interactive"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                  <span
+                    class="sr-only"
+                  >
+                    Close toast
+                  </span>
+                </button>
+                <div
+                  aria-label="close automatically"
+                  aria-valuemax="3000"
+                  aria-valuemin="0"
+                  aria-valuenow="0"
+                  aria-valuetext="0%"
+                  class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs absolute bottom-0 left-0 h-1 w-full rounded-t-none"
+                  data-max="3000"
+                  data-state="loading"
+                  data-value="0"
+                  role="progressbar"
+                  style="transform: translateZ(0);"
+                >
+                  <div
+                    class="h-full w-full transition-none bg-interactive-critical"
+                    data-max="3000"
+                    data-state="loading"
+                    data-value="0"
+                    style="transform: translateX(-100%);"
+                  />
+                </div>
+              </div>
+            </li>
+          </ol>
+          <span
+            aria-hidden="true"
+            style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+            tabindex="0"
+          />
+        </div>
+      </div>
+    </div>
+    <span
+      aria-atomic="true"
+      aria-live="assertive"
+      role="status"
+      style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+    />
+  </body>,
+  "container": <div>
+    <div
+      class="bg font-sans text"
+      data-mode="dark"
+      data-theme="webridge"
+      id="uikit-theme"
+    >
+      <div
+        aria-label="Notifications (F8)"
+        role="region"
+        style=""
+        tabindex="-1"
+      >
+        <span
+          aria-hidden="true"
+          style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+          tabindex="0"
+        />
+        <ol
+          class="fixed bottom-[3.75rem] left-0 right-0 flex justify-center focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1"
+          tabindex="-1"
+        >
+          <li
+            aria-atomic="true"
+            aria-live="off"
+            class="relative rounded-level-2 shadow-2xl focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 bg-interactive-critical data-[state=closed]:animate-[toastOut_0.6s_cubic-bezier(1,-0.01,0.41,1.39)] data-[state=open]:animate-[toastIn_0.6s_cubic-bezier(0.86,0.13,0.29,1.34)]"
+            data-radix-collection-item=""
+            data-state="open"
+            data-swipe-direction="right"
+            mode="dark"
+            role="status"
+            style="user-select: none;"
+            tabindex="0"
+            theme="webridge"
+          >
+            <div
+              class="flex items-center gap-2 px-3 py-2 md:gap-4 md:px-4 md:py-3"
+            >
+              <svg
+                class="h-5 w-5 text-on-interactive"
+                fill="none"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10 18C12.1217 18 14.1566 17.1571 15.6569 15.6569C17.1571 14.1566 18 12.1217 18 10C18 7.87827 17.1571 5.84344 15.6569 4.34315C14.1566 2.84285 12.1217 2 10 2C7.87827 2 5.84344 2.84285 4.34315 4.34315C2.84285 5.84344 2 7.87827 2 10C2 12.1217 2.84285 14.1566 4.34315 15.6569C5.84344 17.1571 7.87827 18 10 18ZM10 6C10.4156 6 10.75 6.33437 10.75 6.75V10.25C10.75 10.6656 10.4156 11 10 11C9.58437 11 9.25 10.6656 9.25 10.25V6.75C9.25 6.33437 9.58437 6 10 6ZM9 13C9 12.7348 9.10536 12.4804 9.29289 12.2929C9.48043 12.1054 9.73478 12 10 12C10.2652 12 10.5196 12.1054 10.7071 12.2929C10.8946 12.4804 11 12.7348 11 13C11 13.2652 10.8946 13.5196 10.7071 13.7071C10.5196 13.8946 10.2652 14 10 14C9.73478 14 9.48043 13.8946 9.29289 13.7071C9.10536 13.5196 9 13.2652 9 13Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span
+                class="text-sm text text-on-interactive"
+              >
+                Catalog not deleted
+              </span>
+              <button
+                class="rounded-level-3 items-center inline-flex underline cursor-pointer text-sm focus-visible:outline focus-visible:outline-1 focus-visible:outline-focus focus-visible:ring-1 focus-visible:ring-focus focus-visible:ring-offset-1 underline-offset-2 text-on-interactive hover:text-on-interactive active:text-on-interactive"
+                style="text-underline-position: from-font;"
+                type="button"
+              >
+                Undo
+              </button>
+              <button
+                class="rounded enabled:focus-visible:outline-focus enabled:focus-visible:outline-1 enabled:focus-visible:outline enabled:focus-visible:ring-focus enabled:focus-visible:ring-1 enabled:focus-visible:ring-offset-1 enabled:hover:bg-interactive-critical-hovered enabled:active:bg-interactive-critical-pressed"
+              >
+                <svg
+                  class="h-5 w-5 text-on-interactive"
+                  fill="none"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15.6449 6.04935C16.1134 5.58082 16.1134 4.81993 15.6449 4.3514C15.1763 3.88287 14.4154 3.88287 13.9469 4.3514L10 8.30205L6.04935 4.35515C5.58082 3.88662 4.81993 3.88662 4.3514 4.35515C3.88287 4.82368 3.88287 5.58457 4.3514 6.0531L8.30205 10L4.35515 13.9506C3.88662 14.4192 3.88662 15.1801 4.35515 15.6486C4.82368 16.1171 5.58457 16.1171 6.0531 15.6486L10 11.698L13.9506 15.6449C14.4192 16.1134 15.1801 16.1134 15.6486 15.6449C16.1171 15.1763 16.1171 14.4154 15.6486 13.9469L11.698 10L15.6449 6.04935Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span
+                  class="sr-only"
+                >
+                  Close toast
+                </span>
+              </button>
+              <div
+                aria-label="close automatically"
+                aria-valuemax="3000"
+                aria-valuemin="0"
+                aria-valuenow="0"
+                aria-valuetext="0%"
+                class="bg-interactive-plain rounded-level-2 overflow-hidden shadow-xs absolute bottom-0 left-0 h-1 w-full rounded-t-none"
+                data-max="3000"
+                data-state="loading"
+                data-value="0"
+                role="progressbar"
+                style="transform: translateZ(0);"
+              >
+                <div
+                  class="h-full w-full transition-none bg-interactive-critical"
+                  data-max="3000"
+                  data-state="loading"
+                  data-value="0"
+                  style="transform: translateX(-100%);"
+                />
+              </div>
+            </div>
+          </li>
+        </ol>
+        <span
+          aria-hidden="true"
+          style="position: fixed; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+          tabindex="0"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,0 +1,65 @@
+# Deploy Services
+name: "Deploy Storybook"
+
+# Deploy whenever there is a merge/push into our default/main branch ("v2")
+on:
+  push:
+    branches: ["v2"]
+  pull_request:
+    paths:
+      - ".github/workflows/deploy-storybook.yml"
+
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    environment: production
+    env:
+      SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+
+    steps:
+      - name: "Configure GitHub Access"
+        env:
+          ACCESS_TOKEN: ${{ secrets.GIT_PERSONAL_ACCESS_TOKEN }}
+        run: |
+          git config --global url."https://${ACCESS_TOKEN}@github.com".insteadOf "https://github.com"
+          tee -a ~/.npmrc <<< "@meplato:registry=https://npm.pkg.github.com"
+          tee -a ~/.npmrc <<< "//npm.pkg.github.com/:_authToken=${ACCESS_TOKEN}"
+
+      - name: "Checkout"
+        uses: actions/checkout@v4
+
+      - name: "Install Node"
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18.x
+
+      - name: "Install dependencies"
+        run: npm install
+
+      - name: "Build storybook"
+        run: npm run build-storybook
+
+      - name: "SSH Secret to File"
+        env:
+          ANSIBLE_SSH_DEPLOY_KEY: ${{ secrets.ANSIBLE_SSH_DEPLOY_KEY }}
+        run: |
+          mkdir -p ${HOME}/.ssh
+          echo "${ANSIBLE_SSH_DEPLOY_KEY}" > ${HOME}/.ssh/ansible.key
+          chmod 600 ${HOME}/.ssh/ansible.key
+          ls -lh ${HOME}/.ssh/ansible.key
+
+      - name: "SSH Keyscan and Agent"
+        run: |
+          dig -t A +short lb{1,2}.meplato.com | xargs -r -n1 ssh-keyscan -p 822 >> ~/.ssh/known_hosts
+          ssh-agent -a $SSH_AUTH_SOCK > /dev/null
+          ssh-add ${HOME}/.ssh/ansible.key
+
+      - name: "Deploy Storybook with Ansible"
+        uses: dawidd6/action-ansible-playbook@v2.6.1
+        with:
+          key: ${{secrets.ANSIBLE_SSH_DEPLOY_KEY}}
+          inventory: |
+            lb1.meplato.com ansible_connection=ssh ansible_port=822 ansible_user=ansible
+            lb2.meplato.com ansible_connection=ssh ansible_port=822 ansible_user=ansible
+          directory: ./deploy
+          playbook: update-storybook.yml
