@@ -49,7 +49,7 @@ jobs:
           BUMP_LEVEL: "${{ github.event.inputs.patchLevel }}"
           INPUT_VERSION: "${{ github.event.inputs.semver }}"
         run: |
-          npm install semver
+          # npm install semver
           deploy/release-ci.sh
 
       - name: "Publish Package"
